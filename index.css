@@ -7,46 +7,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
+
+
 /* Set the background color for my page: */
 body{
-    background-color: rgb(233, 233, 233);
- 
+background-image: url("DSfE_background.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-blend-mode: screen;
+
 }
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
-    color:rgb(17, 17, 17);
+    color:antiquewhite;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
 h2{
-    color:rgb(17, 17, 17);
+    color:antiquewhite;
     font-family: 'Roboto', sans-serif;
     text-align: left;
 }
+
+
+
+
     
 .myWeek1{
-    display: block;
+    margin: auto;
+    margin-bottom: 30px;
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: bisque;
+    background-color: rgba(90,106,116, 0.9); 
+    border-radius: 3px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: rgba(250,235,215, 0.6);
 }
 
 .myWeek2{
     margin: auto;
+    margin-bottom: 30px;
     max-width: 600px;
-    background-color: bisque;
+    background-color: rgba(90,106,116, 0.9);
+    border-radius: 3px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: rgba(250,235,215, 0.6);
 }
 
 
 /* Set the apperance of the class, chart */
 .chart{
-    display: block;
     width: 100%;
-    margin-left: 21%;
+    margin: auto;
     margin-bottom: 10%;
     text-align: center;
     max-width: 1000px;
@@ -55,7 +72,7 @@ h2{
     border-width: 3px;
     border-style: outset; 
     border-radius: 8px;
-    border-color: red;
+    border-color: antiquewhite;
 
     
 }

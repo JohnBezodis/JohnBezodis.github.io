@@ -55,6 +55,10 @@
         <p> This chart shows a surface level overview of IMF Lending</p>
         <div class="chart" id ="Chart3" style="display: block;"></div>
 
+        <h3>IMF Lending Relative to World Output</h3>
+        <p> This chart shows a more complete overview of IMF lending overtime by accounting for the size of the world economy</p>
+        <div class = "chart" id = "Chart4" style ="display: block;"></div>
+        <p> If IMF lending was the only risk factor to investment, this second graph would suggest the "riskiest" year to invest in would be 1984.</p>
 
     </div>
 </body>
@@ -65,11 +69,13 @@
     var myChart1 = "chart_assignment1_RPI.json";
     var myChart2 = "chart_assignment1_bankrate.json";
     var myChart3 = "IMF_creditOutstanding.json";
+    var myChart4 = "IMF_corrected_creditOutstanding.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4)
 </script>
 
 </html>

@@ -2,14 +2,16 @@
 
   "title": {
       "text": "IMF Lending Outstanding as a % of World GDP",
-      "subtitle":"Credit Outstanding to all members (% of world GDP), Sources: IMF & World Bank",
+      "subtitle":["Credit Outstanding to all members (% of world GDP),", "Sources: IMF & World Bank"],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
       "color": "black"},
   
   "data":{"url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/data_IMF_creditOutstanding.csv"},
-
+  "transform": [
+    {"calculate": "datum.Totals/1000000000", "as": "billions"}
+  ],
   "height": 300,
   "width": 300,
 

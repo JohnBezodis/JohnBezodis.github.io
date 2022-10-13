@@ -1,0 +1,68 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "description": "Overseas Visits to the UK",
+  
+     "title": {
+      "text": "Recovery of the UK Travel Industry?",
+      "subtitle":["The number of visits (Thousands) to the UK over the last 10 years", "Source: ONS"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+    
+    "data": {
+      "values": [{"Date": "2012-05-01", "OS visits to UK (Thousands)": 3045}, {"Date": "2012-06-01", "OS visits to UK (Thousands)": 2614}, {"Date": "2012-07-01", "OS visits to UK (Thousands)": 3429}, {"Date": "2012-08-01", "OS visits to UK (Thousands)": 2855}, {"Date": "2012-09-01", "OS visits to UK (Thousands)": 2814}, {"Date": "2012-10-01", "OS visits to UK (Thousands)": 2786}, {"Date": "2012-11-01", "OS visits to UK (Thousands)": 2553}, {"Date": "2012-12-01", "OS visits to UK (Thousands)": 2517}, {"Date": "2013-01-01", "OS visits to UK (Thousands)": 2290}, {"Date": "2013-02-01", "OS visits to UK (Thousands)": 2019}, {"Date": "2013-03-01", "OS visits to UK (Thousands)": 2245}, {"Date": "2013-04-01", "OS visits to UK (Thousands)": 2960}, {"Date": "2013-05-01", "OS visits to UK (Thousands)": 3152}, {"Date": "2013-06-01", "OS visits to UK (Thousands)": 3000}, {"Date": "2013-07-01", "OS visits to UK (Thousands)": 3356}, {"Date": "2013-08-01", "OS visits to UK (Thousands)": 3639}, {"Date": "2013-09-01", "OS visits to UK (Thousands)": 2879}, {"Date": "2013-10-01", "OS visits to UK (Thousands)": 3072}, {"Date": "2013-11-01", "OS visits to UK (Thousands)": 2481}, {"Date": "2013-12-01", "OS visits to UK (Thousands)": 2474}, {"Date": "2014-01-01", "OS visits to UK (Thousands)": 2456}, {"Date": "2014-02-01", "OS visits to UK (Thousands)": 2186}, {"Date": "2014-03-01", "OS visits to UK (Thousands)": 2405}, {"Date": "2014-04-01", "OS visits to UK (Thousands)": 3054}, {"Date": "2014-05-01", "OS visits to UK (Thousands)": 3404}, {"Date": "2014-06-01", "OS visits to UK (Thousands)": 3379}, {"Date": "2014-07-01", "OS visits to UK (Thousands)": 3538}, {"Date": "2014-08-01", "OS visits to UK (Thousands)": 3671}, {"Date": "2014-09-01", "OS visits to UK (Thousands)": 3096}, {"Date": "2014-10-01", "OS visits to UK (Thousands)": 3081}, {"Date": "2014-11-01", "OS visits to UK (Thousands)": 2655}, {"Date": "2014-12-01", "OS visits to UK (Thousands)": 2412}, {"Date": "2015-01-01", "OS visits to UK (Thousands)": 2640}, {"Date": "2015-02-01", "OS visits to UK (Thousands)": 2281}, {"Date": "2015-03-01", "OS visits to UK (Thousands)": 2615}, {"Date": "2015-04-01", "OS visits to UK (Thousands)": 3115}, {"Date": "2015-05-01", "OS visits to UK (Thousands)": 3598}, {"Date": "2015-06-01", "OS visits to UK (Thousands)": 3276}, {"Date": "2015-07-01", "OS visits to UK (Thousands)": 3689}, {"Date": "2015-08-01", "OS visits to UK (Thousands)": 3709}, {"Date": "2015-09-01", "OS visits to UK (Thousands)": 3114}, {"Date": "2015-10-01", "OS visits to UK (Thousands)": 3522}, {"Date": "2015-11-01", "OS visits to UK (Thousands)": 2660}, {"Date": "2015-12-01", "OS visits to UK (Thousands)": 2573}, {"Date": "2016-01-01", "OS visits to UK (Thousands)": 2857}, {"Date": "2016-02-01", "OS visits to UK (Thousands)": 2514}, {"Date": "2016-03-01", "OS visits to UK (Thousands)": 2827}, {"Date": "2016-04-01", "OS visits to UK (Thousands)": 3059}, {"Date": "2016-05-01", "OS visits to UK (Thousands)": 3672}, {"Date": "2016-06-01", "OS visits to UK (Thousands)": 3406}, {"Date": "2016-07-01", "OS visits to UK (Thousands)": 3877}, {"Date": "2016-08-01", "OS visits to UK (Thousands)": 3854}, {"Date": "2016-09-01", "OS visits to UK (Thousands)": 3161}, {"Date": "2016-10-01", "OS visits to UK (Thousands)": 3535}, {"Date": "2016-11-01", "OS visits to UK (Thousands)": 3258}, {"Date": "2016-12-01", "OS visits to UK (Thousands)": 3107}, {"Date": "2017-01-01", "OS visits to UK (Thousands)": 3123}, {"Date": "2017-02-01", "OS visits to UK (Thousands)": 2528}, {"Date": "2017-03-01", "OS visits to UK (Thousands)": 3196}, {"Date": "2017-04-01", "OS visits to UK (Thousands)": 3731}, {"Date": "2017-05-01", "OS visits to UK (Thousands)": 3619}, {"Date": "2017-06-01", "OS visits to UK (Thousands)": 3662}, {"Date": "2017-07-01", "OS visits to UK (Thousands)": 4344}, {"Date": "2017-08-01", "OS visits to UK (Thousands)": 4253}, {"Date": "2017-09-01", "OS visits to UK (Thousands)": 3302}, {"Date": "2017-10-01", "OS visits to UK (Thousands)": 3359}, {"Date": "2017-11-01", "OS visits to UK (Thousands)": 3183}, {"Date": "2017-12-01", "OS visits to UK (Thousands)": 2780}, {"Date": "2018-01-01", "OS visits to UK (Thousands)": 2734}, {"Date": "2018-02-01", "OS visits to UK (Thousands)": 2573}, {"Date": "2018-03-01", "OS visits to UK (Thousands)": 3240}, {"Date": "2018-04-01", "OS visits to UK (Thousands)": 3404}, {"Date": "2018-05-01", "OS visits to UK (Thousands)": 3614}, {"Date": "2018-06-01", "OS visits to UK (Thousands)": 3503}, {"Date": "2018-07-01", "OS visits to UK (Thousands)": 4172}, {"Date": "2018-08-01", "OS visits to UK (Thousands)": 4126}, {"Date": "2018-09-01", "OS visits to UK (Thousands)": 3237}, {"Date": "2018-10-01", "OS visits to UK (Thousands)": 3491}, {"Date": "2018-11-01", "OS visits to UK (Thousands)": 3112}, {"Date": "2018-12-01", "OS visits to UK (Thousands)": 3075}, {"Date": "2019-01-01", "OS visits to UK (Thousands)": 2830}, {"Date": "2019-02-01", "OS visits to UK (Thousands)": 2372}, {"Date": "2019-03-01", "OS visits to UK (Thousands)": 3129}, {"Date": "2019-04-01", "OS visits to UK (Thousands)": 3199}, {"Date": "2019-05-01", "OS visits to UK (Thousands)": 3438}, {"Date": "2019-06-01", "OS visits to UK (Thousands)": 3727}, {"Date": "2019-07-01", "OS visits to UK (Thousands)": 4155}, {"Date": "2019-08-01", "OS visits to UK (Thousands)": 4418}, {"Date": "2019-09-01", "OS visits to UK (Thousands)": 3292}, {"Date": "2019-10-01", "OS visits to UK (Thousands)": 3731}, {"Date": "2019-11-01", "OS visits to UK (Thousands)": 3121}, {"Date": "2019-12-01", "OS visits to UK (Thousands)": 3445}, {"Date": "2020-01-01", "OS visits to UK (Thousands)": 3036}, {"Date": "2020-02-01", "OS visits to UK (Thousands)": 2512}, {"Date": "2020-03-01", "OS visits to UK (Thousands)": 1446}, {"Date": "2020-04-01", "OS visits to UK (Thousands)": 95}, {"Date": "2020-05-01", "OS visits to UK (Thousands)": 127}, {"Date": "2020-06-01", "OS visits to UK (Thousands)": 176}, {"Date": "2020-07-01", "OS visits to UK (Thousands)": 633}, {"Date": "2020-08-01", "OS visits to UK (Thousands)": 993}, {"Date": "2020-09-01", "OS visits to UK (Thousands)": 696}, {"Date": "2020-10-01", "OS visits to UK (Thousands)": 570}, {"Date": "2020-11-01", "OS visits to UK (Thousands)": 358}, {"Date": "2020-12-01", "OS visits to UK (Thousands)": 458}, {"Date": "2021-01-01", "OS visits to UK (Thousands)": 65}, {"Date": "2021-02-01", "OS visits to UK (Thousands)": 69}, {"Date": "2021-03-01", "OS visits to UK (Thousands)": 61}, {"Date": "2021-04-01", "OS visits to UK (Thousands)": 65}, {"Date": "2021-05-01", "OS visits to UK (Thousands)": 86}, {"Date": "2021-06-01", "OS visits to UK (Thousands)": 126}, {"Date": "2021-07-01", "OS visits to UK (Thousands)": 331}, {"Date": "2021-08-01", "OS visits to UK (Thousands)": 759}, {"Date": "2021-09-01", "OS visits to UK (Thousands)": 949}, {"Date": "2021-10-01", "OS visits to UK (Thousands)": 1103}, {"Date": "2021-11-01", "OS visits to UK (Thousands)": 1610}, {"Date": "2021-12-01", "OS visits to UK (Thousands)": 1039}, {"Date": "2022-01-01", "OS visits to UK (Thousands)": 820}, {"Date": "2022-02-01", "OS visits to UK (Thousands)": 1050}, {"Date": "2022-03-01", "OS visits to UK (Thousands)": 1850}, {"Date": "2022-04-01", "OS visits to UK (Thousands)": 2150}, {"Date": "2022-05-01", "OS visits to UK (Thousands)": 2730}]},
+    "height": 300,
+    "width": 300,
+    "mark": {
+      "type": "line"
+    },
+  
+    "encoding": {"x": {"field": "Date", "type": "temporal", "title":null}},
+   
+    "layer": [
+      {"encoding": {
+          "y": {"field": "OS visits to UK (Thousands)", 
+                "type": "quantitative", 
+                "title":null}},
+          
+          "layer": [
+            {"mark":{
+              "type": "line",
+              "align": false,
+              "color": "grey"}},
+            {"transform": 
+              [{"filter": {"selection": "hover"}}], 
+                 "mark": {
+                   "type":"circle",
+                   "size":50,
+                   "color":"grey"}}
+        ]
+      },
+      
+      {"mark": "rule", 
+        "encoding": {
+           "opacity": {
+             "condition": {"value": 0, "selection": "hover"},
+             "value": 0
+               },
+            "tooltip": [
+            {"field": "Date", "type": "temporal", "format": "%b-%Y", "title":"Date"},  
+            {"field": "OS visits to UK (Thousands)", "type": "quantitative", "format": ",.0f", "title":"Visits (Thousands)"}
+              ]
+             },
+        "selection": {
+          "hover": {
+            "type": "single",
+            "fields": ["Date"],
+            "nearest": true,
+            "on": "mouseover",
+            "empty": "none",
+            "clear": "mouseout"
+          }
+        }
+      }
+    ]
+  }

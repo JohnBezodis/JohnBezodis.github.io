@@ -70,9 +70,16 @@
     <div class="myWeek1">
         <h2>Week 3</h2>
 
-        <h3> Overseas Visits ot the UK</h3>
-        <p>This chart Shows the overseas visits to the UK over the last 10 years. I have chosen to add a hover feature to this graph so users can explore the seasonal nature of travel</p>
+        <h3> S&P 500 Daily High and Low</h3>
+        <p>This chart has its data source defined inline, in its Vega-Lite specification </p>
         <div class = chart id = "Chart5" style = "display: block;"></div>
+
+        <h3> S&P 500 Daily Trading Range</h3>
+        <p>This chart uses the same inline defined data as the chart above (with an additional pivot transform performed in Vega-Lite)</p>
+        <div class = chart id = "Chart6" style = "display: block;"></div>
+
+        <p>The second chart’s visual encoding highlights the difference between daily highs and lows. This makes the trading range more explicit than in the first chart.</p>
+
 
     </div>
 
@@ -86,14 +93,16 @@
     var myChart2 = "chart_assignment1_bankrate.json";
     var myChart3 = "IMF_creditOutstanding.json";
     var myChart4 = "IMF_corrected_creditOutstanding.json";
-    var myChart5 = "visits_chart.json";
+    var myChart5 = "highlow_chart.json";
+    var myChart6 = "tradingrange_chart.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
-    vegaEmbed('#Chart5', myChart5)
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6)
 </script>
 
 </html>

@@ -83,6 +83,16 @@
 
     </div>
 
+    <div class = "myWeek1">
+        <h2>Week 4</h2>
+
+        <h3>Analysing the fairness of using 'points' to compare powerlifters across different weight classes</h3>
+        <p>IPF GL points were created to compare the performace of powerlifters in different weight classes (as heavier powerlifters should lift more weight). If IPF GL points were a fair way to compare powerlifters across different wieght classes, then you would expect no association between a lifters body weight and their IPF GL points.</p>
+        <p><a href="https://colab.research.google.com/drive/1o2p-a0NfUx0YEss8utn9OtoPLkQ9JkOc?usp=sharing">Colab Notebok</a> used for data analysis and scraping</p>
+        <div class = chart id = "Chart7" style = "display: block;"></div>
+        <p>This data was scraped from <a href = "https://usapl.liftingdatabase.com/rankings">usapl.liftingdatabase.com</a> because it is the database of the USA's official IPF federation, so data is likely to be accurate.</p>
+    </div>
+
 
 </body>
 
@@ -95,6 +105,8 @@
     var myChart4 = "IMF_corrected_creditOutstanding.json";
     var myChart5 = "highlow_chart.json";
     var myChart6 = "tradingrange_chart.json";
+    var myChart7 = "powerlifting_chart.json";
+
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -102,7 +114,8 @@
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
-    vegaEmbed('#Chart6', myChart6)
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed("#Chart7", myChart7)
 </script>
 
 </html>

@@ -1,0 +1,58 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "title": {
+      "text": "Comparing Lifters Across Weight Classes",
+      "subtitle":["This graph shows USA's top 1000 powerlifter's (in 2022),", "their IPF GL points and their body weight in these compeitions"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+  "config": {
+    "background":"white",
+    "view": {
+      "stroke": "transparent"}},
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/powerlifting.csv",
+      "format":{"type":"csv"}},
+    "transform": [{
+      "pivot": "variable",
+      "value": "value",
+      "groupby": ["Lifter", "Date"]
+    }],
+  
+    "mark": {
+      "type":"circle",
+      "color":"green",
+      "opacity":0.7},
+    
+    "height": 300,
+    "width": 290,
+  
+    "encoding": {
+      "x": {
+        "field": "bodyweight_kg",
+        "scale" : {"zero":false}, 
+        "type": "quantitative",
+        "axis":{"grid": false},
+        "title": "Bodyweight"},
+  
+      "y": {
+        "field": "points_ipf_gl", 
+        "scale" : {"zero":false},
+        "type": "quantitative",
+        "axis":{"grid": false},
+        "title":"IPF GL points"},
+  
+
+      "tooltip":[
+        {"field":"Lifter", "type": "ordinal", "title":"Name"},
+        {"field":"points_ipf_gl", "type": "quantitative", "title":"IPF GL Points", "format":".0f"},
+        {"field":"bodyweight_kg", "type": "quantitative", "title":"Body Weight (KG)", "format":".2f"},
+        {"field":"Date", "type": "temporal", "title":"Comp Date"}
+
+      ]
+     }
+  }

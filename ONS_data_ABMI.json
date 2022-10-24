@@ -1,0 +1,3654 @@
+{
+    "description": {
+        "cdid": "ABMI",
+        "contact": {
+            "email": "sector.accounts@ons.gov.uk",
+            "name": "Michael Rizzo",
+            "telephone": "+44 1633 456366"
+        },
+        "datasetId": "UKEA",
+        "datasetUri": "/economy/grossdomesticproductgdp/datasets/unitedkingdomeconomicaccounts",
+        "date": "2022 Q2",
+        "keyNote": "Chained Volume Measures (CVM)",
+        "nextRelease": "22 December 2022",
+        "number": "560089",
+        "preUnit": "£",
+        "releaseDate": "2022-09-29T23:00:00.000Z",
+        "sampleSize": "0",
+        "source": "",
+        "title": "Gross Domestic Product: chained volume measures: Seasonally adjusted £m",
+        "unit": "m"
+    },
+    "months": [],
+    "quarters": [
+        {
+            "date": "1955 Q1",
+            "label": "1955 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "129428",
+            "year": "1955"
+        },
+        {
+            "date": "1955 Q2",
+            "label": "1955 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "129519",
+            "year": "1955"
+        },
+        {
+            "date": "1955 Q3",
+            "label": "1955 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "132043",
+            "year": "1955"
+        },
+        {
+            "date": "1955 Q4",
+            "label": "1955 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "131396",
+            "year": "1955"
+        },
+        {
+            "date": "1956 Q1",
+            "label": "1956 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "132998",
+            "year": "1956"
+        },
+        {
+            "date": "1956 Q2",
+            "label": "1956 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "132679",
+            "year": "1956"
+        },
+        {
+            "date": "1956 Q3",
+            "label": "1956 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "132495",
+            "year": "1956"
+        },
+        {
+            "date": "1956 Q4",
+            "label": "1956 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "132945",
+            "year": "1956"
+        },
+        {
+            "date": "1957 Q1",
+            "label": "1957 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "135711",
+            "year": "1957"
+        },
+        {
+            "date": "1957 Q2",
+            "label": "1957 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "135750",
+            "year": "1957"
+        },
+        {
+            "date": "1957 Q3",
+            "label": "1957 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "134944",
+            "year": "1957"
+        },
+        {
+            "date": "1957 Q4",
+            "label": "1957 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "135028",
+            "year": "1957"
+        },
+        {
+            "date": "1958 Q1",
+            "label": "1958 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "138005",
+            "year": "1958"
+        },
+        {
+            "date": "1958 Q2",
+            "label": "1958 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "134822",
+            "year": "1958"
+        },
+        {
+            "date": "1958 Q3",
+            "label": "1958 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "137771",
+            "year": "1958"
+        },
+        {
+            "date": "1958 Q4",
+            "label": "1958 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "137880",
+            "year": "1958"
+        },
+        {
+            "date": "1959 Q1",
+            "label": "1959 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "138749",
+            "year": "1959"
+        },
+        {
+            "date": "1959 Q2",
+            "label": "1959 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "141054",
+            "year": "1959"
+        },
+        {
+            "date": "1959 Q3",
+            "label": "1959 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "144101",
+            "year": "1959"
+        },
+        {
+            "date": "1959 Q4",
+            "label": "1959 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "147731",
+            "year": "1959"
+        },
+        {
+            "date": "1960 Q1",
+            "label": "1960 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "151420",
+            "year": "1960"
+        },
+        {
+            "date": "1960 Q2",
+            "label": "1960 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "150230",
+            "year": "1960"
+        },
+        {
+            "date": "1960 Q3",
+            "label": "1960 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "152485",
+            "year": "1960"
+        },
+        {
+            "date": "1960 Q4",
+            "label": "1960 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "153552",
+            "year": "1960"
+        },
+        {
+            "date": "1961 Q1",
+            "label": "1961 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "155990",
+            "year": "1961"
+        },
+        {
+            "date": "1961 Q2",
+            "label": "1961 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "156572",
+            "year": "1961"
+        },
+        {
+            "date": "1961 Q3",
+            "label": "1961 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "155818",
+            "year": "1961"
+        },
+        {
+            "date": "1961 Q4",
+            "label": "1961 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "155436",
+            "year": "1961"
+        },
+        {
+            "date": "1962 Q1",
+            "label": "1962 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "156202",
+            "year": "1962"
+        },
+        {
+            "date": "1962 Q2",
+            "label": "1962 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "157678",
+            "year": "1962"
+        },
+        {
+            "date": "1962 Q3",
+            "label": "1962 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "158572",
+            "year": "1962"
+        },
+        {
+            "date": "1962 Q4",
+            "label": "1962 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "157894",
+            "year": "1962"
+        },
+        {
+            "date": "1963 Q1",
+            "label": "1963 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "158616",
+            "year": "1963"
+        },
+        {
+            "date": "1963 Q2",
+            "label": "1963 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "165619",
+            "year": "1963"
+        },
+        {
+            "date": "1963 Q3",
+            "label": "1963 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "166407",
+            "year": "1963"
+        },
+        {
+            "date": "1963 Q4",
+            "label": "1963 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "170054",
+            "year": "1963"
+        },
+        {
+            "date": "1964 Q1",
+            "label": "1964 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "171209",
+            "year": "1964"
+        },
+        {
+            "date": "1964 Q2",
+            "label": "1964 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "174393",
+            "year": "1964"
+        },
+        {
+            "date": "1964 Q3",
+            "label": "1964 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "175037",
+            "year": "1964"
+        },
+        {
+            "date": "1964 Q4",
+            "label": "1964 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "177683",
+            "year": "1964"
+        },
+        {
+            "date": "1965 Q1",
+            "label": "1965 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "177153",
+            "year": "1965"
+        },
+        {
+            "date": "1965 Q2",
+            "label": "1965 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "177267",
+            "year": "1965"
+        },
+        {
+            "date": "1965 Q3",
+            "label": "1965 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "178719",
+            "year": "1965"
+        },
+        {
+            "date": "1965 Q4",
+            "label": "1965 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "179904",
+            "year": "1965"
+        },
+        {
+            "date": "1966 Q1",
+            "label": "1966 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "180172",
+            "year": "1966"
+        },
+        {
+            "date": "1966 Q2",
+            "label": "1966 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "181154",
+            "year": "1966"
+        },
+        {
+            "date": "1966 Q3",
+            "label": "1966 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "181778",
+            "year": "1966"
+        },
+        {
+            "date": "1966 Q4",
+            "label": "1966 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "180944",
+            "year": "1966"
+        },
+        {
+            "date": "1967 Q1",
+            "label": "1967 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "183328",
+            "year": "1967"
+        },
+        {
+            "date": "1967 Q2",
+            "label": "1967 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "185968",
+            "year": "1967"
+        },
+        {
+            "date": "1967 Q3",
+            "label": "1967 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "186841",
+            "year": "1967"
+        },
+        {
+            "date": "1967 Q4",
+            "label": "1967 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "187834",
+            "year": "1967"
+        },
+        {
+            "date": "1968 Q1",
+            "label": "1968 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "194591",
+            "year": "1968"
+        },
+        {
+            "date": "1968 Q2",
+            "label": "1968 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "193804",
+            "year": "1968"
+        },
+        {
+            "date": "1968 Q3",
+            "label": "1968 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "197603",
+            "year": "1968"
+        },
+        {
+            "date": "1968 Q4",
+            "label": "1968 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "198437",
+            "year": "1968"
+        },
+        {
+            "date": "1969 Q1",
+            "label": "1969 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "197901",
+            "year": "1969"
+        },
+        {
+            "date": "1969 Q2",
+            "label": "1969 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "199471",
+            "year": "1969"
+        },
+        {
+            "date": "1969 Q3",
+            "label": "1969 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "200592",
+            "year": "1969"
+        },
+        {
+            "date": "1969 Q4",
+            "label": "1969 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "201431",
+            "year": "1969"
+        },
+        {
+            "date": "1970 Q1",
+            "label": "1970 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "200089",
+            "year": "1970"
+        },
+        {
+            "date": "1970 Q2",
+            "label": "1970 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "205001",
+            "year": "1970"
+        },
+        {
+            "date": "1970 Q3",
+            "label": "1970 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "206988",
+            "year": "1970"
+        },
+        {
+            "date": "1970 Q4",
+            "label": "1970 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "208869",
+            "year": "1970"
+        },
+        {
+            "date": "1971 Q1",
+            "label": "1971 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "207680",
+            "year": "1971"
+        },
+        {
+            "date": "1971 Q2",
+            "label": "1971 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "211465",
+            "year": "1971"
+        },
+        {
+            "date": "1971 Q3",
+            "label": "1971 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "215240",
+            "year": "1971"
+        },
+        {
+            "date": "1971 Q4",
+            "label": "1971 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "216006",
+            "year": "1971"
+        },
+        {
+            "date": "1972 Q1",
+            "label": "1972 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "216317",
+            "year": "1972"
+        },
+        {
+            "date": "1972 Q2",
+            "label": "1972 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "222086",
+            "year": "1972"
+        },
+        {
+            "date": "1972 Q3",
+            "label": "1972 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "222694",
+            "year": "1972"
+        },
+        {
+            "date": "1972 Q4",
+            "label": "1972 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "226205",
+            "year": "1972"
+        },
+        {
+            "date": "1973 Q1",
+            "label": "1973 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "237322",
+            "year": "1973"
+        },
+        {
+            "date": "1973 Q2",
+            "label": "1973 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "237728",
+            "year": "1973"
+        },
+        {
+            "date": "1973 Q3",
+            "label": "1973 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "235429",
+            "year": "1973"
+        },
+        {
+            "date": "1973 Q4",
+            "label": "1973 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "234514",
+            "year": "1973"
+        },
+        {
+            "date": "1974 Q1",
+            "label": "1974 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "228013",
+            "year": "1974"
+        },
+        {
+            "date": "1974 Q2",
+            "label": "1974 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "231343",
+            "year": "1974"
+        },
+        {
+            "date": "1974 Q3",
+            "label": "1974 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "232777",
+            "year": "1974"
+        },
+        {
+            "date": "1974 Q4",
+            "label": "1974 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "229394",
+            "year": "1974"
+        },
+        {
+            "date": "1975 Q1",
+            "label": "1975 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "229477",
+            "year": "1975"
+        },
+        {
+            "date": "1975 Q2",
+            "label": "1975 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "225734",
+            "year": "1975"
+        },
+        {
+            "date": "1975 Q3",
+            "label": "1975 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "224919",
+            "year": "1975"
+        },
+        {
+            "date": "1975 Q4",
+            "label": "1975 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "227490",
+            "year": "1975"
+        },
+        {
+            "date": "1976 Q1",
+            "label": "1976 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "231247",
+            "year": "1976"
+        },
+        {
+            "date": "1976 Q2",
+            "label": "1976 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "230985",
+            "year": "1976"
+        },
+        {
+            "date": "1976 Q3",
+            "label": "1976 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "233947",
+            "year": "1976"
+        },
+        {
+            "date": "1976 Q4",
+            "label": "1976 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "238928",
+            "year": "1976"
+        },
+        {
+            "date": "1977 Q1",
+            "label": "1977 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "238831",
+            "year": "1977"
+        },
+        {
+            "date": "1977 Q2",
+            "label": "1977 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "237076",
+            "year": "1977"
+        },
+        {
+            "date": "1977 Q3",
+            "label": "1977 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "238720",
+            "year": "1977"
+        },
+        {
+            "date": "1977 Q4",
+            "label": "1977 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "242807",
+            "year": "1977"
+        },
+        {
+            "date": "1978 Q1",
+            "label": "1978 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "244622",
+            "year": "1978"
+        },
+        {
+            "date": "1978 Q2",
+            "label": "1978 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "247510",
+            "year": "1978"
+        },
+        {
+            "date": "1978 Q3",
+            "label": "1978 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "250901",
+            "year": "1978"
+        },
+        {
+            "date": "1978 Q4",
+            "label": "1978 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "253135",
+            "year": "1978"
+        },
+        {
+            "date": "1979 Q1",
+            "label": "1979 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "251825",
+            "year": "1979"
+        },
+        {
+            "date": "1979 Q2",
+            "label": "1979 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "262981",
+            "year": "1979"
+        },
+        {
+            "date": "1979 Q3",
+            "label": "1979 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "257095",
+            "year": "1979"
+        },
+        {
+            "date": "1979 Q4",
+            "label": "1979 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "259744",
+            "year": "1979"
+        },
+        {
+            "date": "1980 Q1",
+            "label": "1980 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "256815",
+            "year": "1980"
+        },
+        {
+            "date": "1980 Q2",
+            "label": "1980 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "251750",
+            "year": "1980"
+        },
+        {
+            "date": "1980 Q3",
+            "label": "1980 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "251454",
+            "year": "1980"
+        },
+        {
+            "date": "1980 Q4",
+            "label": "1980 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "248574",
+            "year": "1980"
+        },
+        {
+            "date": "1981 Q1",
+            "label": "1981 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "248097",
+            "year": "1981"
+        },
+        {
+            "date": "1981 Q2",
+            "label": "1981 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "248514",
+            "year": "1981"
+        },
+        {
+            "date": "1981 Q3",
+            "label": "1981 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "251197",
+            "year": "1981"
+        },
+        {
+            "date": "1981 Q4",
+            "label": "1981 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "251349",
+            "year": "1981"
+        },
+        {
+            "date": "1982 Q1",
+            "label": "1982 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "251388",
+            "year": "1982"
+        },
+        {
+            "date": "1982 Q2",
+            "label": "1982 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "253939",
+            "year": "1982"
+        },
+        {
+            "date": "1982 Q3",
+            "label": "1982 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "254533",
+            "year": "1982"
+        },
+        {
+            "date": "1982 Q4",
+            "label": "1982 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "256172",
+            "year": "1982"
+        },
+        {
+            "date": "1983 Q1",
+            "label": "1983 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "260720",
+            "year": "1983"
+        },
+        {
+            "date": "1983 Q2",
+            "label": "1983 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "262390",
+            "year": "1983"
+        },
+        {
+            "date": "1983 Q3",
+            "label": "1983 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "265120",
+            "year": "1983"
+        },
+        {
+            "date": "1983 Q4",
+            "label": "1983 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "267076",
+            "year": "1983"
+        },
+        {
+            "date": "1984 Q1",
+            "label": "1984 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "268763",
+            "year": "1984"
+        },
+        {
+            "date": "1984 Q2",
+            "label": "1984 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "266099",
+            "year": "1984"
+        },
+        {
+            "date": "1984 Q3",
+            "label": "1984 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "267783",
+            "year": "1984"
+        },
+        {
+            "date": "1984 Q4",
+            "label": "1984 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "272734",
+            "year": "1984"
+        },
+        {
+            "date": "1985 Q1",
+            "label": "1985 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "274498",
+            "year": "1985"
+        },
+        {
+            "date": "1985 Q2",
+            "label": "1985 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "280049",
+            "year": "1985"
+        },
+        {
+            "date": "1985 Q3",
+            "label": "1985 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "280252",
+            "year": "1985"
+        },
+        {
+            "date": "1985 Q4",
+            "label": "1985 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "280672",
+            "year": "1985"
+        },
+        {
+            "date": "1986 Q1",
+            "label": "1986 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "283200",
+            "year": "1986"
+        },
+        {
+            "date": "1986 Q2",
+            "label": "1986 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "284643",
+            "year": "1986"
+        },
+        {
+            "date": "1986 Q3",
+            "label": "1986 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "285943",
+            "year": "1986"
+        },
+        {
+            "date": "1986 Q4",
+            "label": "1986 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "290408",
+            "year": "1986"
+        },
+        {
+            "date": "1987 Q1",
+            "label": "1987 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "293128",
+            "year": "1987"
+        },
+        {
+            "date": "1987 Q2",
+            "label": "1987 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "297464",
+            "year": "1987"
+        },
+        {
+            "date": "1987 Q3",
+            "label": "1987 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "304555",
+            "year": "1987"
+        },
+        {
+            "date": "1987 Q4",
+            "label": "1987 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "308624",
+            "year": "1987"
+        },
+        {
+            "date": "1988 Q1",
+            "label": "1988 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "313316",
+            "year": "1988"
+        },
+        {
+            "date": "1988 Q2",
+            "label": "1988 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "313997",
+            "year": "1988"
+        },
+        {
+            "date": "1988 Q3",
+            "label": "1988 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "318223",
+            "year": "1988"
+        },
+        {
+            "date": "1988 Q4",
+            "label": "1988 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "320612",
+            "year": "1988"
+        },
+        {
+            "date": "1989 Q1",
+            "label": "1989 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "322258",
+            "year": "1989"
+        },
+        {
+            "date": "1989 Q2",
+            "label": "1989 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "323569",
+            "year": "1989"
+        },
+        {
+            "date": "1989 Q3",
+            "label": "1989 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "323542",
+            "year": "1989"
+        },
+        {
+            "date": "1989 Q4",
+            "label": "1989 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "324139",
+            "year": "1989"
+        },
+        {
+            "date": "1990 Q1",
+            "label": "1990 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "326896",
+            "year": "1990"
+        },
+        {
+            "date": "1990 Q2",
+            "label": "1990 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "328047",
+            "year": "1990"
+        },
+        {
+            "date": "1990 Q3",
+            "label": "1990 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "324080",
+            "year": "1990"
+        },
+        {
+            "date": "1990 Q4",
+            "label": "1990 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "322743",
+            "year": "1990"
+        },
+        {
+            "date": "1991 Q1",
+            "label": "1991 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "321164",
+            "year": "1991"
+        },
+        {
+            "date": "1991 Q2",
+            "label": "1991 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "319958",
+            "year": "1991"
+        },
+        {
+            "date": "1991 Q3",
+            "label": "1991 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "319027",
+            "year": "1991"
+        },
+        {
+            "date": "1991 Q4",
+            "label": "1991 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "319668",
+            "year": "1991"
+        },
+        {
+            "date": "1992 Q1",
+            "label": "1992 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "319525",
+            "year": "1992"
+        },
+        {
+            "date": "1992 Q2",
+            "label": "1992 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "318481",
+            "year": "1992"
+        },
+        {
+            "date": "1992 Q3",
+            "label": "1992 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "320240",
+            "year": "1992"
+        },
+        {
+            "date": "1992 Q4",
+            "label": "1992 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "321960",
+            "year": "1992"
+        },
+        {
+            "date": "1993 Q1",
+            "label": "1993 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "324111",
+            "year": "1993"
+        },
+        {
+            "date": "1993 Q2",
+            "label": "1993 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "325394",
+            "year": "1993"
+        },
+        {
+            "date": "1993 Q3",
+            "label": "1993 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "327863",
+            "year": "1993"
+        },
+        {
+            "date": "1993 Q4",
+            "label": "1993 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "329789",
+            "year": "1993"
+        },
+        {
+            "date": "1994 Q1",
+            "label": "1994 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "333269",
+            "year": "1994"
+        },
+        {
+            "date": "1994 Q2",
+            "label": "1994 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "336803",
+            "year": "1994"
+        },
+        {
+            "date": "1994 Q3",
+            "label": "1994 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "340451",
+            "year": "1994"
+        },
+        {
+            "date": "1994 Q4",
+            "label": "1994 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "342104",
+            "year": "1994"
+        },
+        {
+            "date": "1995 Q1",
+            "label": "1995 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "342962",
+            "year": "1995"
+        },
+        {
+            "date": "1995 Q2",
+            "label": "1995 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "343589",
+            "year": "1995"
+        },
+        {
+            "date": "1995 Q3",
+            "label": "1995 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "347031",
+            "year": "1995"
+        },
+        {
+            "date": "1995 Q4",
+            "label": "1995 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "347651",
+            "year": "1995"
+        },
+        {
+            "date": "1996 Q1",
+            "label": "1996 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "349056",
+            "year": "1996"
+        },
+        {
+            "date": "1996 Q2",
+            "label": "1996 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "349195",
+            "year": "1996"
+        },
+        {
+            "date": "1996 Q3",
+            "label": "1996 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "352909",
+            "year": "1996"
+        },
+        {
+            "date": "1996 Q4",
+            "label": "1996 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "356423",
+            "year": "1996"
+        },
+        {
+            "date": "1997 Q1",
+            "label": "1997 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "361885",
+            "year": "1997"
+        },
+        {
+            "date": "1997 Q2",
+            "label": "1997 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "365725",
+            "year": "1997"
+        },
+        {
+            "date": "1997 Q3",
+            "label": "1997 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "369141",
+            "year": "1997"
+        },
+        {
+            "date": "1997 Q4",
+            "label": "1997 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "374512",
+            "year": "1997"
+        },
+        {
+            "date": "1998 Q1",
+            "label": "1998 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "376761",
+            "year": "1998"
+        },
+        {
+            "date": "1998 Q2",
+            "label": "1998 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "378766",
+            "year": "1998"
+        },
+        {
+            "date": "1998 Q3",
+            "label": "1998 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "379906",
+            "year": "1998"
+        },
+        {
+            "date": "1998 Q4",
+            "label": "1998 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "382282",
+            "year": "1998"
+        },
+        {
+            "date": "1999 Q1",
+            "label": "1999 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "385025",
+            "year": "1999"
+        },
+        {
+            "date": "1999 Q2",
+            "label": "1999 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "386581",
+            "year": "1999"
+        },
+        {
+            "date": "1999 Q3",
+            "label": "1999 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "393078",
+            "year": "1999"
+        },
+        {
+            "date": "1999 Q4",
+            "label": "1999 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "398776",
+            "year": "1999"
+        },
+        {
+            "date": "2000 Q1",
+            "label": "2000 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "403407",
+            "year": "2000"
+        },
+        {
+            "date": "2000 Q2",
+            "label": "2000 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "406049",
+            "year": "2000"
+        },
+        {
+            "date": "2000 Q3",
+            "label": "2000 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "408120",
+            "year": "2000"
+        },
+        {
+            "date": "2000 Q4",
+            "label": "2000 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "409871",
+            "year": "2000"
+        },
+        {
+            "date": "2001 Q1",
+            "label": "2001 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "413381",
+            "year": "2001"
+        },
+        {
+            "date": "2001 Q2",
+            "label": "2001 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "414894",
+            "year": "2001"
+        },
+        {
+            "date": "2001 Q3",
+            "label": "2001 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "416803",
+            "year": "2001"
+        },
+        {
+            "date": "2001 Q4",
+            "label": "2001 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "417480",
+            "year": "2001"
+        },
+        {
+            "date": "2002 Q1",
+            "label": "2002 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "418930",
+            "year": "2002"
+        },
+        {
+            "date": "2002 Q2",
+            "label": "2002 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "421133",
+            "year": "2002"
+        },
+        {
+            "date": "2002 Q3",
+            "label": "2002 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "424190",
+            "year": "2002"
+        },
+        {
+            "date": "2002 Q4",
+            "label": "2002 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "427745",
+            "year": "2002"
+        },
+        {
+            "date": "2003 Q1",
+            "label": "2003 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "430454",
+            "year": "2003"
+        },
+        {
+            "date": "2003 Q2",
+            "label": "2003 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "434140",
+            "year": "2003"
+        },
+        {
+            "date": "2003 Q3",
+            "label": "2003 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "438419",
+            "year": "2003"
+        },
+        {
+            "date": "2003 Q4",
+            "label": "2003 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "441827",
+            "year": "2003"
+        },
+        {
+            "date": "2004 Q1",
+            "label": "2004 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "443792",
+            "year": "2004"
+        },
+        {
+            "date": "2004 Q2",
+            "label": "2004 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "446140",
+            "year": "2004"
+        },
+        {
+            "date": "2004 Q3",
+            "label": "2004 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "447205",
+            "year": "2004"
+        },
+        {
+            "date": "2004 Q4",
+            "label": "2004 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "448619",
+            "year": "2004"
+        },
+        {
+            "date": "2005 Q1",
+            "label": "2005 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "451985",
+            "year": "2005"
+        },
+        {
+            "date": "2005 Q2",
+            "label": "2005 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "456263",
+            "year": "2005"
+        },
+        {
+            "date": "2005 Q3",
+            "label": "2005 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "460177",
+            "year": "2005"
+        },
+        {
+            "date": "2005 Q4",
+            "label": "2005 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "464981",
+            "year": "2005"
+        },
+        {
+            "date": "2006 Q1",
+            "label": "2006 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "466584",
+            "year": "2006"
+        },
+        {
+            "date": "2006 Q2",
+            "label": "2006 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "467684",
+            "year": "2006"
+        },
+        {
+            "date": "2006 Q3",
+            "label": "2006 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "468351",
+            "year": "2006"
+        },
+        {
+            "date": "2006 Q4",
+            "label": "2006 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "470396",
+            "year": "2006"
+        },
+        {
+            "date": "2007 Q1",
+            "label": "2007 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "475292",
+            "year": "2007"
+        },
+        {
+            "date": "2007 Q2",
+            "label": "2007 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "478424",
+            "year": "2007"
+        },
+        {
+            "date": "2007 Q3",
+            "label": "2007 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "482064",
+            "year": "2007"
+        },
+        {
+            "date": "2007 Q4",
+            "label": "2007 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "485249",
+            "year": "2007"
+        },
+        {
+            "date": "2008 Q1",
+            "label": "2008 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "487601",
+            "year": "2008"
+        },
+        {
+            "date": "2008 Q2",
+            "label": "2008 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "485278",
+            "year": "2008"
+        },
+        {
+            "date": "2008 Q3",
+            "label": "2008 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "477935",
+            "year": "2008"
+        },
+        {
+            "date": "2008 Q4",
+            "label": "2008 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "467250",
+            "year": "2008"
+        },
+        {
+            "date": "2009 Q1",
+            "label": "2009 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "458181",
+            "year": "2009"
+        },
+        {
+            "date": "2009 Q2",
+            "label": "2009 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "456867",
+            "year": "2009"
+        },
+        {
+            "date": "2009 Q3",
+            "label": "2009 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "457471",
+            "year": "2009"
+        },
+        {
+            "date": "2009 Q4",
+            "label": "2009 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "459031",
+            "year": "2009"
+        },
+        {
+            "date": "2010 Q1",
+            "label": "2010 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "463391",
+            "year": "2010"
+        },
+        {
+            "date": "2010 Q2",
+            "label": "2010 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "468691",
+            "year": "2010"
+        },
+        {
+            "date": "2010 Q3",
+            "label": "2010 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "471664",
+            "year": "2010"
+        },
+        {
+            "date": "2010 Q4",
+            "label": "2010 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "472312",
+            "year": "2010"
+        },
+        {
+            "date": "2011 Q1",
+            "label": "2011 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "473510",
+            "year": "2011"
+        },
+        {
+            "date": "2011 Q2",
+            "label": "2011 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "473773",
+            "year": "2011"
+        },
+        {
+            "date": "2011 Q3",
+            "label": "2011 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "474501",
+            "year": "2011"
+        },
+        {
+            "date": "2011 Q4",
+            "label": "2011 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "474303",
+            "year": "2011"
+        },
+        {
+            "date": "2012 Q1",
+            "label": "2012 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "478242",
+            "year": "2012"
+        },
+        {
+            "date": "2012 Q2",
+            "label": "2012 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "477974",
+            "year": "2012"
+        },
+        {
+            "date": "2012 Q3",
+            "label": "2012 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "483913",
+            "year": "2012"
+        },
+        {
+            "date": "2012 Q4",
+            "label": "2012 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "483422",
+            "year": "2012"
+        },
+        {
+            "date": "2013 Q1",
+            "label": "2013 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "484555",
+            "year": "2013"
+        },
+        {
+            "date": "2013 Q2",
+            "label": "2013 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "487845",
+            "year": "2013"
+        },
+        {
+            "date": "2013 Q3",
+            "label": "2013 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "491499",
+            "year": "2013"
+        },
+        {
+            "date": "2013 Q4",
+            "label": "2013 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "494658",
+            "year": "2013"
+        },
+        {
+            "date": "2014 Q1",
+            "label": "2014 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "499294",
+            "year": "2014"
+        },
+        {
+            "date": "2014 Q2",
+            "label": "2014 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "503659",
+            "year": "2014"
+        },
+        {
+            "date": "2014 Q3",
+            "label": "2014 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "507485",
+            "year": "2014"
+        },
+        {
+            "date": "2014 Q4",
+            "label": "2014 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "510787",
+            "year": "2014"
+        },
+        {
+            "date": "2015 Q1",
+            "label": "2015 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "512895",
+            "year": "2015"
+        },
+        {
+            "date": "2015 Q2",
+            "label": "2015 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "516141",
+            "year": "2015"
+        },
+        {
+            "date": "2015 Q3",
+            "label": "2015 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "518365",
+            "year": "2015"
+        },
+        {
+            "date": "2015 Q4",
+            "label": "2015 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "522194",
+            "year": "2015"
+        },
+        {
+            "date": "2016 Q1",
+            "label": "2016 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "524102",
+            "year": "2016"
+        },
+        {
+            "date": "2016 Q2",
+            "label": "2016 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "527401",
+            "year": "2016"
+        },
+        {
+            "date": "2016 Q3",
+            "label": "2016 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "529730",
+            "year": "2016"
+        },
+        {
+            "date": "2016 Q4",
+            "label": "2016 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "533173",
+            "year": "2016"
+        },
+        {
+            "date": "2017 Q1",
+            "label": "2017 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "537114",
+            "year": "2017"
+        },
+        {
+            "date": "2017 Q2",
+            "label": "2017 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "539994",
+            "year": "2017"
+        },
+        {
+            "date": "2017 Q3",
+            "label": "2017 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "542780",
+            "year": "2017"
+        },
+        {
+            "date": "2017 Q4",
+            "label": "2017 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "546185",
+            "year": "2017"
+        },
+        {
+            "date": "2018 Q1",
+            "label": "2018 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "547003",
+            "year": "2018"
+        },
+        {
+            "date": "2018 Q2",
+            "label": "2018 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "549491",
+            "year": "2018"
+        },
+        {
+            "date": "2018 Q3",
+            "label": "2018 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "552545",
+            "year": "2018"
+        },
+        {
+            "date": "2018 Q4",
+            "label": "2018 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "553966",
+            "year": "2018"
+        },
+        {
+            "date": "2019 Q1",
+            "label": "2019 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "557458",
+            "year": "2019"
+        },
+        {
+            "date": "2019 Q2",
+            "label": "2019 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "558071",
+            "year": "2019"
+        },
+        {
+            "date": "2019 Q3",
+            "label": "2019 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "561480",
+            "year": "2019"
+        },
+        {
+            "date": "2019 Q4",
+            "label": "2019 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "561339",
+            "year": "2019"
+        },
+        {
+            "date": "2020 Q1",
+            "label": "2020 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "546515",
+            "year": "2020"
+        },
+        {
+            "date": "2020 Q2",
+            "label": "2020 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "431794",
+            "year": "2020"
+        },
+        {
+            "date": "2020 Q3",
+            "label": "2020 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "503509",
+            "year": "2020"
+        },
+        {
+            "date": "2020 Q4",
+            "label": "2020 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "509621",
+            "year": "2020"
+        },
+        {
+            "date": "2021 Q1",
+            "label": "2021 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "503663",
+            "year": "2021"
+        },
+        {
+            "date": "2021 Q2",
+            "label": "2021 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "536608",
+            "year": "2021"
+        },
+        {
+            "date": "2021 Q3",
+            "label": "2021 Q3",
+            "month": "",
+            "quarter": "Q3",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "546084",
+            "year": "2021"
+        },
+        {
+            "date": "2021 Q4",
+            "label": "2021 Q4",
+            "month": "",
+            "quarter": "Q4",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "554938",
+            "year": "2021"
+        },
+        {
+            "date": "2022 Q1",
+            "label": "2022 Q1",
+            "month": "",
+            "quarter": "Q1",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "558776",
+            "year": "2022"
+        },
+        {
+            "date": "2022 Q2",
+            "label": "2022 Q2",
+            "month": "",
+            "quarter": "Q2",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "560089",
+            "year": "2022"
+        }
+    ],
+    "relatedData": [
+        {
+            "uri": "/economy/grossdomesticproductgdp/timeseries/ybez"
+        },
+        {
+            "uri": "/economy/grossdomesticproductgdp/timeseries/ihyp"
+        },
+        {
+            "uri": "/economy/grossdomesticproductgdp/timeseries/ihyq"
+        },
+        {
+            "uri": "/economy/grossdomesticproductgdp/timeseries/ihyr"
+        }
+    ],
+    "relatedDatasets": [
+        {
+            "uri": "/economy/grossdomesticproductgdp/datasets/unitedkingdomeconomicaccounts"
+        }
+    ],
+    "relatedDocuments": [],
+    "sourceDatasets": [],
+    "type": "timeseries",
+    "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea",
+    "versions": [
+        {
+            "correctionNotice": "",
+            "label": "v1",
+            "updateDate": "2016-03-31T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v1"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v2",
+            "updateDate": "2016-06-30T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v2"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v3",
+            "updateDate": "2016-09-30T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v3"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v4",
+            "updateDate": "2016-12-23T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v4"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v5",
+            "updateDate": "2017-03-31T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v5"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v6",
+            "updateDate": "2017-06-30T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v6"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v7",
+            "updateDate": "2017-09-29T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v7"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v8",
+            "updateDate": "2017-12-22T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v8"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v9",
+            "updateDate": "2018-03-29T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v9"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v10",
+            "updateDate": "2018-06-29T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v10"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v11",
+            "updateDate": "2018-09-28T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v11"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v12",
+            "updateDate": "2018-12-21T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v12"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v13",
+            "updateDate": "2019-03-29T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v13"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v14",
+            "updateDate": "2019-06-28T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v14"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v15",
+            "updateDate": "2019-09-30T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v15"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v16",
+            "updateDate": "2019-12-20T07:42:35.303Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v16"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v17",
+            "updateDate": "2020-03-31T06:00:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v17"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v18",
+            "updateDate": "2020-06-30T08:57:00.667Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v18"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v19",
+            "updateDate": "2020-09-30T06:00:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v19"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v20",
+            "updateDate": "2020-12-22T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v20"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v21",
+            "updateDate": "2020-12-22T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v21"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v22",
+            "updateDate": "2021-06-30T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v22"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v23",
+            "updateDate": "2021-09-30T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v23"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v24",
+            "updateDate": "2021-12-22T09:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v24"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v25",
+            "updateDate": "2022-03-31T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v25"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v26",
+            "updateDate": "2022-06-30T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v26"
+        },
+        {
+            "correctionNotice": "",
+            "label": "v27",
+            "updateDate": "2022-09-30T08:30:00.000Z",
+            "uri": "/economy/grossdomesticproductgdp/timeseries/abmi/ukea/previous/v27"
+        }
+    ],
+    "years": [
+        {
+            "date": "1948",
+            "label": "1948",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "405708",
+            "year": "1948"
+        },
+        {
+            "date": "1949",
+            "label": "1949",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "419563",
+            "year": "1949"
+        },
+        {
+            "date": "1950",
+            "label": "1950",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "433771",
+            "year": "1950"
+        },
+        {
+            "date": "1951",
+            "label": "1951",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "449848",
+            "year": "1951"
+        },
+        {
+            "date": "1952",
+            "label": "1952",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "456721",
+            "year": "1952"
+        },
+        {
+            "date": "1953",
+            "label": "1953",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "481605",
+            "year": "1953"
+        },
+        {
+            "date": "1954",
+            "label": "1954",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "502846",
+            "year": "1954"
+        },
+        {
+            "date": "1955",
+            "label": "1955",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "522386",
+            "year": "1955"
+        },
+        {
+            "date": "1956",
+            "label": "1956",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "531117",
+            "year": "1956"
+        },
+        {
+            "date": "1957",
+            "label": "1957",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "541433",
+            "year": "1957"
+        },
+        {
+            "date": "1958",
+            "label": "1958",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "548478",
+            "year": "1958"
+        },
+        {
+            "date": "1959",
+            "label": "1959",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "571635",
+            "year": "1959"
+        },
+        {
+            "date": "1960",
+            "label": "1960",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "607687",
+            "year": "1960"
+        },
+        {
+            "date": "1961",
+            "label": "1961",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "623816",
+            "year": "1961"
+        },
+        {
+            "date": "1962",
+            "label": "1962",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "630346",
+            "year": "1962"
+        },
+        {
+            "date": "1963",
+            "label": "1963",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "660696",
+            "year": "1963"
+        },
+        {
+            "date": "1964",
+            "label": "1964",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "698322",
+            "year": "1964"
+        },
+        {
+            "date": "1965",
+            "label": "1965",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "713043",
+            "year": "1965"
+        },
+        {
+            "date": "1966",
+            "label": "1966",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "724048",
+            "year": "1966"
+        },
+        {
+            "date": "1967",
+            "label": "1967",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "743971",
+            "year": "1967"
+        },
+        {
+            "date": "1968",
+            "label": "1968",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "784435",
+            "year": "1968"
+        },
+        {
+            "date": "1969",
+            "label": "1969",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "799395",
+            "year": "1969"
+        },
+        {
+            "date": "1970",
+            "label": "1970",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "820947",
+            "year": "1970"
+        },
+        {
+            "date": "1971",
+            "label": "1971",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "850391",
+            "year": "1971"
+        },
+        {
+            "date": "1972",
+            "label": "1972",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "887302",
+            "year": "1972"
+        },
+        {
+            "date": "1973",
+            "label": "1973",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "944993",
+            "year": "1973"
+        },
+        {
+            "date": "1974",
+            "label": "1974",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "921527",
+            "year": "1974"
+        },
+        {
+            "date": "1975",
+            "label": "1975",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "907620",
+            "year": "1975"
+        },
+        {
+            "date": "1976",
+            "label": "1976",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "935107",
+            "year": "1976"
+        },
+        {
+            "date": "1977",
+            "label": "1977",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "957434",
+            "year": "1977"
+        },
+        {
+            "date": "1978",
+            "label": "1978",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "996168",
+            "year": "1978"
+        },
+        {
+            "date": "1979",
+            "label": "1979",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1031645",
+            "year": "1979"
+        },
+        {
+            "date": "1980",
+            "label": "1980",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1008593",
+            "year": "1980"
+        },
+        {
+            "date": "1981",
+            "label": "1981",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "999157",
+            "year": "1981"
+        },
+        {
+            "date": "1982",
+            "label": "1982",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1016032",
+            "year": "1982"
+        },
+        {
+            "date": "1983",
+            "label": "1983",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1055306",
+            "year": "1983"
+        },
+        {
+            "date": "1984",
+            "label": "1984",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1075379",
+            "year": "1984"
+        },
+        {
+            "date": "1985",
+            "label": "1985",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1115471",
+            "year": "1985"
+        },
+        {
+            "date": "1986",
+            "label": "1986",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1144194",
+            "year": "1986"
+        },
+        {
+            "date": "1987",
+            "label": "1987",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1203771",
+            "year": "1987"
+        },
+        {
+            "date": "1988",
+            "label": "1988",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1266148",
+            "year": "1988"
+        },
+        {
+            "date": "1989",
+            "label": "1989",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1293508",
+            "year": "1989"
+        },
+        {
+            "date": "1990",
+            "label": "1990",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1301766",
+            "year": "1990"
+        },
+        {
+            "date": "1991",
+            "label": "1991",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1279817",
+            "year": "1991"
+        },
+        {
+            "date": "1992",
+            "label": "1992",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1280206",
+            "year": "1992"
+        },
+        {
+            "date": "1993",
+            "label": "1993",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1307157",
+            "year": "1993"
+        },
+        {
+            "date": "1994",
+            "label": "1994",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1352627",
+            "year": "1994"
+        },
+        {
+            "date": "1995",
+            "label": "1995",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1381233",
+            "year": "1995"
+        },
+        {
+            "date": "1996",
+            "label": "1996",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1407583",
+            "year": "1996"
+        },
+        {
+            "date": "1997",
+            "label": "1997",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1471263",
+            "year": "1997"
+        },
+        {
+            "date": "1998",
+            "label": "1998",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1517715",
+            "year": "1998"
+        },
+        {
+            "date": "1999",
+            "label": "1999",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1563460",
+            "year": "1999"
+        },
+        {
+            "date": "2000",
+            "label": "2000",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1627447",
+            "year": "2000"
+        },
+        {
+            "date": "2001",
+            "label": "2001",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1662558",
+            "year": "2001"
+        },
+        {
+            "date": "2002",
+            "label": "2002",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1691998",
+            "year": "2002"
+        },
+        {
+            "date": "2003",
+            "label": "2003",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1744840",
+            "year": "2003"
+        },
+        {
+            "date": "2004",
+            "label": "2004",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1785756",
+            "year": "2004"
+        },
+        {
+            "date": "2005",
+            "label": "2005",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1833406",
+            "year": "2005"
+        },
+        {
+            "date": "2006",
+            "label": "2006",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1873015",
+            "year": "2006"
+        },
+        {
+            "date": "2007",
+            "label": "2007",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1921029",
+            "year": "2007"
+        },
+        {
+            "date": "2008",
+            "label": "2008",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1918064",
+            "year": "2008"
+        },
+        {
+            "date": "2009",
+            "label": "2009",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1831550",
+            "year": "2009"
+        },
+        {
+            "date": "2010",
+            "label": "2010",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1876058",
+            "year": "2010"
+        },
+        {
+            "date": "2011",
+            "label": "2011",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1896087",
+            "year": "2011"
+        },
+        {
+            "date": "2012",
+            "label": "2012",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1923551",
+            "year": "2012"
+        },
+        {
+            "date": "2013",
+            "label": "2013",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1958557",
+            "year": "2013"
+        },
+        {
+            "date": "2014",
+            "label": "2014",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "2021225",
+            "year": "2014"
+        },
+        {
+            "date": "2015",
+            "label": "2015",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "2069595",
+            "year": "2015"
+        },
+        {
+            "date": "2016",
+            "label": "2016",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "2114406",
+            "year": "2016"
+        },
+        {
+            "date": "2017",
+            "label": "2017",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "2166073",
+            "year": "2017"
+        },
+        {
+            "date": "2018",
+            "label": "2018",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "2203005",
+            "year": "2018"
+        },
+        {
+            "date": "2019",
+            "label": "2019",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "2238348",
+            "year": "2019"
+        },
+        {
+            "date": "2020",
+            "label": "2020",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "1991439",
+            "year": "2020"
+        },
+        {
+            "date": "2021",
+            "label": "2021",
+            "month": "",
+            "quarter": "",
+            "sourceDataset": "UKEA",
+            "updateDate": "2022-09-29T23:00:00.000Z",
+            "value": "2141293",
+            "year": "2021"
+        }
+    ]
+}

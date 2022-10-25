@@ -93,6 +93,25 @@
         <p>This data was scraped from <a href = "https://usapl.liftingdatabase.com/rankings">usapl.liftingdatabase.com</a> because it is the database of the USA's official IPF federation, so data is likely to be accurate.</p>
     </div>
 
+    <div class = "myWeek1">
+        <h2>Week 5</h2>
+        <h3>Dashboard: UK GDP and it's Components Since 1960</h3>
+        <div class="grid-container" style = "display: grid;">
+            <div class="grid-item"><div class = dashchart id = "Chart8" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart9" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart10" style = "display: block;"></div></div>  
+            <div class="grid-item"><div class = dashchart id = "Chart11" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart12" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart13" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart14" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart15" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart16" style = "display: block;"></div></div>
+          </div>
+        <p>The <a href = "https://colab.research.google.com/drive/1QZkSmuSotY8fPMjfhueFL4o1BxosDs7f?usp=sharing">Colab Notebook</a> using the ONS API to batch download the data for these graphs</p>
+
+
+    </div>
+
 
 </body>
 
@@ -106,6 +125,15 @@
     var myChart5 = "highlow_chart.json";
     var myChart6 = "tradingrange_chart.json";
     var myChart7 = "powerlifting_chart.json";
+    var myChart8 = "gdp_5.json";
+    var myChart9 = "gdp_growth_5.json";
+    var myChart10 = "gdp_capita_5.json";
+    var myChart11 = "gdp_capita_growth_5.json";
+    var myChart12 = "consumption_5.json";
+    var myChart13 = "investment_5.json";
+    var myChart14 = "gov_5.json";
+    var myChart15 = "export_5.json";
+    var myChart16 = "import_5.json";
 
 
     // Embed charts:
@@ -115,7 +143,16 @@
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
-    vegaEmbed("#Chart7", myChart7)
+    vegaEmbed("#Chart7", myChart7);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
+    vegaEmbed('#Chart12', myChart12);
+    vegaEmbed('#Chart13', myChart13);
+    vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
+    vegaEmbed('#Chart16', myChart16)
 </script>
 
 </html>

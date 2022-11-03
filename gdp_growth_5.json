@@ -69,6 +69,7 @@
         "field": "value",                
         "type": "quantitative",
         "title":null,
+        "axis": {"labelAngle" : 270},
         "scale":{
           "domain":{
             "data": "myData", 

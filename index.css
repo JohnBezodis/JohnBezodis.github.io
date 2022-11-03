@@ -147,16 +147,26 @@ li:hover:after{
     
 }
 
-
-.grid-container {
+.grid-item {
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 5px;
+    grid-template-columns: 100%;
     width: 100%;
-    margin: 0 auto;
-  }
-  .grid-item {
-    padding: 5px;
+    grid-column-gap: 0;
     font-size: 10px;
-    margin: 0 auto;
+    padding: 5px;
+    margin: auto;
+}
+
+
+@media only screen and (min-width: 340px) {
+  .grid-item {
+    grid-template-columns: 40% 40%;
+    padding: 5px;
+    padding-left: 14%;
+    margin: auto
   }
+  .grid-item > div {
+    margin: auto;
+    padding: 5px
+  }
+}

@@ -74,7 +74,7 @@
           "domain":{
             "data": "myData", 
             "field": "value"}},
-        "axis": {"format":".2s"}
+        "axis": {"format":".2s", "labelAngle": 270}
         }
   }
 }

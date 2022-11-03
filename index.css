@@ -158,7 +158,7 @@ li:hover:after{
 }
 
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 800pt) {
   .grid-item {
     grid-template-columns: 40% 40%;
     padding: 5px;

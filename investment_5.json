@@ -1,79 +1,80 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
 
-    "title": {
-    "text": "Investment",
-    "subtitle": ["Total Gross Fixed", "Capital Formation CVM SA £m", "Source: ONS"],
-    "subtitleFontStyle":"italic",
-    "subtitleFontSize":10,
-    "anchor": "start",
-    "color": "black"
+  "title": {
+  "text": "Investment",
+  "subtitle": ["Total Gross Fixed", "Capital Formation CVM SA £", "Source: ONS"],
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+},
+
+
+  "width":180,
+  "height":200,
+
+  "data": {
+      "name":"myData",
+      "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/ONS_data_NPQT.json",
+      "format": {
+        "type":"json",
+        "property": "years"
+      }},
+
+
+  "mark":{
+    "type": "line",
+    "color":"#00BFFF",
+    "strokeWidth":2,
+    "opacity":1
   },
 
+  "transform": [
+    {"filter": "datum.year>minYear"},
+    {"filter": "datum.year<maxYear"},
+    {"calculate": "datum.value*1000000", "as" : "series"}
+  ],
 
-    "width":180,
-    "height":200,
-
-    "data": {
-        "name":"myData",
-        "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/ONS_data_NPQT.json",
-        "format": {
-          "type":"json",
-          "property": "years"
-        }},
-  
-
-    "mark":{
-      "type": "line",
-      "color":"#00BFFF",
-      "strokeWidth":2,
-      "opacity":1
+  "params": [    
+    {"name":"minYear", "value":1960,
+       "bind":{
+         "input": "range",
+         "min": 1960, 
+         "max": 2022, 
+         "step": 1,
+         "name": "Start year:"}
     },
 
-    "transform": [
-      {"filter": "datum.year>minYear"},
-      {"filter": "datum.year<maxYear"}
-    ],
+    {"name":"maxYear", "value":2022,
+       "bind":{
+         "input": "range",
+         "min": 1960, 
+         "max": 2022, 
+         "step": 1,
+         "name": "End year:"}
+    }
+  ],
 
-    "params": [    
-      {"name":"minYear", "value":1960,
-         "bind":{
-           "input": "range",
-           "min": 1960, 
-           "max": 2022, 
-           "step": 1,
-           "name": "Start year:"}
+
+  "encoding": {
+    
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title":null
       },
 
-      {"name":"maxYear", "value":2022,
-         "bind":{
-           "input": "range",
-           "min": 1960, 
-           "max": 2022, 
-           "step": 1,
-           "name": "End year:"}
+    "y": {
+      "field": "series",                
+      "type": "quantitative",
+      "title":null,
+      "scale":{
+        "domain":{
+          "data": "myData", 
+          "field": "series"}},
+      "axis": {"format":".2s"}
       }
-    ],
-
-
-    "encoding": {
-      
-      "x": {
-        "field": "date",
-        "type": "temporal",
-        "title":null
-        },
-  
-      "y": {
-        "field": "value",                
-        "type": "quantitative",
-        "title":null,
-        "scale":{
-          "domain":{
-            "data": "myData", 
-            "field": "value"}},
-        "axis": {"format":".2s"}
-        }
-  }
+}
 }

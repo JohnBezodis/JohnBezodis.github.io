@@ -1,0 +1,1015 @@
+,country,year,adjusted_energy_consump
+0,EU-28,1990,274808.2
+1,Belgium,1990,8268.9
+2,Bulgaria,1990,2405.3
+3,Czech Republic,1990,7314.6
+4,Denmark,1990,4006.3
+5,Germany,1990,62838.0
+6,Estonia,1990,1016.7
+7,Ireland,1990,2346.3
+8,Greece,1990,3057.8
+9,Spain,1990,9162.0
+10,France,1990,35795.2
+11,Croatia,1990,1977.3
+12,Italy,1990,26059.6
+13,Cyprus,1990,106.5
+14,Latvia,1990,1582.8
+15,Lithuania,1990,1844.4
+16,Luxembourg,1990,498.2
+17,Hungary,1990,7052.7
+18,Malta,1990,55.4
+19,Netherlands,1990,10402.6
+20,Austria,1990,5873.8
+21,Poland,1990,17841.4
+22,Portugal,1990,2285.7
+23,Romania,1990,10566.0
+24,Slovenia,1990,951.8
+25,Slovakia,1990,2231.8
+26,Finland,1990,5345.3
+27,Sweden,1990,6551.5
+28,United Kingdom,1990,37369.9
+29,Iceland,1990,282.0
+30,Norway,1990,3604.7
+31,Switzerla,1990,:
+32,Montenegro,1990,0.0
+33,"Former Yugoslav Republic of Macedonia, the",1990,300.4
+34,Albania,1990,528.0
+35,Serbia,1990,2933.9
+36,Turkey,1990,14530.6
+37,Bosnia and Herzegovina,1990,454.3
+38,Kosovo (under United Nations Security Council Resolution 1244/99),1990,0.0
+39,EU-28,1991,291717.6
+40,Belgium,1991,9131.4
+41,Bulgaria,1991,2508.2
+42,Czech Republic,1991,6994.2
+43,Denmark,1991,4354.9
+44,Germany,1991,64961.2
+45,Estonia,1991,912.9
+46,Ireland,1991,2313.6
+47,Greece,1991,3146.5
+48,Spain,1991,9673.7
+49,France,1991,40407.8
+50,Croatia,1991,2300.8
+51,Italy,1991,28243.4
+52,Cyprus,1991,108.5
+53,Latvia,1991,1762.8
+54,Lithuania,1991,2008.9
+55,Luxembourg,1991,590.2
+56,Hungary,1991,7297.3
+57,Malta,1991,57.2
+58,Netherlands,1991,11749.7
+59,Austria,1991,6524.7
+60,Poland,1991,20474.0
+61,Portugal,1991,2358.7
+62,Romania,1991,7233.5
+63,Slovenia,1991,1132.9
+64,Slovakia,1991,1878.4
+65,Finland,1991,5571.1
+66,Sweden,1991,7166.6
+67,United Kingdom,1991,40854.2
+68,Iceland,1991,273.0
+69,Norway,1991,3667.2
+70,Switzerla,1991,:
+71,Montenegro,1991,0.0
+72,"Former Yugoslav Republic of Macedonia, the",1991,308.4
+73,Albania,1991,531.0
+74,Serbia,1991,2674.3
+75,Turkey,1991,14777.4
+76,Bosnia and Herzegovina,1991,429.3
+77,Kosovo (under United Nations Security Council Resolution 1244/99),1991,0.0
+78,EU-28,1992,282886.4
+79,Belgium,1992,9127.7
+80,Bulgaria,1992,2672.1
+81,Czech Republic,1992,6486.8
+82,Denmark,1992,4187.6
+83,Germany,1992,62181.2
+84,Estonia,1992,799.0
+85,Ireland,1992,2141.9
+86,Greece,1992,3175.2
+87,Spain,1992,9755.3
+88,France,1992,39720.7
+89,Croatia,1992,2008.6
+90,Italy,1992,26942.5
+91,Cyprus,1992,130.4
+92,Latvia,1992,1686.4
+93,Lithuania,1992,1631.2
+94,Luxembourg,1992,568.3
+95,Hungary,1992,6476.5
+96,Malta,1992,60.3
+97,Netherlands,1992,11012.0
+98,Austria,1992,6158.2
+99,Poland,1992,20849.3
+100,Portugal,1992,2421.8
+101,Romania,1992,6276.2
+102,Slovenia,1992,1009.9
+103,Slovakia,1992,1768.0
+104,Finland,1992,5560.5
+105,Sweden,1992,7832.9
+106,United Kingdom,1992,40246.0
+107,Iceland,1992,285.5
+108,Norway,1992,3617.6
+109,Switzerla,1992,:
+110,Montenegro,1992,0.0
+111,"Former Yugoslav Republic of Macedonia, the",1992,504.5
+112,Albania,1992,509.0
+113,Serbia,1992,2568.4
+114,Turkey,1992,15481.0
+115,Bosnia and Herzegovina,1992,443.6
+116,Kosovo (under United Nations Security Council Resolution 1244/99),1992,0.0
+117,EU-28,1993,292321.1
+118,Belgium,1993,9071.4
+119,Bulgaria,1993,2875.6
+120,Czech Republic,1993,6387.6
+121,Denmark,1993,4544.8
+122,Germany,1993,66269.2
+123,Estonia,1993,779.6
+124,Ireland,1993,2160.9
+125,Greece,1993,3157.9
+126,Spain,1993,9796.3
+127,France,1993,38639.8
+128,Croatia,1993,2083.9
+129,Italy,1993,26799.5
+130,Cyprus,1993,130.3
+131,Latvia,1993,1738.2
+132,Lithuania,1993,1716.3
+133,Luxembourg,1993,566.5
+134,Hungary,1993,6424.9
+135,Malta,1993,60.5
+136,Netherlands,1993,11531.9
+137,Austria,1993,6270.0
+138,Poland,1993,24421.2
+139,Portugal,1993,2488.0
+140,Romania,1993,6603.7
+141,Slovenia,1993,1099.0
+142,Slovakia,1993,1719.2
+143,Finland,1993,5339.2
+144,Sweden,1993,7934.3
+145,United Kingdom,1993,41711.5
+146,Iceland,1993,285.9
+147,Norway,1993,3673.2
+148,Switzerla,1993,:
+149,Montenegro,1993,0.0
+150,"Former Yugoslav Republic of Macedonia, the",1993,419.9
+151,Albania,1993,469.7
+152,Serbia,1993,2836.3
+153,Turkey,1993,15430.8
+154,Bosnia and Herzegovina,1993,357.8
+155,Kosovo (under United Nations Security Council Resolution 1244/99),1993,0.0
+156,EU-28,1994,281257.0
+157,Belgium,1994,8917.8
+158,Bulgaria,1994,2474.5
+159,Czech Republic,1994,6408.3
+160,Denmark,1994,4380.4
+161,Germany,1994,63744.0
+162,Estonia,1994,895.6
+163,Ireland,1994,2175.9
+164,Greece,1994,3208.2
+165,Spain,1994,10263.2
+166,France,1994,36397.9
+167,Croatia,1994,1989.3
+168,Italy,1994,24259.6
+169,Cyprus,1994,136.6
+170,Latvia,1994,1667.2
+171,Lithuania,1994,1751.8
+172,Luxembourg,1994,549.4
+173,Hungary,1994,6285.3
+174,Malta,1994,69.1
+175,Netherlands,1994,10965.4
+176,Austria,1994,5914.5
+177,Poland,1994,23096.0
+178,Portugal,1994,2537.7
+179,Romania,1994,6397.3
+180,Slovenia,1994,1091.8
+181,Slovakia,1994,1771.7
+182,Finland,1994,5535.2
+183,Sweden,1994,8041.6
+184,United Kingdom,1994,40331.7
+185,Iceland,1994,288.0
+186,Norway,1994,3824.0
+187,Switzerla,1994,:
+188,Montenegro,1994,0.0
+189,"Former Yugoslav Republic of Macedonia, the",1994,483.4
+190,Albania,1994,452.1
+191,Serbia,1994,2777.6
+192,Turkey,1994,14738.2
+193,Bosnia and Herzegovina,1994,398.9
+194,Kosovo (under United Nations Security Council Resolution 1244/99),1994,0.0
+195,EU-28,1995,285515.6
+196,Belgium,1995,9300.7
+197,Bulgaria,1995,2474.1
+198,Czech Republic,1995,6581.4
+199,Denmark,1995,4478.8
+200,Germany,1995,66250.4
+201,Estonia,1995,962.6
+202,Ireland,1995,2219.8
+203,Greece,1995,3333.6
+204,Spain,1995,10009.4
+205,France,1995,35786.9
+206,Croatia,1995,2192.2
+207,Italy,1995,26322.2
+208,Cyprus,1995,140.7
+209,Latvia,1995,1600.6
+210,Lithuania,1995,1642.3
+211,Luxembourg,1995,556.8
+212,Hungary,1995,6254.7
+213,Malta,1995,72.7
+214,Netherlands,1995,11790.1
+215,Austria,1995,6322.2
+216,Poland,1995,22664.7
+217,Portugal,1995,2564.0
+218,Romania,1995,6330.9
+219,Slovenia,1995,1161.8
+220,Slovakia,1995,1977.1
+221,Finland,1995,5442.7
+222,Sweden,1995,7743.8
+223,United Kingdom,1995,39338.4
+224,Iceland,1995,293.4
+225,Norway,1995,3864.4
+226,Switzerla,1995,:
+227,Montenegro,1995,0.0
+228,"Former Yugoslav Republic of Macedonia, the",1995,444.1
+229,Albania,1995,474.0
+230,Serbia,1995,2564.7
+231,Turkey,1995,16043.6
+232,Bosnia and Herzegovina,1995,397.4
+233,Kosovo (under United Nations Security Council Resolution 1244/99),1995,0.0
+234,EU-28,1996,310201.6
+235,Belgium,1996,10599.8
+236,Bulgaria,1996,2715.7
+237,Czech Republic,1996,7339.4
+238,Denmark,1996,4784.7
+239,Germany,1996,72325.2
+240,Estonia,1996,1195.6
+241,Ireland,1996,2299.7
+242,Greece,1996,3951.5
+243,Spain,1996,10569.9
+244,France,1996,39533.2
+245,Croatia,1996,2389.2
+246,Italy,1996,26911.4
+247,Cyprus,1996,147.3
+248,Latvia,1996,1691.8
+249,Lithuania,1996,1552.2
+250,Luxembourg,1996,617.7
+251,Hungary,1996,6286.0
+252,Malta,1996,75.4
+253,Netherlands,1996,13494.3
+254,Austria,1996,6964.2
+255,Poland,1996,23027.2
+256,Portugal,1996,2664.6
+257,Romania,1996,8105.4
+258,Slovenia,1996,1031.5
+259,Slovakia,1996,2233.2
+260,Finland,1996,5364.5
+261,Sweden,1996,8197.3
+262,United Kingdom,1996,44133.5
+263,Iceland,1996,284.9
+264,Norway,1996,3963.8
+265,Switzerla,1996,:
+266,Montenegro,1996,0.0
+267,"Former Yugoslav Republic of Macedonia, the",1996,472.3
+268,Albania,1996,516.0
+269,Serbia,1996,2909.0
+270,Turkey,1996,16438.0
+271,Bosnia and Herzegovina,1996,460.7
+272,Kosovo (under United Nations Security Council Resolution 1244/99),1996,0.0
+273,EU-28,1997,298365.3
+274,Belgium,1997,9863.0
+275,Bulgaria,1997,2241.4
+276,Czech Republic,1997,6982.7
+277,Denmark,1997,4472.2
+278,Germany,1997,71260.9
+279,Estonia,1997,1203.7
+280,Ireland,1997,2233.3
+281,Greece,1997,4091.5
+282,Spain,1997,10752.9
+283,France,1997,37304.3
+284,Croatia,1997,2389.3
+285,Italy,1997,26185.6
+286,Cyprus,1997,151.4
+287,Latvia,1997,1540.6
+288,Lithuania,1997,1500.8
+289,Luxembourg,1997,598.6
+290,Hungary,1997,5862.2
+291,Malta,1997,73.7
+292,Netherlands,1997,11664.8
+293,Austria,1997,6274.2
+294,Poland,1997,21701.4
+295,Portugal,1997,2663.5
+296,Romania,1997,9648.5
+297,Slovenia,1997,1067.5
+298,Slovakia,1997,2362.5
+299,Finland,1997,5227.5
+300,Sweden,1997,7926.7
+301,United Kingdom,1997,41120.4
+302,Iceland,1997,288.4
+303,Norway,1997,3834.4
+304,Switzerla,1997,:
+305,Montenegro,1997,0.0
+306,"Former Yugoslav Republic of Macedonia, the",1997,464.5
+307,Albania,1997,493.5
+308,Serbia,1997,2965.6
+309,Turkey,1997,17235.7
+310,Bosnia and Herzegovina,1997,482.6
+311,Kosovo (under United Nations Security Council Resolution 1244/99),1997,0.0
+312,EU-28,1998,298479.3
+313,Belgium,1998,9890.7
+314,Bulgaria,1998,2448.3
+315,Czech Republic,1998,6563.2
+316,Denmark,1998,4453.5
+317,Germany,1998,70254.1
+318,Estonia,1998,1043.8
+319,Ireland,1998,2417.6
+320,Greece,1998,4229.0
+321,Spain,1998,11098.4
+322,France,1998,38330.4
+323,Croatia,1998,2393.5
+324,Italy,1998,27512.1
+325,Cyprus,1998,156.2
+326,Latvia,1998,1499.3
+327,Lithuania,1998,1452.6
+328,Luxembourg,1998,625.8
+329,Hungary,1998,5650.8
+330,Malta,1998,65.8
+331,Netherlands,1998,11229.4
+332,Austria,1998,6380.8
+333,Poland,1998,19550.7
+334,Portugal,1998,2661.4
+335,Romania,1998,9497.6
+336,Slovenia,1998,1028.1
+337,Slovakia,1998,2448.3
+338,Finland,1998,5397.8
+339,Sweden,1998,7870.3
+340,United Kingdom,1998,42329.9
+341,Iceland,1998,289.4
+342,Norway,1998,3955.2
+343,Switzerla,1998,:
+344,Montenegro,1998,0.0
+345,"Former Yugoslav Republic of Macedonia, the",1998,428.4
+346,Albania,1998,483.6
+347,Serbia,1998,2983.3
+348,Turkey,1998,16887.0
+349,Bosnia and Herzegovina,1998,539.9
+350,Kosovo (under United Nations Security Council Resolution 1244/99),1998,0.0
+351,EU-28,1999,294208.1
+352,Belgium,1999,9489.0
+353,Bulgaria,1999,2223.5
+354,Czech Republic,1999,6516.9
+355,Denmark,1999,4335.0
+356,Germany,1999,65997.2
+357,Estonia,1999,958.2
+358,Ireland,1999,2450.8
+359,Greece,1999,4248.4
+360,Spain,1999,11806.0
+361,France,1999,38801.7
+362,Croatia,1999,2491.1
+363,Italy,1999,28620.6
+364,Cyprus,1999,158.1
+365,Latvia,1999,1410.0
+366,Lithuania,1999,1404.2
+367,Luxembourg,1999,571.1
+368,Hungary,1999,5796.2
+369,Malta,1999,74.4
+370,Netherlands,1999,10806.5
+371,Austria,1999,6539.9
+372,Poland,1999,19424.9
+373,Portugal,1999,2777.8
+374,Romania,1999,8740.4
+375,Slovenia,1999,1051.8
+376,Slovakia,1999,2568.3
+377,Finland,1999,5172.0
+378,Sweden,1999,7447.0
+379,United Kingdom,1999,42327.1
+380,Iceland,1999,299.9
+381,Norway,1999,3933.3
+382,Switzerla,1999,:
+383,Montenegro,1999,0.0
+384,"Former Yugoslav Republic of Macedonia, the",1999,452.2
+385,Albania,1999,354.9
+386,Serbia,1999,2728.4
+387,Turkey,1999,16955.5
+388,Bosnia and Herzegovina,1999,557.6
+389,Kosovo (under United Nations Security Council Resolution 1244/99),1999,0.0
+390,EU-28,2000,291201.3
+391,Belgium,2000,9474.5
+392,Bulgaria,2000,2154.7
+393,Czech Republic,2000,6422.8
+394,Denmark,2000,4161.9
+395,Germany,2000,65237.4
+396,Estonia,2000,929.4
+397,Ireland,2000,2513.0
+398,Greece,2000,4502.2
+399,Spain,2000,11999.9
+400,France,2000,40787.8
+401,Croatia,2000,2294.8
+402,Italy,2000,27590.2
+403,Cyprus,2000,175.7
+404,Latvia,2000,1326.6
+405,Lithuania,2000,1367.6
+406,Luxembourg,2000,468.0
+407,Hungary,2000,5603.2
+408,Malta,2000,75.9
+409,Netherlands,2000,10831.4
+410,Austria,2000,6340.3
+411,Poland,2000,17193.5
+412,Portugal,2000,2804.2
+413,Romania,2000,8409.0
+414,Slovenia,2000,1127.0
+415,Slovakia,2000,2586.2
+416,Finland,2000,4489.8
+417,Sweden,2000,7300.0
+418,United Kingdom,2000,43034.4
+419,Iceland,2000,310.7
+420,Norway,2000,3825.3
+421,Switzerla,2000,:
+422,Montenegro,2000,0.0
+423,"Former Yugoslav Republic of Macedonia, the",2000,480.2
+424,Albania,2000,376.2
+425,Serbia,2000,3127.4
+426,Turkey,2000,17594.6
+427,Bosnia and Herzegovina,2000,527.5
+428,Kosovo (under United Nations Security Council Resolution 1244/99),2000,277.1
+429,EU-28,2001,305520.8
+430,Belgium,2001,9873.6
+431,Bulgaria,2001,2002.8
+432,Czech Republic,2001,6996.6
+433,Denmark,2001,4410.2
+434,Germany,2001,69735.6
+435,Estonia,2001,948.8
+436,Ireland,2001,2661.6
+437,Greece,2001,4719.3
+438,Spain,2001,12620.2
+439,France,2001,42652.1
+440,Croatia,2001,2469.2
+441,Italy,2001,28905.2
+442,Cyprus,2001,174.6
+443,Latvia,2001,1442.3
+444,Lithuania,2001,1419.2
+445,Luxembourg,2001,503.5
+446,Hungary,2001,6009.5
+447,Malta,2001,74.3
+448,Netherlands,2001,11409.4
+449,Austria,2001,6682.4
+450,Poland,2001,18798.7
+451,Portugal,2001,2858.9
+452,Romania,2001,7278.1
+453,Slovenia,2001,1121.0
+454,Slovakia,2001,3082.4
+455,Finland,2001,4881.8
+456,Sweden,2001,7511.8
+457,United Kingdom,2001,44277.7
+458,Iceland,2001,313.2
+459,Norway,2001,3985.0
+460,Switzerla,2001,:
+461,Montenegro,2001,0.0
+462,"Former Yugoslav Republic of Macedonia, the",2001,440.7
+463,Albania,2001,374.5
+464,Serbia,2001,3159.0
+465,Turkey,2001,16303.8
+466,Bosnia and Herzegovina,2001,534.9
+467,Kosovo (under United Nations Security Council Resolution 1244/99),2001,322.7
+468,EU-28,2002,299256.9
+469,Belgium,2002,9315.6
+470,Bulgaria,2002,2163.6
+471,Czech Republic,2002,6706.8
+472,Denmark,2002,4303.7
+473,Germany,2002,67186.3
+474,Estonia,2002,917.7
+475,Ireland,2002,2624.2
+476,Greece,2002,4916.5
+477,Spain,2002,12952.6
+478,France,2002,40911.2
+479,Croatia,2002,2484.2
+480,Italy,2002,28741.3
+481,Cyprus,2002,192.9
+482,Latvia,2002,1431.0
+483,Lithuania,2002,1442.4
+484,Luxembourg,2002,483.1
+485,Hungary,2002,6017.5
+486,Malta,2002,80.0
+487,Netherlands,2002,11136.6
+488,Austria,2002,6428.9
+489,Poland,2002,18679.1
+490,Portugal,2002,2987.5
+491,Romania,2002,7217.2
+492,Slovenia,2002,1164.6
+493,Slovakia,2002,2997.9
+494,Finland,2002,4967.6
+495,Sweden,2002,7336.2
+496,United Kingdom,2002,43470.7
+497,Iceland,2002,321.5
+498,Norway,2002,3979.0
+499,Switzerla,2002,:
+500,Montenegro,2002,0.0
+501,"Former Yugoslav Republic of Macedonia, the",2002,449.3
+502,Albania,2002,574.5
+503,Serbia,2002,3209.2
+504,Turkey,2002,16654.8
+505,Bosnia and Herzegovina,2002,537.4
+506,Kosovo (under United Nations Security Council Resolution 1244/99),2002,322.2
+507,EU-28,2003,309170.1
+508,Belgium,2003,9849.6
+509,Bulgaria,2003,2277.6
+510,Czech Republic,2003,6912.6
+511,Denmark,2003,4413.1
+512,Germany,2003,66479.2
+513,Estonia,2003,925.8
+514,Ireland,2003,2746.6
+515,Greece,2003,5510.0
+516,Spain,2003,13897.7
+517,France,2003,42553.5
+518,Croatia,2003,2705.0
+519,Italy,2003,31590.0
+520,Cyprus,2003,209.3
+521,Latvia,2003,1498.8
+522,Lithuania,2003,1467.7
+523,Luxembourg,2003,501.0
+524,Hungary,2003,6604.5
+525,Malta,2003,88.2
+526,Netherlands,2003,11408.6
+527,Austria,2003,6555.0
+528,Poland,2003,18777.1
+529,Portugal,2003,3115.5
+530,Romania,2003,7819.2
+531,Slovenia,2003,1252.3
+532,Slovakia,2003,2839.5
+533,Finland,2003,5116.5
+534,Sweden,2003,7382.7
+535,United Kingdom,2003,44673.6
+536,Iceland,2003,319.0
+537,Norway,2003,3813.1
+538,Switzerla,2003,:
+539,Montenegro,2003,0.0
+540,"Former Yugoslav Republic of Macedonia, the",2003,493.3
+541,Albania,2003,381.4
+542,Serbia,2003,3251.9
+543,Turkey,2003,17501.2
+544,Bosnia and Herzegovina,2003,551.0
+545,Kosovo (under United Nations Security Council Resolution 1244/99),2003,318.9
+546,EU-28,2004,309091.3
+547,Belgium,2004,10022.5
+548,Bulgaria,2004,2116.8
+549,Czech Republic,2004,6810.6
+550,Denmark,2004,4400.8
+551,Germany,2004,64489.1
+552,Estonia,2004,923.3
+553,Ireland,2004,2867.4
+554,Greece,2004,5412.2
+555,Spain,2004,14671.0
+556,France,2004,44189.9
+557,Croatia,2004,2700.1
+558,Italy,2004,31425.2
+559,Cyprus,2004,201.5
+560,Latvia,2004,1472.8
+561,Lithuania,2004,1481.4
+562,Luxembourg,2004,532.5
+563,Hungary,2004,6096.0
+564,Malta,2004,88.0
+565,Netherlands,2004,11040.8
+566,Austria,2004,6424.7
+567,Poland,2004,18818.2
+568,Portugal,2004,3217.1
+569,Romania,2004,7964.7
+570,Slovenia,2004,1242.3
+571,Slovakia,2004,2666.5
+572,Finland,2004,5035.7
+573,Sweden,2004,7147.1
+574,United Kingdom,2004,45633.5
+575,Iceland,2004,328.3
+576,Norway,2004,3740.4
+577,Switzerla,2004,:
+578,Montenegro,2004,0.0
+579,"Former Yugoslav Republic of Macedonia, the",2004,490.2
+580,Albania,2004,549.3
+581,Serbia,2004,3121.0
+582,Turkey,2004,18074.0
+583,Bosnia and Herzegovina,2004,550.9
+584,Kosovo (under United Nations Security Council Resolution 1244/99),2004,326.8
+585,EU-28,2005,309224.2
+586,Belgium,2005,9924.8
+587,Bulgaria,2005,2116.7
+588,Czech Republic,2005,6649.2
+589,Denmark,2005,4451.6
+590,Germany,2005,63498.2
+591,Estonia,2005,890.4
+592,Ireland,2005,2954.2
+593,Greece,2005,5509.8
+594,Spain,2005,15131.9
+595,France,2005,43069.9
+596,Croatia,2005,2815.7
+597,Italy,2005,33921.6
+598,Cyprus,2005,317.1
+599,Latvia,2005,1503.9
+600,Lithuania,2005,1509.0
+601,Luxembourg,2005,524.6
+602,Hungary,2005,6463.8
+603,Malta,2005,76.4
+604,Netherlands,2005,10743.4
+605,Austria,2005,6192.3
+606,Poland,2005,19454.0
+607,Portugal,2005,3224.0
+608,Romania,2005,7990.3
+609,Slovenia,2005,1188.1
+610,Slovakia,2005,2540.4
+611,Finland,2005,5019.7
+612,Sweden,2005,7305.2
+613,United Kingdom,2005,44238.1
+614,Iceland,2005,335.0
+615,Norway,2005,3875.0
+616,Switzerla,2005,:
+617,Montenegro,2005,243.4
+618,"Former Yugoslav Republic of Macedonia, the",2005,539.9
+619,Albania,2005,517.3
+620,Serbia,2005,3113.7
+621,Turkey,2005,19309.4
+622,Bosnia and Herzegovina,2005,576.0
+623,Kosovo (under United Nations Security Council Resolution 1244/99),2005,345.0
+624,EU-28,2006,305847.7
+625,Belgium,2006,8919.4
+626,Bulgaria,2006,2166.6
+627,Czech Republic,2006,6762.9
+628,Denmark,2006,4444.5
+629,Germany,2006,63899.4
+630,Estonia,2006,882.2
+631,Ireland,2006,3085.1
+632,Greece,2006,5504.5
+633,Spain,2006,15578.0
+634,France,2006,42311.4
+635,Croatia,2006,2654.5
+636,Italy,2006,32423.7
+637,Cyprus,2006,328.3
+638,Latvia,2006,1480.6
+639,Lithuania,2006,1573.0
+640,Luxembourg,2006,516.4
+641,Hungary,2006,6212.8
+642,Malta,2006,80.7
+643,Netherlands,2006,10849.7
+644,Austria,2006,5934.3
+645,Poland,2006,20454.3
+646,Portugal,2006,3219.5
+647,Romania,2006,7853.6
+648,Slovenia,2006,1158.2
+649,Slovakia,2006,2310.1
+650,Finland,2006,5121.6
+651,Sweden,2006,7003.7
+652,United Kingdom,2006,43118.8
+653,Iceland,2006,343.9
+654,Norway,2006,3815.0
+655,Switzerla,2006,:
+656,Montenegro,2006,247.1
+657,"Former Yugoslav Republic of Macedonia, the",2006,545.8
+658,Albania,2006,451.9
+659,Serbia,2006,2838.2
+660,Turkey,2006,19893.9
+661,Bosnia and Herzegovina,2006,579.3
+662,Kosovo (under United Nations Security Council Resolution 1244/99),2006,352.6
+663,EU-28,2007,286381.8
+664,Belgium,2007,8264.7
+665,Bulgaria,2007,2067.7
+666,Czech Republic,2007,6385.4
+667,Denmark,2007,4446.0
+668,Germany,2007,54433.9
+669,Estonia,2007,962.7
+670,Ireland,2007,2958.2
+671,Greece,2007,5388.3
+672,Spain,2007,15623.6
+673,France,2007,39060.9
+674,Croatia,2007,2522.5
+675,Italy,2007,32339.6
+676,Cyprus,2007,339.6
+677,Latvia,2007,1457.7
+678,Lithuania,2007,1507.7
+679,Luxembourg,2007,501.7
+680,Hungary,2007,5555.1
+681,Malta,2007,80.6
+682,Netherlands,2007,9975.2
+683,Austria,2007,5828.9
+684,Poland,2007,19349.8
+685,Portugal,2007,3225.9
+686,Romania,2007,7518.1
+687,Slovenia,2007,1047.8
+688,Slovakia,2007,2080.6
+689,Finland,2007,5123.6
+690,Sweden,2007,6731.1
+691,United Kingdom,2007,41605.0
+692,Iceland,2007,359.9
+693,Norway,2007,3839.8
+694,Switzerla,2007,:
+695,Montenegro,2007,245.4
+696,"Former Yugoslav Republic of Macedonia, the",2007,533.9
+697,Albania,2007,423.1
+698,Serbia,2007,3247.3
+699,Turkey,2007,20728.9
+700,Bosnia and Herzegovina,2007,578.4
+701,Kosovo (under United Nations Security Council Resolution 1244/99),2007,337.9
+702,EU-28,2008,300752.5
+703,Belgium,2008,8965.7
+704,Bulgaria,2008,2117.0
+705,Czech Republic,2008,6481.3
+706,Denmark,2008,4423.9
+707,Germany,2008,60601.7
+708,Estonia,2008,953.5
+709,Ireland,2008,3205.6
+710,Greece,2008,5222.6
+711,Spain,2008,15494.8
+712,France,2008,42403.5
+713,Croatia,2008,2581.5
+714,Italy,2008,33611.7
+715,Cyprus,2008,333.1
+716,Latvia,2008,1451.5
+717,Lithuania,2008,1557.4
+718,Luxembourg,2008,510.3
+719,Hungary,2008,5571.5
+720,Malta,2008,79.6
+721,Netherlands,2008,11016.7
+722,Austria,2008,5891.9
+723,Poland,2008,19651.7
+724,Portugal,2008,3117.7
+725,Romania,2008,8070.0
+726,Slovenia,2008,1115.3
+727,Slovakia,2008,2131.0
+728,Finland,2008,5040.6
+729,Sweden,2008,6638.1
+730,United Kingdom,2008,42513.4
+731,Iceland,2008,374.9
+732,Norway,2008,3836.9
+733,Switzerla,2008,:
+734,Montenegro,2008,251.1
+735,"Former Yugoslav Republic of Macedonia, the",2008,530.9
+736,Albania,2008,445.3
+737,Serbia,2008,2911.2
+738,Turkey,2008,22607.7
+739,Bosnia and Herzegovina,2008,679.9
+740,Kosovo (under United Nations Security Council Resolution 1244/99),2008,461.4
+741,EU-28,2009,298303.1
+742,Belgium,2009,8484.2
+743,Bulgaria,2009,2116.2
+744,Czech Republic,2009,6615.4
+745,Denmark,2009,4426.5
+746,Germany,2009,58542.3
+747,Estonia,2009,970.7
+748,Ireland,2009,3144.2
+749,Greece,2009,4835.6
+750,Spain,2009,15923.4
+751,France,2009,42065.5
+752,Croatia,2009,2633.5
+753,Italy,2009,34040.6
+754,Cyprus,2009,352.3
+755,Latvia,2009,1534.6
+756,Lithuania,2009,1574.4
+757,Luxembourg,2009,517.0
+758,Hungary,2009,5521.4
+759,Malta,2009,67.7
+760,Netherlands,2009,11016.5
+761,Austria,2009,5789.9
+762,Poland,2009,19967.0
+763,Portugal,2009,3197.7
+764,Romania,2009,8015.2
+765,Slovenia,2009,1285.9
+766,Slovakia,2009,2147.4
+767,Finland,2009,5299.3
+768,Sweden,2009,6949.9
+769,United Kingdom,2009,41268.8
+770,Iceland,2009,375.1
+771,Norway,2009,3995.4
+772,Switzerla,2009,:
+773,Montenegro,2009,266.3
+774,"Former Yugoslav Republic of Macedonia, the",2009,549.2
+775,Albania,2009,487.2
+776,Serbia,2009,3054.3
+777,Turkey,2009,21404.0
+778,Bosnia and Herzegovina,2009,784.5
+779,Kosovo (under United Nations Security Council Resolution 1244/99),2009,455.7
+780,EU-28,2010,318863.5
+781,Belgium,2010,9411.4
+782,Bulgaria,2010,2246.4
+783,Czech Republic,2010,7399.4
+784,Denmark,2010,4914.5
+785,Germany,2010,62453.8
+786,Estonia,2010,1027.7
+787,Ireland,2010,3296.2
+788,Greece,2010,4615.0
+789,Spain,2010,16919.6
+790,France,2010,43103.3
+791,Croatia,2010,2757.1
+792,Italy,2010,35392.9
+793,Cyprus,2010,332.5
+794,Latvia,2010,1388.9
+795,Lithuania,2010,1599.1
+796,Luxembourg,2010,507.4
+797,Hungary,2010,6649.3
+798,Malta,2010,69.4
+799,Netherlands,2010,12459.5
+800,Austria,2010,6329.5
+801,Poland,2010,21967.0
+802,Portugal,2010,2969.5
+803,Romania,2010,8102.1
+804,Slovenia,2010,1326.3
+805,Slovakia,2010,2311.8
+806,Finland,2010,5814.0
+807,Sweden,2010,8035.1
+808,United Kingdom,2010,45464.8
+809,Iceland,2010,377.5
+810,Norway,2010,4423.8
+811,Switzerla,2010,:
+812,Montenegro,2010,274.7
+813,"Former Yugoslav Republic of Macedonia, the",2010,538.2
+814,Albania,2010,489.0
+815,Serbia,2010,3090.8
+816,Turkey,2010,22455.3
+817,Bosnia and Herzegovina,2010,820.0
+818,Kosovo (under United Nations Security Council Resolution 1244/99),2010,461.9
+819,EU-28,2011,283001.4
+820,Belgium,2011,7941.9
+821,Bulgaria,2011,2380.1
+822,Czech Republic,2011,6823.5
+823,Denmark,2011,4399.1
+824,Germany,2011,54563.9
+825,Estonia,2011,936.3
+826,Ireland,2011,2766.3
+827,Greece,2011,5469.9
+828,Spain,2011,15627.0
+829,France,2011,37487.8
+830,Croatia,2011,2631.2
+831,Italy,2011,32378.1
+832,Cyprus,2011,351.6
+833,Latvia,2011,1327.4
+834,Lithuania,2011,1538.6
+835,Luxembourg,2011,454.8
+836,Hungary,2011,6569.4
+837,Malta,2011,68.9
+838,Netherlands,2011,10251.8
+839,Austria,2011,5857.9
+840,Poland,2011,20085.8
+841,Portugal,2011,2776.3
+842,Romania,2011,7859.6
+843,Slovenia,2011,1264.6
+844,Slovakia,2011,2121.3
+845,Finland,2011,5081.7
+846,Sweden,2011,7465.6
+847,United Kingdom,2011,36521.2
+848,Iceland,2011,370.8
+849,Norway,2011,3951.5
+850,Switzerla,2011,:
+851,Montenegro,2011,269.5
+852,"Former Yugoslav Republic of Macedonia, the",2011,567.0
+853,Albania,2011,498.3
+854,Serbia,2011,3146.9
+855,Turkey,2011,23530.5
+856,Bosnia and Herzegovina,2011,825.9
+857,Kosovo (under United Nations Security Council Resolution 1244/99),2011,491.2
+858,EU-28,2012,297526.9
+859,Belgium,2012,8302.4
+860,Bulgaria,2012,2358.0
+861,Czech Republic,2012,7069.7
+862,Denmark,2012,4340.2
+863,Germany,2012,56627.4
+864,Estonia,2012,972.1
+865,Ireland,2012,2743.2
+866,Greece,2012,5039.4
+867,Spain,2012,15524.9
+868,France,2012,41459.6
+869,Croatia,2012,2549.1
+870,Italy,2012,34348.3
+871,Cyprus,2012,345.4
+872,Latvia,2012,1376.2
+873,Lithuania,2012,1542.3
+874,Luxembourg,2012,490.6
+875,Hungary,2012,6376.4
+876,Malta,2012,72.1
+877,Netherlands,2012,10854.6
+878,Austria,2012,6052.3
+879,Poland,2012,20754.8
+880,Portugal,2012,2694.9
+881,Romania,2012,8060.6
+882,Slovenia,2012,1219.0
+883,Slovakia,2012,2070.4
+884,Finland,2012,5432.2
+885,Sweden,2012,7828.4
+886,United Kingdom,2012,41022.4
+887,Iceland,2012,400.5
+888,Norway,2012,4145.9
+889,Switzerla,2012,:
+890,Montenegro,2012,282.0
+891,"Former Yugoslav Republic of Macedonia, the",2012,559.0
+892,Albania,2012,509.1
+893,Serbia,2012,3134.5
+894,Turkey,2012,21951.4
+895,Bosnia and Herzegovina,2012,809.4
+896,Kosovo (under United Nations Security Council Resolution 1244/99),2012,474.3
+897,EU-28,2013,300489.2
+898,Belgium,2013,8975.7
+899,Bulgaria,2013,2245.5
+900,Czech Republic,2013,7216.2
+901,Denmark,2013,4354.7
+902,Germany,2013,59697.9
+903,Estonia,2013,934.8
+904,Ireland,2013,2803.0
+905,Greece,2013,3764.0
+906,Spain,2013,14881.9
+907,France,2013,43280.1
+908,Croatia,2013,2480.4
+909,Italy,2013,34230.6
+910,Cyprus,2013,301.1
+911,Latvia,2013,1267.2
+912,Lithuania,2013,1474.9
+913,Luxembourg,2013,497.4
+914,Hungary,2013,6209.9
+915,Malta,2013,71.6
+916,Netherlands,2013,11409.2
+917,Austria,2013,6398.4
+918,Poland,2013,20416.4
+919,Portugal,2013,2635.0
+920,Romania,2013,7722.0
+921,Slovenia,2013,1203.4
+922,Slovakia,2013,2147.6
+923,Finland,2013,5114.7
+924,Sweden,2013,7479.3
+925,United Kingdom,2013,41276.4
+926,Iceland,2013,399.1
+927,Norway,2013,4097.5
+928,Switzerla,2013,:
+929,Montenegro,2013,269.7
+930,"Former Yugoslav Republic of Macedonia, the",2013,519.0
+931,Albania,2013,580.0
+932,Serbia,2013,2859.5
+933,Turkey,2013,19898.7
+934,Bosnia and Herzegovina,2013,759.3
+935,Kosovo (under United Nations Security Council Resolution 1244/99),2013,494.2
+936,EU-28,2014,264514.7
+937,Belgium,2014,7403.9
+938,Bulgaria,2014,2167.0
+939,Czech Republic,2014,6489.9
+940,Denmark,2014,3956.7
+941,Germany,2014,51527.5
+942,Estonia,2014,889.3
+943,Ireland,2014,2590.3
+944,Greece,2014,3786.0
+945,Spain,2014,14709.2
+946,France,2014,36244.2
+947,Croatia,2014,2218.7
+948,Italy,2014,29546.0
+949,Cyprus,2014,289.7
+950,Latvia,2014,1238.5
+951,Lithuania,2014,1407.1
+952,Luxembourg,2014,465.1
+953,Hungary,2014,5475.3
+954,Malta,2014,71.3
+955,Netherlands,2014,9121.6
+956,Austria,2014,5624.2
+957,Poland,2014,18966.6
+958,Portugal,2014,2565.6
+959,Romania,2014,7409.7
+960,Slovenia,2014,1017.2
+961,Slovakia,2014,1952.1
+962,Finland,2014,5070.3
+963,Sweden,2014,7018.0
+964,United Kingdom,2014,35293.9
+965,Iceland,2014,384.8
+966,Norway,2014,3815.6
+967,Switzerla,2014,:
+968,Montenegro,2014,256.6
+969,"Former Yugoslav Republic of Macedonia, the",2014,523.6
+970,Albania,2014,556.2
+971,Serbia,2014,2760.2
+972,Turkey,2014,19157.4
+973,Bosnia and Herzegovina,2014,2157.8
+974,Kosovo (under United Nations Security Council Resolution 1244/99),2014,479.9
+975,EU-28,2015,275155.2
+976,Belgium,2015,8135.7
+977,Bulgaria,2015,2195.1
+978,Czech Republic,2015,6692.9
+979,Denmark,2015,4254.3
+980,Germany,2015,53171.0
+981,Estonia,2015,858.2
+982,Ireland,2015,2711.7
+983,Greece,2015,4400.5
+984,Spain,2015,14876.1
+985,France,2015,37663.9
+986,Croatia,2015,2418.1
+987,Italy,2015,32494.5
+988,Cyprus,2015,317.1
+989,Latvia,2015,1105.6
+990,Lithuania,2015,1364.6
+991,Luxembourg,2015,494.6
+992,Hungary,2015,5956.4
+993,Malta,2015,78.2
+994,Netherlands,2015,9557.2
+995,Austria,2015,5978.1
+996,Poland,2015,18842.7
+997,Portugal,2015,2538.6
+998,Romania,2015,7375.2
+999,Slovenia,2015,1110.9
+1000,Slovakia,2015,1987.9
+1001,Finland,2015,4898.4
+1002,Sweden,2015,7197.2
+1003,United Kingdom,2015,36480.7
+1004,Iceland,2015,392.4
+1005,Norway,2015,3880.6
+1006,Switzerla,2015,:
+1007,Montenegro,2015,265.8
+1008,"Former Yugoslav Republic of Macedonia, the",2015,543.0
+1009,Albania,2015,532.3
+1010,Serbia,2015,2832.1
+1011,Turkey,2015,20140.9
+1012,Bosnia and Herzegovina,2015,580.7
+1013,Kosovo (under United Nations Security Council Resolution 1244/99),2015,476.4

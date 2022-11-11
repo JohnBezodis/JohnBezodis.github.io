@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 580,
+    "height": 500,
+    
+    "data" : {
+      "url" : "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/europe.geo.json",
+      "format": {
+        "property": "features"}},
+  
+        "projection": {
+          "type": "mercator",
+          "scale": 410,
+          "center": [15,56]
+        },
+  
+        "mark":{
+          "type": "geoshape",
+          "fill": "lightgray",
+          "stroke": "darkgray",
+          "strokeWidth": 0.5
+        },
+  
+  
+      "encoding": {
+        "tooltip": {
+          "field": "properties.name_en", "type": "nominal"
+        }
+      }
+      
+  
+  }

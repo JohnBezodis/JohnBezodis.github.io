@@ -1,0 +1,48 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 520,
+    "height": 500,
+    "view": {"stroke": "transparent"},
+  
+     "title": {
+      "text": "Unit consumption per m2 for space heating scaled to EU average climate 2019",
+      "fontSize": 12,
+      "subtitle":["killograms of oil equivalent  per metre squared (koe/m^2). White = NA", "Source: ODYSEE"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10, "anchor": "middle"
+    },
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/europe.geo.json",
+      "format": {"property": "features"}
+    },
+  
+    "transform": [{
+    "lookup": "properties.name_en",
+    "from": {
+      "key": "country",
+      "fields": ["heat_consump"],
+      "data": {"url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/space_heating_tidy.csv"}}}],
+  
+    "projection": {"type": "mercator", 
+        "scale": 410,
+        "center": [15,56]},
+    "mark": {"type": "geoshape", "stroke": "darkgray"}, 
+  
+    "encoding":{
+      "color":{
+        "field":"heat_consump",
+        "legend":{
+          "title": null,
+          "orient": "right",
+          "direction": "vertical"},
+          "type": "quantitative",
+          "scale":{
+            "scheme":"lightgreyred",
+            "reverse": false}},
+      "tooltip":[
+        {"field":"properties.name_en", "title": "Country"},
+        {"field":"heat_consump", "title": "Unit consumption:"}
+      ]
+    }}

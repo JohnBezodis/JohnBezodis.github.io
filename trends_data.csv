@@ -1,167 +1,1163 @@
-date,insulation,efficient heater,efficient boiler,energy efficient,double glazing,triple glazing,secondary glazing
-2019-09-01,44,9,0,9,51,47,32
-2019-09-08,47,9,27,14,51,30,41
-2019-09-15,44,7,17,10,52,24,46
-2019-09-22,44,6,20,10,50,21,49
-2019-09-29,50,20,0,16,58,45,29
-2019-10-06,54,8,15,15,54,52,45
-2019-10-13,54,10,17,17,49,28,43
-2019-10-20,55,18,33,17,55,26,50
-2019-10-27,60,20,32,15,58,44,45
-2019-11-03,62,17,29,14,62,24,47
-2019-11-10,66,25,18,18,53,45,55
-2019-11-17,70,24,45,19,49,14,48
-2019-11-24,53,8,51,15,35,65,31
-2019-12-01,62,15,22,17,43,16,32
-2019-12-08,53,13,19,13,33,17,29
-2019-12-15,50,15,30,16,37,39,25
-2019-12-22,30,9,18,8,23,35,16
-2019-12-29,40,5,25,12,42,51,37
-2020-01-05,53,9,14,18,46,35,37
-2020-01-12,55,6,36,18,57,46,22
-2020-01-19,60,11,11,15,58,64,30
-2020-01-26,57,4,13,11,54,30,26
-2020-02-02,57,6,52,16,50,28,29
-2020-02-09,59,5,20,15,62,27,36
-2020-02-16,54,12,18,16,63,29,40
-2020-02-23,51,8,26,11,59,37,27
-2020-03-01,52,5,15,12,55,46,38
-2020-03-08,46,7,26,10,49,41,23
-2020-03-15,40,6,0,12,35,14,21
-2020-03-22,36,6,22,10,38,14,8
-2020-03-29,36,4,23,10,26,26,15
-2020-04-05,38,2,0,9,35,19,4
-2020-04-12,38,2,0,9,37,13,12
-2020-04-19,40,3,11,10,48,23,13
-2020-04-26,41,3,0,10,39,30,19
-2020-05-03,40,7,19,15,45,28,15
-2020-05-10,46,4,0,10,51,34,0
-2020-05-17,45,2,13,10,57,18,24
-2020-05-24,40,6,12,9,55,35,19
-2020-05-31,46,5,8,13,63,31,16
-2020-06-07,52,3,8,10,53,35,18
-2020-06-14,48,2,0,13,62,39,20
-2020-06-21,49,3,0,11,64,37,16
-2020-06-28,52,0,12,11,68,20,19
-2020-07-05,84,4,45,29,100,88,27
-2020-07-12,57,4,13,13,77,15,22
-2020-07-19,55,5,17,13,70,23,32
-2020-07-26,53,0,45,12,73,39,18
-2020-08-02,58,9,16,19,72,47,23
-2020-08-09,52,5,23,14,73,31,11
-2020-08-16,54,2,7,11,70,38,24
-2020-08-23,57,5,0,8,77,48,31
-2020-08-30,62,11,0,16,84,40,43
-2020-09-06,63,5,0,15,76,61,19
-2020-09-13,62,3,17,14,70,39,14
-2020-09-20,69,21,29,14,72,17,40
-2020-09-27,82,26,23,21,76,51,24
-2020-10-04,76,20,19,22,81,55,43
-2020-10-11,74,22,23,22,75,34,52
-2020-10-18,70,11,19,14,68,36,37
-2020-10-25,66,17,43,14,63,34,39
-2020-11-01,67,18,12,19,64,12,30
-2020-11-08,70,19,22,16,55,15,29
-2020-11-15,72,12,8,15,63,54,31
-2020-11-22,67,17,23,19,59,32,35
-2020-11-29,73,19,19,16,48,33,35
-2020-12-06,75,26,19,20,44,25,33
-2020-12-13,52,5,10,11,48,24,15
-2020-12-20,43,6,9,11,37,19,24
-2020-12-27,63,21,16,15,56,42,36
-2021-01-03,88,26,28,23,60,49,58
-2021-01-10,82,17,34,20,62,33,36
-2021-01-17,75,15,20,16,62,45,45
-2021-01-24,78,15,17,14,63,34,30
-2021-01-31,75,15,0,18,62,46,31
-2021-02-07,100,26,47,22,80,41,44
-2021-02-14,82,9,15,11,70,33,40
-2021-02-21,68,7,0,18,77,44,24
-2021-02-28,66,4,26,16,67,28,42
-2021-03-07,65,5,23,14,66,47,28
-2021-03-14,64,10,31,12,67,43,38
-2021-03-21,68,0,0,12,80,46,35
-2021-03-28,57,5,0,10,73,47,21
-2021-04-04,59,6,8,15,78,31,34
-2021-04-11,59,5,0,11,76,51,32
-2021-04-18,58,4,21,13,80,49,19
-2021-04-25,58,5,19,12,67,24,25
-2021-05-02,57,6,10,15,69,28,18
-2021-05-09,56,3,0,18,57,24,23
-2021-05-16,49,0,0,11,52,31,8
-2021-05-23,48,6,0,11,54,18,31
-2021-05-30,46,7,17,16,66,30,16
-2021-06-06,47,0,0,11,56,31,20
-2021-06-13,43,8,12,9,61,30,7
-2021-06-20,45,4,0,8,51,19,13
-2021-06-27,43,4,21,11,55,38,20
-2021-07-04,44,0,12,6,54,0,13
-2021-07-11,44,6,10,8,50,14,13
-2021-07-18,41,0,18,15,62,14,16
-2021-07-25,42,5,23,8,48,33,10
-2021-08-01,43,5,12,10,53,28,17
-2021-08-08,44,7,10,9,58,15,28
-2021-08-15,50,4,22,11,53,26,25
-2021-08-22,46,4,20,13,57,12,24
-2021-08-29,43,3,18,14,50,19,12
-2021-09-05,45,9,10,11,50,24,19
-2021-09-12,50,11,0,17,54,40,21
-2021-09-19,55,7,15,18,54,49,39
-2021-09-26,64,21,26,20,64,14,38
-2021-10-03,68,18,57,25,62,23,60
-2021-10-10,64,23,35,22,57,54,46
-2021-10-17,76,16,53,26,65,58,66
-2021-10-24,68,11,42,22,59,18,15
-2021-10-31,81,22,33,23,67,57,58
-2021-11-07,68,13,37,23,56,54,51
-2021-11-14,63,16,47,16,46,37,20
-2021-11-21,70,34,18,23,62,47,55
-2021-11-28,77,34,55,23,51,58,53
-2021-12-05,64,29,16,21,49,28,38
-2021-12-12,50,9,10,13,39,12,25
-2021-12-19,40,16,17,14,31,54,19
-2021-12-26,39,5,17,16,38,38,17
-2022-01-02,63,21,0,26,58,54,43
-2022-01-09,83,26,46,22,65,100,49
-2022-01-16,73,27,37,29,55,54,40
-2022-01-23,75,18,42,24,55,66,45
-2022-01-30,74,12,49,36,55,77,37
-2022-02-06,78,9,53,27,62,52,57
-2022-02-13,71,14,32,22,54,61,42
-2022-02-20,67,16,28,25,63,33,25
-2022-02-27,61,9,52,27,55,54,29
-2022-03-06,71,16,75,39,53,58,44
-2022-03-13,61,13,0,26,58,23,29
-2022-03-20,63,9,42,24,58,58,30
-2022-03-27,70,20,73,43,59,56,37
-2022-04-03,74,14,56,42,58,50,22
-2022-04-10,57,0,10,28,50,43,27
-2022-04-17,59,6,35,23,56,24,23
-2022-04-24,54,7,26,24,55,39,24
-2022-05-01,56,5,22,22,49,48,37
-2022-05-08,54,6,36,22,47,47,26
-2022-05-15,53,6,27,18,45,30,30
-2022-05-22,53,10,33,24,48,33,19
-2022-05-29,47,5,23,19,43,12,14
-2022-06-05,55,7,22,20,50,34,31
-2022-06-12,47,3,12,16,48,0,28
-2022-06-19,51,4,20,20,51,41,14
-2022-06-26,53,4,12,21,43,29,31
-2022-07-03,47,5,10,18,49,47,27
-2022-07-10,47,6,9,21,49,44,15
-2022-07-17,49,3,0,21,53,45,29
-2022-07-24,56,11,32,25,56,27,24
-2022-07-31,58,11,38,28,52,23,26
-2022-08-07,57,25,44,31,54,21,33
-2022-08-14,58,8,48,31,60,29,44
-2022-08-21,76,32,67,54,60,44,55
-2022-08-28,81,35,95,100,53,52,81
-2022-09-04,78,27,61,72,58,30,54
-2022-09-11,81,47,51,54,56,38,100
-2022-09-18,76,66,56,54,53,69,73
-2022-09-25,97,100,74,82,60,85,90
-2022-10-02,88,58,77,67,51,49,72
-2022-10-09,82,50,42,61,60,32,53
-2022-10-16,77,39,100,54,55,55,59
-2022-10-23,66,20,45,47,51,49,56
-2022-10-30,76,47,70,57,64,56,60
+,date,search_term,interest
+0,2019-09-01,insulation,44
+1,2019-09-08,insulation,47
+2,2019-09-15,insulation,44
+3,2019-09-22,insulation,44
+4,2019-09-29,insulation,50
+5,2019-10-06,insulation,54
+6,2019-10-13,insulation,54
+7,2019-10-20,insulation,55
+8,2019-10-27,insulation,60
+9,2019-11-03,insulation,62
+10,2019-11-10,insulation,66
+11,2019-11-17,insulation,70
+12,2019-11-24,insulation,53
+13,2019-12-01,insulation,62
+14,2019-12-08,insulation,53
+15,2019-12-15,insulation,50
+16,2019-12-22,insulation,30
+17,2019-12-29,insulation,40
+18,2020-01-05,insulation,53
+19,2020-01-12,insulation,55
+20,2020-01-19,insulation,60
+21,2020-01-26,insulation,57
+22,2020-02-02,insulation,57
+23,2020-02-09,insulation,59
+24,2020-02-16,insulation,54
+25,2020-02-23,insulation,51
+26,2020-03-01,insulation,52
+27,2020-03-08,insulation,46
+28,2020-03-15,insulation,40
+29,2020-03-22,insulation,36
+30,2020-03-29,insulation,36
+31,2020-04-05,insulation,38
+32,2020-04-12,insulation,38
+33,2020-04-19,insulation,40
+34,2020-04-26,insulation,41
+35,2020-05-03,insulation,40
+36,2020-05-10,insulation,46
+37,2020-05-17,insulation,45
+38,2020-05-24,insulation,40
+39,2020-05-31,insulation,46
+40,2020-06-07,insulation,52
+41,2020-06-14,insulation,48
+42,2020-06-21,insulation,49
+43,2020-06-28,insulation,52
+44,2020-07-05,insulation,84
+45,2020-07-12,insulation,57
+46,2020-07-19,insulation,55
+47,2020-07-26,insulation,53
+48,2020-08-02,insulation,58
+49,2020-08-09,insulation,52
+50,2020-08-16,insulation,54
+51,2020-08-23,insulation,57
+52,2020-08-30,insulation,62
+53,2020-09-06,insulation,63
+54,2020-09-13,insulation,62
+55,2020-09-20,insulation,69
+56,2020-09-27,insulation,82
+57,2020-10-04,insulation,76
+58,2020-10-11,insulation,74
+59,2020-10-18,insulation,70
+60,2020-10-25,insulation,66
+61,2020-11-01,insulation,67
+62,2020-11-08,insulation,70
+63,2020-11-15,insulation,72
+64,2020-11-22,insulation,67
+65,2020-11-29,insulation,73
+66,2020-12-06,insulation,75
+67,2020-12-13,insulation,52
+68,2020-12-20,insulation,43
+69,2020-12-27,insulation,63
+70,2021-01-03,insulation,88
+71,2021-01-10,insulation,82
+72,2021-01-17,insulation,75
+73,2021-01-24,insulation,78
+74,2021-01-31,insulation,75
+75,2021-02-07,insulation,100
+76,2021-02-14,insulation,82
+77,2021-02-21,insulation,68
+78,2021-02-28,insulation,66
+79,2021-03-07,insulation,65
+80,2021-03-14,insulation,64
+81,2021-03-21,insulation,68
+82,2021-03-28,insulation,57
+83,2021-04-04,insulation,59
+84,2021-04-11,insulation,59
+85,2021-04-18,insulation,58
+86,2021-04-25,insulation,58
+87,2021-05-02,insulation,57
+88,2021-05-09,insulation,56
+89,2021-05-16,insulation,49
+90,2021-05-23,insulation,48
+91,2021-05-30,insulation,46
+92,2021-06-06,insulation,47
+93,2021-06-13,insulation,43
+94,2021-06-20,insulation,45
+95,2021-06-27,insulation,43
+96,2021-07-04,insulation,44
+97,2021-07-11,insulation,44
+98,2021-07-18,insulation,41
+99,2021-07-25,insulation,42
+100,2021-08-01,insulation,43
+101,2021-08-08,insulation,44
+102,2021-08-15,insulation,50
+103,2021-08-22,insulation,46
+104,2021-08-29,insulation,43
+105,2021-09-05,insulation,45
+106,2021-09-12,insulation,50
+107,2021-09-19,insulation,55
+108,2021-09-26,insulation,64
+109,2021-10-03,insulation,68
+110,2021-10-10,insulation,64
+111,2021-10-17,insulation,76
+112,2021-10-24,insulation,68
+113,2021-10-31,insulation,81
+114,2021-11-07,insulation,68
+115,2021-11-14,insulation,63
+116,2021-11-21,insulation,70
+117,2021-11-28,insulation,77
+118,2021-12-05,insulation,64
+119,2021-12-12,insulation,50
+120,2021-12-19,insulation,40
+121,2021-12-26,insulation,39
+122,2022-01-02,insulation,63
+123,2022-01-09,insulation,83
+124,2022-01-16,insulation,73
+125,2022-01-23,insulation,75
+126,2022-01-30,insulation,74
+127,2022-02-06,insulation,78
+128,2022-02-13,insulation,71
+129,2022-02-20,insulation,67
+130,2022-02-27,insulation,61
+131,2022-03-06,insulation,71
+132,2022-03-13,insulation,61
+133,2022-03-20,insulation,63
+134,2022-03-27,insulation,70
+135,2022-04-03,insulation,74
+136,2022-04-10,insulation,57
+137,2022-04-17,insulation,59
+138,2022-04-24,insulation,54
+139,2022-05-01,insulation,56
+140,2022-05-08,insulation,54
+141,2022-05-15,insulation,53
+142,2022-05-22,insulation,53
+143,2022-05-29,insulation,47
+144,2022-06-05,insulation,55
+145,2022-06-12,insulation,47
+146,2022-06-19,insulation,51
+147,2022-06-26,insulation,53
+148,2022-07-03,insulation,47
+149,2022-07-10,insulation,47
+150,2022-07-17,insulation,49
+151,2022-07-24,insulation,56
+152,2022-07-31,insulation,58
+153,2022-08-07,insulation,57
+154,2022-08-14,insulation,58
+155,2022-08-21,insulation,76
+156,2022-08-28,insulation,81
+157,2022-09-04,insulation,78
+158,2022-09-11,insulation,81
+159,2022-09-18,insulation,76
+160,2022-09-25,insulation,97
+161,2022-10-02,insulation,88
+162,2022-10-09,insulation,82
+163,2022-10-16,insulation,77
+164,2022-10-23,insulation,66
+165,2022-10-30,insulation,76
+166,2019-09-01,efficient heater,9
+167,2019-09-08,efficient heater,9
+168,2019-09-15,efficient heater,7
+169,2019-09-22,efficient heater,6
+170,2019-09-29,efficient heater,20
+171,2019-10-06,efficient heater,8
+172,2019-10-13,efficient heater,10
+173,2019-10-20,efficient heater,18
+174,2019-10-27,efficient heater,20
+175,2019-11-03,efficient heater,17
+176,2019-11-10,efficient heater,25
+177,2019-11-17,efficient heater,24
+178,2019-11-24,efficient heater,8
+179,2019-12-01,efficient heater,15
+180,2019-12-08,efficient heater,13
+181,2019-12-15,efficient heater,15
+182,2019-12-22,efficient heater,9
+183,2019-12-29,efficient heater,5
+184,2020-01-05,efficient heater,9
+185,2020-01-12,efficient heater,6
+186,2020-01-19,efficient heater,11
+187,2020-01-26,efficient heater,4
+188,2020-02-02,efficient heater,6
+189,2020-02-09,efficient heater,5
+190,2020-02-16,efficient heater,12
+191,2020-02-23,efficient heater,8
+192,2020-03-01,efficient heater,5
+193,2020-03-08,efficient heater,7
+194,2020-03-15,efficient heater,6
+195,2020-03-22,efficient heater,6
+196,2020-03-29,efficient heater,4
+197,2020-04-05,efficient heater,2
+198,2020-04-12,efficient heater,2
+199,2020-04-19,efficient heater,3
+200,2020-04-26,efficient heater,3
+201,2020-05-03,efficient heater,7
+202,2020-05-10,efficient heater,4
+203,2020-05-17,efficient heater,2
+204,2020-05-24,efficient heater,6
+205,2020-05-31,efficient heater,5
+206,2020-06-07,efficient heater,3
+207,2020-06-14,efficient heater,2
+208,2020-06-21,efficient heater,3
+209,2020-06-28,efficient heater,0
+210,2020-07-05,efficient heater,4
+211,2020-07-12,efficient heater,4
+212,2020-07-19,efficient heater,5
+213,2020-07-26,efficient heater,0
+214,2020-08-02,efficient heater,9
+215,2020-08-09,efficient heater,5
+216,2020-08-16,efficient heater,2
+217,2020-08-23,efficient heater,5
+218,2020-08-30,efficient heater,11
+219,2020-09-06,efficient heater,5
+220,2020-09-13,efficient heater,3
+221,2020-09-20,efficient heater,21
+222,2020-09-27,efficient heater,26
+223,2020-10-04,efficient heater,20
+224,2020-10-11,efficient heater,22
+225,2020-10-18,efficient heater,11
+226,2020-10-25,efficient heater,17
+227,2020-11-01,efficient heater,18
+228,2020-11-08,efficient heater,19
+229,2020-11-15,efficient heater,12
+230,2020-11-22,efficient heater,17
+231,2020-11-29,efficient heater,19
+232,2020-12-06,efficient heater,26
+233,2020-12-13,efficient heater,5
+234,2020-12-20,efficient heater,6
+235,2020-12-27,efficient heater,21
+236,2021-01-03,efficient heater,26
+237,2021-01-10,efficient heater,17
+238,2021-01-17,efficient heater,15
+239,2021-01-24,efficient heater,15
+240,2021-01-31,efficient heater,15
+241,2021-02-07,efficient heater,26
+242,2021-02-14,efficient heater,9
+243,2021-02-21,efficient heater,7
+244,2021-02-28,efficient heater,4
+245,2021-03-07,efficient heater,5
+246,2021-03-14,efficient heater,10
+247,2021-03-21,efficient heater,0
+248,2021-03-28,efficient heater,5
+249,2021-04-04,efficient heater,6
+250,2021-04-11,efficient heater,5
+251,2021-04-18,efficient heater,4
+252,2021-04-25,efficient heater,5
+253,2021-05-02,efficient heater,6
+254,2021-05-09,efficient heater,3
+255,2021-05-16,efficient heater,0
+256,2021-05-23,efficient heater,6
+257,2021-05-30,efficient heater,7
+258,2021-06-06,efficient heater,0
+259,2021-06-13,efficient heater,8
+260,2021-06-20,efficient heater,4
+261,2021-06-27,efficient heater,4
+262,2021-07-04,efficient heater,0
+263,2021-07-11,efficient heater,6
+264,2021-07-18,efficient heater,0
+265,2021-07-25,efficient heater,5
+266,2021-08-01,efficient heater,5
+267,2021-08-08,efficient heater,7
+268,2021-08-15,efficient heater,4
+269,2021-08-22,efficient heater,4
+270,2021-08-29,efficient heater,3
+271,2021-09-05,efficient heater,9
+272,2021-09-12,efficient heater,11
+273,2021-09-19,efficient heater,7
+274,2021-09-26,efficient heater,21
+275,2021-10-03,efficient heater,18
+276,2021-10-10,efficient heater,23
+277,2021-10-17,efficient heater,16
+278,2021-10-24,efficient heater,11
+279,2021-10-31,efficient heater,22
+280,2021-11-07,efficient heater,13
+281,2021-11-14,efficient heater,16
+282,2021-11-21,efficient heater,34
+283,2021-11-28,efficient heater,34
+284,2021-12-05,efficient heater,29
+285,2021-12-12,efficient heater,9
+286,2021-12-19,efficient heater,16
+287,2021-12-26,efficient heater,5
+288,2022-01-02,efficient heater,21
+289,2022-01-09,efficient heater,26
+290,2022-01-16,efficient heater,27
+291,2022-01-23,efficient heater,18
+292,2022-01-30,efficient heater,12
+293,2022-02-06,efficient heater,9
+294,2022-02-13,efficient heater,14
+295,2022-02-20,efficient heater,16
+296,2022-02-27,efficient heater,9
+297,2022-03-06,efficient heater,16
+298,2022-03-13,efficient heater,13
+299,2022-03-20,efficient heater,9
+300,2022-03-27,efficient heater,20
+301,2022-04-03,efficient heater,14
+302,2022-04-10,efficient heater,0
+303,2022-04-17,efficient heater,6
+304,2022-04-24,efficient heater,7
+305,2022-05-01,efficient heater,5
+306,2022-05-08,efficient heater,6
+307,2022-05-15,efficient heater,6
+308,2022-05-22,efficient heater,10
+309,2022-05-29,efficient heater,5
+310,2022-06-05,efficient heater,7
+311,2022-06-12,efficient heater,3
+312,2022-06-19,efficient heater,4
+313,2022-06-26,efficient heater,4
+314,2022-07-03,efficient heater,5
+315,2022-07-10,efficient heater,6
+316,2022-07-17,efficient heater,3
+317,2022-07-24,efficient heater,11
+318,2022-07-31,efficient heater,11
+319,2022-08-07,efficient heater,25
+320,2022-08-14,efficient heater,8
+321,2022-08-21,efficient heater,32
+322,2022-08-28,efficient heater,35
+323,2022-09-04,efficient heater,27
+324,2022-09-11,efficient heater,47
+325,2022-09-18,efficient heater,66
+326,2022-09-25,efficient heater,100
+327,2022-10-02,efficient heater,58
+328,2022-10-09,efficient heater,50
+329,2022-10-16,efficient heater,39
+330,2022-10-23,efficient heater,20
+331,2022-10-30,efficient heater,47
+332,2019-09-01,efficient boiler,0
+333,2019-09-08,efficient boiler,27
+334,2019-09-15,efficient boiler,17
+335,2019-09-22,efficient boiler,20
+336,2019-09-29,efficient boiler,0
+337,2019-10-06,efficient boiler,15
+338,2019-10-13,efficient boiler,17
+339,2019-10-20,efficient boiler,33
+340,2019-10-27,efficient boiler,32
+341,2019-11-03,efficient boiler,29
+342,2019-11-10,efficient boiler,18
+343,2019-11-17,efficient boiler,45
+344,2019-11-24,efficient boiler,51
+345,2019-12-01,efficient boiler,22
+346,2019-12-08,efficient boiler,19
+347,2019-12-15,efficient boiler,30
+348,2019-12-22,efficient boiler,18
+349,2019-12-29,efficient boiler,25
+350,2020-01-05,efficient boiler,14
+351,2020-01-12,efficient boiler,36
+352,2020-01-19,efficient boiler,11
+353,2020-01-26,efficient boiler,13
+354,2020-02-02,efficient boiler,52
+355,2020-02-09,efficient boiler,20
+356,2020-02-16,efficient boiler,18
+357,2020-02-23,efficient boiler,26
+358,2020-03-01,efficient boiler,15
+359,2020-03-08,efficient boiler,26
+360,2020-03-15,efficient boiler,0
+361,2020-03-22,efficient boiler,22
+362,2020-03-29,efficient boiler,23
+363,2020-04-05,efficient boiler,0
+364,2020-04-12,efficient boiler,0
+365,2020-04-19,efficient boiler,11
+366,2020-04-26,efficient boiler,0
+367,2020-05-03,efficient boiler,19
+368,2020-05-10,efficient boiler,0
+369,2020-05-17,efficient boiler,13
+370,2020-05-24,efficient boiler,12
+371,2020-05-31,efficient boiler,8
+372,2020-06-07,efficient boiler,8
+373,2020-06-14,efficient boiler,0
+374,2020-06-21,efficient boiler,0
+375,2020-06-28,efficient boiler,12
+376,2020-07-05,efficient boiler,45
+377,2020-07-12,efficient boiler,13
+378,2020-07-19,efficient boiler,17
+379,2020-07-26,efficient boiler,45
+380,2020-08-02,efficient boiler,16
+381,2020-08-09,efficient boiler,23
+382,2020-08-16,efficient boiler,7
+383,2020-08-23,efficient boiler,0
+384,2020-08-30,efficient boiler,0
+385,2020-09-06,efficient boiler,0
+386,2020-09-13,efficient boiler,17
+387,2020-09-20,efficient boiler,29
+388,2020-09-27,efficient boiler,23
+389,2020-10-04,efficient boiler,19
+390,2020-10-11,efficient boiler,23
+391,2020-10-18,efficient boiler,19
+392,2020-10-25,efficient boiler,43
+393,2020-11-01,efficient boiler,12
+394,2020-11-08,efficient boiler,22
+395,2020-11-15,efficient boiler,8
+396,2020-11-22,efficient boiler,23
+397,2020-11-29,efficient boiler,19
+398,2020-12-06,efficient boiler,19
+399,2020-12-13,efficient boiler,10
+400,2020-12-20,efficient boiler,9
+401,2020-12-27,efficient boiler,16
+402,2021-01-03,efficient boiler,28
+403,2021-01-10,efficient boiler,34
+404,2021-01-17,efficient boiler,20
+405,2021-01-24,efficient boiler,17
+406,2021-01-31,efficient boiler,0
+407,2021-02-07,efficient boiler,47
+408,2021-02-14,efficient boiler,15
+409,2021-02-21,efficient boiler,0
+410,2021-02-28,efficient boiler,26
+411,2021-03-07,efficient boiler,23
+412,2021-03-14,efficient boiler,31
+413,2021-03-21,efficient boiler,0
+414,2021-03-28,efficient boiler,0
+415,2021-04-04,efficient boiler,8
+416,2021-04-11,efficient boiler,0
+417,2021-04-18,efficient boiler,21
+418,2021-04-25,efficient boiler,19
+419,2021-05-02,efficient boiler,10
+420,2021-05-09,efficient boiler,0
+421,2021-05-16,efficient boiler,0
+422,2021-05-23,efficient boiler,0
+423,2021-05-30,efficient boiler,17
+424,2021-06-06,efficient boiler,0
+425,2021-06-13,efficient boiler,12
+426,2021-06-20,efficient boiler,0
+427,2021-06-27,efficient boiler,21
+428,2021-07-04,efficient boiler,12
+429,2021-07-11,efficient boiler,10
+430,2021-07-18,efficient boiler,18
+431,2021-07-25,efficient boiler,23
+432,2021-08-01,efficient boiler,12
+433,2021-08-08,efficient boiler,10
+434,2021-08-15,efficient boiler,22
+435,2021-08-22,efficient boiler,20
+436,2021-08-29,efficient boiler,18
+437,2021-09-05,efficient boiler,10
+438,2021-09-12,efficient boiler,0
+439,2021-09-19,efficient boiler,15
+440,2021-09-26,efficient boiler,26
+441,2021-10-03,efficient boiler,57
+442,2021-10-10,efficient boiler,35
+443,2021-10-17,efficient boiler,53
+444,2021-10-24,efficient boiler,42
+445,2021-10-31,efficient boiler,33
+446,2021-11-07,efficient boiler,37
+447,2021-11-14,efficient boiler,47
+448,2021-11-21,efficient boiler,18
+449,2021-11-28,efficient boiler,55
+450,2021-12-05,efficient boiler,16
+451,2021-12-12,efficient boiler,10
+452,2021-12-19,efficient boiler,17
+453,2021-12-26,efficient boiler,17
+454,2022-01-02,efficient boiler,0
+455,2022-01-09,efficient boiler,46
+456,2022-01-16,efficient boiler,37
+457,2022-01-23,efficient boiler,42
+458,2022-01-30,efficient boiler,49
+459,2022-02-06,efficient boiler,53
+460,2022-02-13,efficient boiler,32
+461,2022-02-20,efficient boiler,28
+462,2022-02-27,efficient boiler,52
+463,2022-03-06,efficient boiler,75
+464,2022-03-13,efficient boiler,0
+465,2022-03-20,efficient boiler,42
+466,2022-03-27,efficient boiler,73
+467,2022-04-03,efficient boiler,56
+468,2022-04-10,efficient boiler,10
+469,2022-04-17,efficient boiler,35
+470,2022-04-24,efficient boiler,26
+471,2022-05-01,efficient boiler,22
+472,2022-05-08,efficient boiler,36
+473,2022-05-15,efficient boiler,27
+474,2022-05-22,efficient boiler,33
+475,2022-05-29,efficient boiler,23
+476,2022-06-05,efficient boiler,22
+477,2022-06-12,efficient boiler,12
+478,2022-06-19,efficient boiler,20
+479,2022-06-26,efficient boiler,12
+480,2022-07-03,efficient boiler,10
+481,2022-07-10,efficient boiler,9
+482,2022-07-17,efficient boiler,0
+483,2022-07-24,efficient boiler,32
+484,2022-07-31,efficient boiler,38
+485,2022-08-07,efficient boiler,44
+486,2022-08-14,efficient boiler,48
+487,2022-08-21,efficient boiler,67
+488,2022-08-28,efficient boiler,95
+489,2022-09-04,efficient boiler,61
+490,2022-09-11,efficient boiler,51
+491,2022-09-18,efficient boiler,56
+492,2022-09-25,efficient boiler,74
+493,2022-10-02,efficient boiler,77
+494,2022-10-09,efficient boiler,42
+495,2022-10-16,efficient boiler,100
+496,2022-10-23,efficient boiler,45
+497,2022-10-30,efficient boiler,70
+498,2019-09-01,energy efficient,9
+499,2019-09-08,energy efficient,14
+500,2019-09-15,energy efficient,10
+501,2019-09-22,energy efficient,10
+502,2019-09-29,energy efficient,16
+503,2019-10-06,energy efficient,15
+504,2019-10-13,energy efficient,17
+505,2019-10-20,energy efficient,17
+506,2019-10-27,energy efficient,15
+507,2019-11-03,energy efficient,14
+508,2019-11-10,energy efficient,18
+509,2019-11-17,energy efficient,19
+510,2019-11-24,energy efficient,15
+511,2019-12-01,energy efficient,17
+512,2019-12-08,energy efficient,13
+513,2019-12-15,energy efficient,16
+514,2019-12-22,energy efficient,8
+515,2019-12-29,energy efficient,12
+516,2020-01-05,energy efficient,18
+517,2020-01-12,energy efficient,18
+518,2020-01-19,energy efficient,15
+519,2020-01-26,energy efficient,11
+520,2020-02-02,energy efficient,16
+521,2020-02-09,energy efficient,15
+522,2020-02-16,energy efficient,16
+523,2020-02-23,energy efficient,11
+524,2020-03-01,energy efficient,12
+525,2020-03-08,energy efficient,10
+526,2020-03-15,energy efficient,12
+527,2020-03-22,energy efficient,10
+528,2020-03-29,energy efficient,10
+529,2020-04-05,energy efficient,9
+530,2020-04-12,energy efficient,9
+531,2020-04-19,energy efficient,10
+532,2020-04-26,energy efficient,10
+533,2020-05-03,energy efficient,15
+534,2020-05-10,energy efficient,10
+535,2020-05-17,energy efficient,10
+536,2020-05-24,energy efficient,9
+537,2020-05-31,energy efficient,13
+538,2020-06-07,energy efficient,10
+539,2020-06-14,energy efficient,13
+540,2020-06-21,energy efficient,11
+541,2020-06-28,energy efficient,11
+542,2020-07-05,energy efficient,29
+543,2020-07-12,energy efficient,13
+544,2020-07-19,energy efficient,13
+545,2020-07-26,energy efficient,12
+546,2020-08-02,energy efficient,19
+547,2020-08-09,energy efficient,14
+548,2020-08-16,energy efficient,11
+549,2020-08-23,energy efficient,8
+550,2020-08-30,energy efficient,16
+551,2020-09-06,energy efficient,15
+552,2020-09-13,energy efficient,14
+553,2020-09-20,energy efficient,14
+554,2020-09-27,energy efficient,21
+555,2020-10-04,energy efficient,22
+556,2020-10-11,energy efficient,22
+557,2020-10-18,energy efficient,14
+558,2020-10-25,energy efficient,14
+559,2020-11-01,energy efficient,19
+560,2020-11-08,energy efficient,16
+561,2020-11-15,energy efficient,15
+562,2020-11-22,energy efficient,19
+563,2020-11-29,energy efficient,16
+564,2020-12-06,energy efficient,20
+565,2020-12-13,energy efficient,11
+566,2020-12-20,energy efficient,11
+567,2020-12-27,energy efficient,15
+568,2021-01-03,energy efficient,23
+569,2021-01-10,energy efficient,20
+570,2021-01-17,energy efficient,16
+571,2021-01-24,energy efficient,14
+572,2021-01-31,energy efficient,18
+573,2021-02-07,energy efficient,22
+574,2021-02-14,energy efficient,11
+575,2021-02-21,energy efficient,18
+576,2021-02-28,energy efficient,16
+577,2021-03-07,energy efficient,14
+578,2021-03-14,energy efficient,12
+579,2021-03-21,energy efficient,12
+580,2021-03-28,energy efficient,10
+581,2021-04-04,energy efficient,15
+582,2021-04-11,energy efficient,11
+583,2021-04-18,energy efficient,13
+584,2021-04-25,energy efficient,12
+585,2021-05-02,energy efficient,15
+586,2021-05-09,energy efficient,18
+587,2021-05-16,energy efficient,11
+588,2021-05-23,energy efficient,11
+589,2021-05-30,energy efficient,16
+590,2021-06-06,energy efficient,11
+591,2021-06-13,energy efficient,9
+592,2021-06-20,energy efficient,8
+593,2021-06-27,energy efficient,11
+594,2021-07-04,energy efficient,6
+595,2021-07-11,energy efficient,8
+596,2021-07-18,energy efficient,15
+597,2021-07-25,energy efficient,8
+598,2021-08-01,energy efficient,10
+599,2021-08-08,energy efficient,9
+600,2021-08-15,energy efficient,11
+601,2021-08-22,energy efficient,13
+602,2021-08-29,energy efficient,14
+603,2021-09-05,energy efficient,11
+604,2021-09-12,energy efficient,17
+605,2021-09-19,energy efficient,18
+606,2021-09-26,energy efficient,20
+607,2021-10-03,energy efficient,25
+608,2021-10-10,energy efficient,22
+609,2021-10-17,energy efficient,26
+610,2021-10-24,energy efficient,22
+611,2021-10-31,energy efficient,23
+612,2021-11-07,energy efficient,23
+613,2021-11-14,energy efficient,16
+614,2021-11-21,energy efficient,23
+615,2021-11-28,energy efficient,23
+616,2021-12-05,energy efficient,21
+617,2021-12-12,energy efficient,13
+618,2021-12-19,energy efficient,14
+619,2021-12-26,energy efficient,16
+620,2022-01-02,energy efficient,26
+621,2022-01-09,energy efficient,22
+622,2022-01-16,energy efficient,29
+623,2022-01-23,energy efficient,24
+624,2022-01-30,energy efficient,36
+625,2022-02-06,energy efficient,27
+626,2022-02-13,energy efficient,22
+627,2022-02-20,energy efficient,25
+628,2022-02-27,energy efficient,27
+629,2022-03-06,energy efficient,39
+630,2022-03-13,energy efficient,26
+631,2022-03-20,energy efficient,24
+632,2022-03-27,energy efficient,43
+633,2022-04-03,energy efficient,42
+634,2022-04-10,energy efficient,28
+635,2022-04-17,energy efficient,23
+636,2022-04-24,energy efficient,24
+637,2022-05-01,energy efficient,22
+638,2022-05-08,energy efficient,22
+639,2022-05-15,energy efficient,18
+640,2022-05-22,energy efficient,24
+641,2022-05-29,energy efficient,19
+642,2022-06-05,energy efficient,20
+643,2022-06-12,energy efficient,16
+644,2022-06-19,energy efficient,20
+645,2022-06-26,energy efficient,21
+646,2022-07-03,energy efficient,18
+647,2022-07-10,energy efficient,21
+648,2022-07-17,energy efficient,21
+649,2022-07-24,energy efficient,25
+650,2022-07-31,energy efficient,28
+651,2022-08-07,energy efficient,31
+652,2022-08-14,energy efficient,31
+653,2022-08-21,energy efficient,54
+654,2022-08-28,energy efficient,100
+655,2022-09-04,energy efficient,72
+656,2022-09-11,energy efficient,54
+657,2022-09-18,energy efficient,54
+658,2022-09-25,energy efficient,82
+659,2022-10-02,energy efficient,67
+660,2022-10-09,energy efficient,61
+661,2022-10-16,energy efficient,54
+662,2022-10-23,energy efficient,47
+663,2022-10-30,energy efficient,57
+664,2019-09-01,double glazing,51
+665,2019-09-08,double glazing,51
+666,2019-09-15,double glazing,52
+667,2019-09-22,double glazing,50
+668,2019-09-29,double glazing,58
+669,2019-10-06,double glazing,54
+670,2019-10-13,double glazing,49
+671,2019-10-20,double glazing,55
+672,2019-10-27,double glazing,58
+673,2019-11-03,double glazing,62
+674,2019-11-10,double glazing,53
+675,2019-11-17,double glazing,49
+676,2019-11-24,double glazing,35
+677,2019-12-01,double glazing,43
+678,2019-12-08,double glazing,33
+679,2019-12-15,double glazing,37
+680,2019-12-22,double glazing,23
+681,2019-12-29,double glazing,42
+682,2020-01-05,double glazing,46
+683,2020-01-12,double glazing,57
+684,2020-01-19,double glazing,58
+685,2020-01-26,double glazing,54
+686,2020-02-02,double glazing,50
+687,2020-02-09,double glazing,62
+688,2020-02-16,double glazing,63
+689,2020-02-23,double glazing,59
+690,2020-03-01,double glazing,55
+691,2020-03-08,double glazing,49
+692,2020-03-15,double glazing,35
+693,2020-03-22,double glazing,38
+694,2020-03-29,double glazing,26
+695,2020-04-05,double glazing,35
+696,2020-04-12,double glazing,37
+697,2020-04-19,double glazing,48
+698,2020-04-26,double glazing,39
+699,2020-05-03,double glazing,45
+700,2020-05-10,double glazing,51
+701,2020-05-17,double glazing,57
+702,2020-05-24,double glazing,55
+703,2020-05-31,double glazing,63
+704,2020-06-07,double glazing,53
+705,2020-06-14,double glazing,62
+706,2020-06-21,double glazing,64
+707,2020-06-28,double glazing,68
+708,2020-07-05,double glazing,100
+709,2020-07-12,double glazing,77
+710,2020-07-19,double glazing,70
+711,2020-07-26,double glazing,73
+712,2020-08-02,double glazing,72
+713,2020-08-09,double glazing,73
+714,2020-08-16,double glazing,70
+715,2020-08-23,double glazing,77
+716,2020-08-30,double glazing,84
+717,2020-09-06,double glazing,76
+718,2020-09-13,double glazing,70
+719,2020-09-20,double glazing,72
+720,2020-09-27,double glazing,76
+721,2020-10-04,double glazing,81
+722,2020-10-11,double glazing,75
+723,2020-10-18,double glazing,68
+724,2020-10-25,double glazing,63
+725,2020-11-01,double glazing,64
+726,2020-11-08,double glazing,55
+727,2020-11-15,double glazing,63
+728,2020-11-22,double glazing,59
+729,2020-11-29,double glazing,48
+730,2020-12-06,double glazing,44
+731,2020-12-13,double glazing,48
+732,2020-12-20,double glazing,37
+733,2020-12-27,double glazing,56
+734,2021-01-03,double glazing,60
+735,2021-01-10,double glazing,62
+736,2021-01-17,double glazing,62
+737,2021-01-24,double glazing,63
+738,2021-01-31,double glazing,62
+739,2021-02-07,double glazing,80
+740,2021-02-14,double glazing,70
+741,2021-02-21,double glazing,77
+742,2021-02-28,double glazing,67
+743,2021-03-07,double glazing,66
+744,2021-03-14,double glazing,67
+745,2021-03-21,double glazing,80
+746,2021-03-28,double glazing,73
+747,2021-04-04,double glazing,78
+748,2021-04-11,double glazing,76
+749,2021-04-18,double glazing,80
+750,2021-04-25,double glazing,67
+751,2021-05-02,double glazing,69
+752,2021-05-09,double glazing,57
+753,2021-05-16,double glazing,52
+754,2021-05-23,double glazing,54
+755,2021-05-30,double glazing,66
+756,2021-06-06,double glazing,56
+757,2021-06-13,double glazing,61
+758,2021-06-20,double glazing,51
+759,2021-06-27,double glazing,55
+760,2021-07-04,double glazing,54
+761,2021-07-11,double glazing,50
+762,2021-07-18,double glazing,62
+763,2021-07-25,double glazing,48
+764,2021-08-01,double glazing,53
+765,2021-08-08,double glazing,58
+766,2021-08-15,double glazing,53
+767,2021-08-22,double glazing,57
+768,2021-08-29,double glazing,50
+769,2021-09-05,double glazing,50
+770,2021-09-12,double glazing,54
+771,2021-09-19,double glazing,54
+772,2021-09-26,double glazing,64
+773,2021-10-03,double glazing,62
+774,2021-10-10,double glazing,57
+775,2021-10-17,double glazing,65
+776,2021-10-24,double glazing,59
+777,2021-10-31,double glazing,67
+778,2021-11-07,double glazing,56
+779,2021-11-14,double glazing,46
+780,2021-11-21,double glazing,62
+781,2021-11-28,double glazing,51
+782,2021-12-05,double glazing,49
+783,2021-12-12,double glazing,39
+784,2021-12-19,double glazing,31
+785,2021-12-26,double glazing,38
+786,2022-01-02,double glazing,58
+787,2022-01-09,double glazing,65
+788,2022-01-16,double glazing,55
+789,2022-01-23,double glazing,55
+790,2022-01-30,double glazing,55
+791,2022-02-06,double glazing,62
+792,2022-02-13,double glazing,54
+793,2022-02-20,double glazing,63
+794,2022-02-27,double glazing,55
+795,2022-03-06,double glazing,53
+796,2022-03-13,double glazing,58
+797,2022-03-20,double glazing,58
+798,2022-03-27,double glazing,59
+799,2022-04-03,double glazing,58
+800,2022-04-10,double glazing,50
+801,2022-04-17,double glazing,56
+802,2022-04-24,double glazing,55
+803,2022-05-01,double glazing,49
+804,2022-05-08,double glazing,47
+805,2022-05-15,double glazing,45
+806,2022-05-22,double glazing,48
+807,2022-05-29,double glazing,43
+808,2022-06-05,double glazing,50
+809,2022-06-12,double glazing,48
+810,2022-06-19,double glazing,51
+811,2022-06-26,double glazing,43
+812,2022-07-03,double glazing,49
+813,2022-07-10,double glazing,49
+814,2022-07-17,double glazing,53
+815,2022-07-24,double glazing,56
+816,2022-07-31,double glazing,52
+817,2022-08-07,double glazing,54
+818,2022-08-14,double glazing,60
+819,2022-08-21,double glazing,60
+820,2022-08-28,double glazing,53
+821,2022-09-04,double glazing,58
+822,2022-09-11,double glazing,56
+823,2022-09-18,double glazing,53
+824,2022-09-25,double glazing,60
+825,2022-10-02,double glazing,51
+826,2022-10-09,double glazing,60
+827,2022-10-16,double glazing,55
+828,2022-10-23,double glazing,51
+829,2022-10-30,double glazing,64
+830,2019-09-01,triple glazing,47
+831,2019-09-08,triple glazing,30
+832,2019-09-15,triple glazing,24
+833,2019-09-22,triple glazing,21
+834,2019-09-29,triple glazing,45
+835,2019-10-06,triple glazing,52
+836,2019-10-13,triple glazing,28
+837,2019-10-20,triple glazing,26
+838,2019-10-27,triple glazing,44
+839,2019-11-03,triple glazing,24
+840,2019-11-10,triple glazing,45
+841,2019-11-17,triple glazing,14
+842,2019-11-24,triple glazing,65
+843,2019-12-01,triple glazing,16
+844,2019-12-08,triple glazing,17
+845,2019-12-15,triple glazing,39
+846,2019-12-22,triple glazing,35
+847,2019-12-29,triple glazing,51
+848,2020-01-05,triple glazing,35
+849,2020-01-12,triple glazing,46
+850,2020-01-19,triple glazing,64
+851,2020-01-26,triple glazing,30
+852,2020-02-02,triple glazing,28
+853,2020-02-09,triple glazing,27
+854,2020-02-16,triple glazing,29
+855,2020-02-23,triple glazing,37
+856,2020-03-01,triple glazing,46
+857,2020-03-08,triple glazing,41
+858,2020-03-15,triple glazing,14
+859,2020-03-22,triple glazing,14
+860,2020-03-29,triple glazing,26
+861,2020-04-05,triple glazing,19
+862,2020-04-12,triple glazing,13
+863,2020-04-19,triple glazing,23
+864,2020-04-26,triple glazing,30
+865,2020-05-03,triple glazing,28
+866,2020-05-10,triple glazing,34
+867,2020-05-17,triple glazing,18
+868,2020-05-24,triple glazing,35
+869,2020-05-31,triple glazing,31
+870,2020-06-07,triple glazing,35
+871,2020-06-14,triple glazing,39
+872,2020-06-21,triple glazing,37
+873,2020-06-28,triple glazing,20
+874,2020-07-05,triple glazing,88
+875,2020-07-12,triple glazing,15
+876,2020-07-19,triple glazing,23
+877,2020-07-26,triple glazing,39
+878,2020-08-02,triple glazing,47
+879,2020-08-09,triple glazing,31
+880,2020-08-16,triple glazing,38
+881,2020-08-23,triple glazing,48
+882,2020-08-30,triple glazing,40
+883,2020-09-06,triple glazing,61
+884,2020-09-13,triple glazing,39
+885,2020-09-20,triple glazing,17
+886,2020-09-27,triple glazing,51
+887,2020-10-04,triple glazing,55
+888,2020-10-11,triple glazing,34
+889,2020-10-18,triple glazing,36
+890,2020-10-25,triple glazing,34
+891,2020-11-01,triple glazing,12
+892,2020-11-08,triple glazing,15
+893,2020-11-15,triple glazing,54
+894,2020-11-22,triple glazing,32
+895,2020-11-29,triple glazing,33
+896,2020-12-06,triple glazing,25
+897,2020-12-13,triple glazing,24
+898,2020-12-20,triple glazing,19
+899,2020-12-27,triple glazing,42
+900,2021-01-03,triple glazing,49
+901,2021-01-10,triple glazing,33
+902,2021-01-17,triple glazing,45
+903,2021-01-24,triple glazing,34
+904,2021-01-31,triple glazing,46
+905,2021-02-07,triple glazing,41
+906,2021-02-14,triple glazing,33
+907,2021-02-21,triple glazing,44
+908,2021-02-28,triple glazing,28
+909,2021-03-07,triple glazing,47
+910,2021-03-14,triple glazing,43
+911,2021-03-21,triple glazing,46
+912,2021-03-28,triple glazing,47
+913,2021-04-04,triple glazing,31
+914,2021-04-11,triple glazing,51
+915,2021-04-18,triple glazing,49
+916,2021-04-25,triple glazing,24
+917,2021-05-02,triple glazing,28
+918,2021-05-09,triple glazing,24
+919,2021-05-16,triple glazing,31
+920,2021-05-23,triple glazing,18
+921,2021-05-30,triple glazing,30
+922,2021-06-06,triple glazing,31
+923,2021-06-13,triple glazing,30
+924,2021-06-20,triple glazing,19
+925,2021-06-27,triple glazing,38
+926,2021-07-04,triple glazing,0
+927,2021-07-11,triple glazing,14
+928,2021-07-18,triple glazing,14
+929,2021-07-25,triple glazing,33
+930,2021-08-01,triple glazing,28
+931,2021-08-08,triple glazing,15
+932,2021-08-15,triple glazing,26
+933,2021-08-22,triple glazing,12
+934,2021-08-29,triple glazing,19
+935,2021-09-05,triple glazing,24
+936,2021-09-12,triple glazing,40
+937,2021-09-19,triple glazing,49
+938,2021-09-26,triple glazing,14
+939,2021-10-03,triple glazing,23
+940,2021-10-10,triple glazing,54
+941,2021-10-17,triple glazing,58
+942,2021-10-24,triple glazing,18
+943,2021-10-31,triple glazing,57
+944,2021-11-07,triple glazing,54
+945,2021-11-14,triple glazing,37
+946,2021-11-21,triple glazing,47
+947,2021-11-28,triple glazing,58
+948,2021-12-05,triple glazing,28
+949,2021-12-12,triple glazing,12
+950,2021-12-19,triple glazing,54
+951,2021-12-26,triple glazing,38
+952,2022-01-02,triple glazing,54
+953,2022-01-09,triple glazing,100
+954,2022-01-16,triple glazing,54
+955,2022-01-23,triple glazing,66
+956,2022-01-30,triple glazing,77
+957,2022-02-06,triple glazing,52
+958,2022-02-13,triple glazing,61
+959,2022-02-20,triple glazing,33
+960,2022-02-27,triple glazing,54
+961,2022-03-06,triple glazing,58
+962,2022-03-13,triple glazing,23
+963,2022-03-20,triple glazing,58
+964,2022-03-27,triple glazing,56
+965,2022-04-03,triple glazing,50
+966,2022-04-10,triple glazing,43
+967,2022-04-17,triple glazing,24
+968,2022-04-24,triple glazing,39
+969,2022-05-01,triple glazing,48
+970,2022-05-08,triple glazing,47
+971,2022-05-15,triple glazing,30
+972,2022-05-22,triple glazing,33
+973,2022-05-29,triple glazing,12
+974,2022-06-05,triple glazing,34
+975,2022-06-12,triple glazing,0
+976,2022-06-19,triple glazing,41
+977,2022-06-26,triple glazing,29
+978,2022-07-03,triple glazing,47
+979,2022-07-10,triple glazing,44
+980,2022-07-17,triple glazing,45
+981,2022-07-24,triple glazing,27
+982,2022-07-31,triple glazing,23
+983,2022-08-07,triple glazing,21
+984,2022-08-14,triple glazing,29
+985,2022-08-21,triple glazing,44
+986,2022-08-28,triple glazing,52
+987,2022-09-04,triple glazing,30
+988,2022-09-11,triple glazing,38
+989,2022-09-18,triple glazing,69
+990,2022-09-25,triple glazing,85
+991,2022-10-02,triple glazing,49
+992,2022-10-09,triple glazing,32
+993,2022-10-16,triple glazing,55
+994,2022-10-23,triple glazing,49
+995,2022-10-30,triple glazing,56
+996,2019-09-01,secondary glazing,32
+997,2019-09-08,secondary glazing,41
+998,2019-09-15,secondary glazing,46
+999,2019-09-22,secondary glazing,49
+1000,2019-09-29,secondary glazing,29
+1001,2019-10-06,secondary glazing,45
+1002,2019-10-13,secondary glazing,43
+1003,2019-10-20,secondary glazing,50
+1004,2019-10-27,secondary glazing,45
+1005,2019-11-03,secondary glazing,47
+1006,2019-11-10,secondary glazing,55
+1007,2019-11-17,secondary glazing,48
+1008,2019-11-24,secondary glazing,31
+1009,2019-12-01,secondary glazing,32
+1010,2019-12-08,secondary glazing,29
+1011,2019-12-15,secondary glazing,25
+1012,2019-12-22,secondary glazing,16
+1013,2019-12-29,secondary glazing,37
+1014,2020-01-05,secondary glazing,37
+1015,2020-01-12,secondary glazing,22
+1016,2020-01-19,secondary glazing,30
+1017,2020-01-26,secondary glazing,26
+1018,2020-02-02,secondary glazing,29
+1019,2020-02-09,secondary glazing,36
+1020,2020-02-16,secondary glazing,40
+1021,2020-02-23,secondary glazing,27
+1022,2020-03-01,secondary glazing,38
+1023,2020-03-08,secondary glazing,23
+1024,2020-03-15,secondary glazing,21
+1025,2020-03-22,secondary glazing,8
+1026,2020-03-29,secondary glazing,15
+1027,2020-04-05,secondary glazing,4
+1028,2020-04-12,secondary glazing,12
+1029,2020-04-19,secondary glazing,13
+1030,2020-04-26,secondary glazing,19
+1031,2020-05-03,secondary glazing,15
+1032,2020-05-10,secondary glazing,0
+1033,2020-05-17,secondary glazing,24
+1034,2020-05-24,secondary glazing,19
+1035,2020-05-31,secondary glazing,16
+1036,2020-06-07,secondary glazing,18
+1037,2020-06-14,secondary glazing,20
+1038,2020-06-21,secondary glazing,16
+1039,2020-06-28,secondary glazing,19
+1040,2020-07-05,secondary glazing,27
+1041,2020-07-12,secondary glazing,22
+1042,2020-07-19,secondary glazing,32
+1043,2020-07-26,secondary glazing,18
+1044,2020-08-02,secondary glazing,23
+1045,2020-08-09,secondary glazing,11
+1046,2020-08-16,secondary glazing,24
+1047,2020-08-23,secondary glazing,31
+1048,2020-08-30,secondary glazing,43
+1049,2020-09-06,secondary glazing,19
+1050,2020-09-13,secondary glazing,14
+1051,2020-09-20,secondary glazing,40
+1052,2020-09-27,secondary glazing,24
+1053,2020-10-04,secondary glazing,43
+1054,2020-10-11,secondary glazing,52
+1055,2020-10-18,secondary glazing,37
+1056,2020-10-25,secondary glazing,39
+1057,2020-11-01,secondary glazing,30
+1058,2020-11-08,secondary glazing,29
+1059,2020-11-15,secondary glazing,31
+1060,2020-11-22,secondary glazing,35
+1061,2020-11-29,secondary glazing,35
+1062,2020-12-06,secondary glazing,33
+1063,2020-12-13,secondary glazing,15
+1064,2020-12-20,secondary glazing,24
+1065,2020-12-27,secondary glazing,36
+1066,2021-01-03,secondary glazing,58
+1067,2021-01-10,secondary glazing,36
+1068,2021-01-17,secondary glazing,45
+1069,2021-01-24,secondary glazing,30
+1070,2021-01-31,secondary glazing,31
+1071,2021-02-07,secondary glazing,44
+1072,2021-02-14,secondary glazing,40
+1073,2021-02-21,secondary glazing,24
+1074,2021-02-28,secondary glazing,42
+1075,2021-03-07,secondary glazing,28
+1076,2021-03-14,secondary glazing,38
+1077,2021-03-21,secondary glazing,35
+1078,2021-03-28,secondary glazing,21
+1079,2021-04-04,secondary glazing,34
+1080,2021-04-11,secondary glazing,32
+1081,2021-04-18,secondary glazing,19
+1082,2021-04-25,secondary glazing,25
+1083,2021-05-02,secondary glazing,18
+1084,2021-05-09,secondary glazing,23
+1085,2021-05-16,secondary glazing,8
+1086,2021-05-23,secondary glazing,31
+1087,2021-05-30,secondary glazing,16
+1088,2021-06-06,secondary glazing,20
+1089,2021-06-13,secondary glazing,7
+1090,2021-06-20,secondary glazing,13
+1091,2021-06-27,secondary glazing,20
+1092,2021-07-04,secondary glazing,13
+1093,2021-07-11,secondary glazing,13
+1094,2021-07-18,secondary glazing,16
+1095,2021-07-25,secondary glazing,10
+1096,2021-08-01,secondary glazing,17
+1097,2021-08-08,secondary glazing,28
+1098,2021-08-15,secondary glazing,25
+1099,2021-08-22,secondary glazing,24
+1100,2021-08-29,secondary glazing,12
+1101,2021-09-05,secondary glazing,19
+1102,2021-09-12,secondary glazing,21
+1103,2021-09-19,secondary glazing,39
+1104,2021-09-26,secondary glazing,38
+1105,2021-10-03,secondary glazing,60
+1106,2021-10-10,secondary glazing,46
+1107,2021-10-17,secondary glazing,66
+1108,2021-10-24,secondary glazing,15
+1109,2021-10-31,secondary glazing,58
+1110,2021-11-07,secondary glazing,51
+1111,2021-11-14,secondary glazing,20
+1112,2021-11-21,secondary glazing,55
+1113,2021-11-28,secondary glazing,53
+1114,2021-12-05,secondary glazing,38
+1115,2021-12-12,secondary glazing,25
+1116,2021-12-19,secondary glazing,19
+1117,2021-12-26,secondary glazing,17
+1118,2022-01-02,secondary glazing,43
+1119,2022-01-09,secondary glazing,49
+1120,2022-01-16,secondary glazing,40
+1121,2022-01-23,secondary glazing,45
+1122,2022-01-30,secondary glazing,37
+1123,2022-02-06,secondary glazing,57
+1124,2022-02-13,secondary glazing,42
+1125,2022-02-20,secondary glazing,25
+1126,2022-02-27,secondary glazing,29
+1127,2022-03-06,secondary glazing,44
+1128,2022-03-13,secondary glazing,29
+1129,2022-03-20,secondary glazing,30
+1130,2022-03-27,secondary glazing,37
+1131,2022-04-03,secondary glazing,22
+1132,2022-04-10,secondary glazing,27
+1133,2022-04-17,secondary glazing,23
+1134,2022-04-24,secondary glazing,24
+1135,2022-05-01,secondary glazing,37
+1136,2022-05-08,secondary glazing,26
+1137,2022-05-15,secondary glazing,30
+1138,2022-05-22,secondary glazing,19
+1139,2022-05-29,secondary glazing,14
+1140,2022-06-05,secondary glazing,31
+1141,2022-06-12,secondary glazing,28
+1142,2022-06-19,secondary glazing,14
+1143,2022-06-26,secondary glazing,31
+1144,2022-07-03,secondary glazing,27
+1145,2022-07-10,secondary glazing,15
+1146,2022-07-17,secondary glazing,29
+1147,2022-07-24,secondary glazing,24
+1148,2022-07-31,secondary glazing,26
+1149,2022-08-07,secondary glazing,33
+1150,2022-08-14,secondary glazing,44
+1151,2022-08-21,secondary glazing,55
+1152,2022-08-28,secondary glazing,81
+1153,2022-09-04,secondary glazing,54
+1154,2022-09-11,secondary glazing,100
+1155,2022-09-18,secondary glazing,73
+1156,2022-09-25,secondary glazing,90
+1157,2022-10-02,secondary glazing,72
+1158,2022-10-09,secondary glazing,53
+1159,2022-10-16,secondary glazing,59
+1160,2022-10-23,secondary glazing,56
+1161,2022-10-30,secondary glazing,60

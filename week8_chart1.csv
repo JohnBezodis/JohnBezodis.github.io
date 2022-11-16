@@ -1,0 +1,31 @@
+,Name,Code,inc_decile,week_spend,total_spend,pcnt_spend
+0,Food & non-alcoholic drinks,1,Lowest,30.6,206.1,14.847161572052403
+3,"Housing (net)1, fuel & power",4,Lowest,50.5,206.1,24.502668607472103
+4,Household goods & services,5,Lowest,13.7,206.1,6.647258612324114
+13,Food & non-alcoholic drinks,1,Second,40.0,265.2,15.08295625942685
+16,"Housing (net)1, fuel & power",4,Second,53.3,265.2,20.098039215686274
+17,Household goods & services,5,Second,18.5,265.2,6.975867269984917
+26,Food & non-alcoholic drinks,1,Third,48.4,355.8,13.603147835862844
+29,"Housing (net)1, fuel & power",4,Third,66.9,355.8,18.802698145025296
+30,Household goods & services,5,Third,26.5,355.8,7.448004496908375
+39,Food & non-alcoholic drinks,1,Fourth,52.7,418.7,12.58657750179126
+42,"Housing (net)1, fuel & power",4,Fourth,69.7,418.7,16.646763792691665
+43,Household goods & services,5,Fourth,28.0,418.7,6.687365655600669
+52,Food & non-alcoholic drinks,1,Fifth,56.6,486.5,11.634121274409043
+55,"Housing (net)1, fuel & power",4,Fifth,80.5,486.5,16.546762589928058
+56,Household goods & services,5,Fifth,33.6,486.5,6.906474820143885
+65,Food & non-alcoholic drinks,1,Sixth,63.6,579.6,10.973084886128365
+68,"Housing (net)1, fuel & power",4,Sixth,86.4,579.6,14.906832298136646
+69,Household goods & services,5,Sixth,37.1,579.6,6.40096618357488
+78,Food & non-alcoholic drinks,1,Seventh,67.0,642.6,10.426392779333955
+81,"Housing (net)1, fuel & power",4,Seventh,87.3,642.6,13.585434173669467
+82,Household goods & services,5,Seventh,43.5,642.6,6.76937441643324
+91,Food & non-alcoholic drinks,1,Eighth,75.2,731.4,10.281651627016682
+94,"Housing (net)1, fuel & power",4,Eighth,80.7,731.4,11.03363412633306
+95,Household goods & services,5,Eighth,52.4,731.4,7.164342357123325
+104,Food & non-alcoholic drinks,1,Ninth,83.2,826.5,10.066545674531156
+107,"Housing (net)1, fuel & power",4,Ninth,83.4,826.5,10.090744101633394
+108,Household goods & services,5,Ninth,60.6,826.5,7.3321234119782215
+117,Food & non-alcoholic drinks,1,Highest,92.9,1233.8,7.529583400875345
+120,"Housing (net)1, fuel & power",4,Highest,103.2,1233.8,8.364402658453558
+121,Household goods & services,5,Highest,95.1,1233.8,7.707894310260982

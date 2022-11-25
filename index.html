@@ -86,11 +86,10 @@
     <div class = "myWeek1">
         <h2>Week 4</h2>
 
-        <h3>Analysing the fairness of using 'points' to compare powerlifters across different weight classes</h3>
-        <p>IPF GL points were created to compare the performace of powerlifters in different weight classes (as heavier powerlifters should lift more weight). If IPF GL points were a fair way to compare powerlifters across different wieght classes, then you would expect no association between a lifters body weight and their IPF GL points.</p>
-        <p><a href="https://colab.research.google.com/drive/1o2p-a0NfUx0YEss8utn9OtoPLkQ9JkOc?usp=sharing">Colab Notebok</a> used for data analysis and scraping</p>
+        <h3>Scraping Euro Area Yields From the ECB</h3>
+        <p><a href="https://colab.research.google.com/drive/1xbbpAf6DlHgseg4_d8gjs639Y_arqb4d?usp=sharing">Colab Notebok</a> used for data analysis and scraping</p>
         <div class = chart id = "Chart7" style = "display: block;"></div>
-        <p>This data was scraped from <a href = "https://usapl.liftingdatabase.com/rankings">usapl.liftingdatabase.com</a> because it is the database of the USA's official IPF federation, so data is likely to be accurate.</p>
+        <p>This data was scraped from <a href = "https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/long_term_interest_rates/html/index.en.html">www.ecb.europa.eu</a> because ECB data will definetly be accurate and the website did not have any scraping prevention measures.</p>
     </div>
 
     <div class = "myWeek1">
@@ -127,6 +126,16 @@
         <p>Map 2 shows energy consumption on space heating given identical climates. Assuming a constant dwelling temperature, this map then shows energy efficiency’s association with climate.</p>
     </div>
 
+    <div class = "myWeek1">
+        <h2>Week 8</h2>
+        <h2>FofE Prices & Wages arguement</h2>
+        <p><a href = "https://colab.research.google.com/drive/1c9hubSKKlLvPKRaYhG-AMdcAJkwMl8Zl?usp=sharing">Colab Notebook</a> used for data cleaning</p>
+        <p>Sarah Smith argued the recent inflation hit poorer households harder becausethe most inflationary goods represent a greater share of low income baskets.</p>
+        <div class = test-chart id = 'Chart19' style = "display: block;"></div>
+        <div class = chart id = 'Chart20' style = "display: block;"></div>
+        <p>Charts 1 & 2  show inflation has hit poorer households more because more inflationary goods represent a greater proportion of low income baskets</p>
+    </div>
+
 
 </body>
 
@@ -139,7 +148,7 @@
     var myChart4 = "IMF_corrected_creditOutstanding.json";
     var myChart5 = "highlow_chart.json";
     var myChart6 = "tradingrange_chart.json";
-    var myChart7 = "powerlifting_chart.json";
+    var myChart7 = "yield_chart.json";
     var myChart8 = "gdp_5.json";
     var myChart9 = "gdp_growth_5.json";
     var myChart10 = "gdp_capita_5.json";
@@ -151,6 +160,8 @@
     var myChart16 = "import_5.json";
     var myChart17 = "blank_europe.json";
     var myChart18 = "choro_europe.json";
+    var myChart19 = "w8_chart1.json";
+    var myChart20 = "w8_chart2.json"
 
 
     // Embed charts:
@@ -172,6 +183,8 @@
     vegaEmbed('#Chart16', myChart16);
     vegaEmbed("#Chart17", myChart17);
     vegaEmbed('#Chart18', myChart18);
+    vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart20', myChart20);
 </script>
 
 </html>

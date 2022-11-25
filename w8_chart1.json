@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/week8_chart1_clean.csv",
+    "format":{"type":"csv"}
+  },
+  "transform": [{"filter": {"field": "Name", "oneOf": ["Housing, water, electricity, gas and other fuels (40% a.inf)",
+     "Food and non-alcoholic beverages (18% a.inf)",
+     "Restaurants and hotels (14% a.inf)"]}}],
+  "title": {
+        "text": "Not all baskets are the same",
+        "subtitle": ["The top 3 most inflationary goods' share of each income decile's basket (annualised inflation).", "N.B. Top 3 most iflationary goods from the Russian invasion of Ukraine (Feb 2022) to Oct 22", "Source: ONS"],
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"},
+  "width": {"step": 20},
+  "height": 275,
+  "mark": "bar",
+  "encoding": {
+    "column": {"field": "Name", "sort": ["Housing, water, electricity, gas and other fuels (40% a.inf)",
+     "Food and non-alcoholic beverages (18% a.inf)",
+     "Restaurants and hotels (14% a.inf)",
+     "Clothing and footwear (13% a.inf)",
+     "Furniture, household equipment and maintenance (9% a.inf)",
+     "Transport (8% a.inf)",
+     "Miscellaneous goods and services (6% a.inf)",
+     "Communication (5% a.inf)', '9. Health (4% a.inf)",
+     "Education (4% a.inf)",
+     "Recreation and culture (4% a.inf)",
+     "Alcoholic beverages and tobacco (4% a.inf)"], "type": "nominal", "spacing": 30, "title": null},
+
+    "y": {
+      "aggregate": "sum",
+      "field": "pcnt_spend",
+      "title": "% Share of group's Basket"
+    },
+    "x": {
+      "field": "inc_decile", 
+      "sort": ["Decile 1", "Decile 2", "Decile 3", "Decile 4", "Decile 5", "Decile 6", "Decile 7", "Decile 8", "Decile 9", "Decile 10"],
+      "axis": {"title": "", "labelColor": "white", "ticks": false}
+    },
+    "color": {
+      "field": "inc_decile",
+      "title": "Income Decile",
+      "sort": ["Decile 1", "Decile 2", "Decile 3", "Decile 4", "Decile 5", "Decile 6", "Decile 7", "Decile 8", "Decile 9", "Decile 10"],
+      "scale": {"range": ["#0A2F51", "#0E4D64", "#137177", "#188977", "#1D9A6C", "#39A96B", "#56B870", "#74C67A", "#99D492", "#BFE1B0"]},
+      "legend": {"orient": "bottom"}
+    }
+  },
+  "config": {"view": {"stroke": "transparent"}, "axis": {"domainWidth": 1}}
+}

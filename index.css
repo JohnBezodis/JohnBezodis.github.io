@@ -147,6 +147,22 @@ li:hover:after{
     
 }
 
+.test-chart{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10%;
+    text-align: center;
+    max-width: 1000px;
+    background-color:white; 
+    width: 750px;
+    border-width: 3px;
+    border-style: outset; 
+    border-radius: 8px;
+    border-color: antiquewhite;
+
+    
+}
+
 
 
 .dashchart{

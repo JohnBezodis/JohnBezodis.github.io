@@ -1,121 +1,121 @@
 ,inc_decile,Name,pcnt_spend,inflation,inf_rank
-0,Decile 1,2. Food and non-alcoholic beverages (18% a.inf),18.2,18.13920600627541,2.0
-30,Decile 1,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",26.4,40.83448369002078,1.0
-40,Decile 1,"5. Furniture, household equipment and maintenance (9% a.inf)",5.2,9.336454125311233,5.0
-50,Decile 1,9. Health (4% a.inf),1.9,4.979782796585042,9.0
-60,Decile 1,6. Transport (8% a.inf),9.1,8.2880319750535,6.0
-10,Decile 1,12. Alcoholic beverages and tobacco (4% a.inf),5.7,4.164637646317448,12.0
-80,Decile 1,11. Recreation and culture (4% a.inf),11.0,4.417106307596375,11.0
-70,Decile 1,8. Communication (5% a.inf),3.4,5.621339759103905,8.0
-90,Decile 1,10. Education (4% a.inf),0.5,4.822643951814021,10.0
-100,Decile 1,3. Restaurants and hotels (14% a.inf),6.8,14.708590941578748,3.0
-110,Decile 1,7. Miscellaneous goods and services (6% a.inf),8.2,6.641796110554843,7.0
-20,Decile 1,4. Clothing and footwear (13% a.inf),3.5,13.682133066347824,4.0
-79,Decile 10,8. Communication (5% a.inf),2.3,5.621339759103905,8.0
-29,Decile 10,4. Clothing and footwear (13% a.inf),4.9,13.682133066347824,4.0
-69,Decile 10,6. Transport (8% a.inf),17.0,8.2880319750535,6.0
-99,Decile 10,10. Education (4% a.inf),3.1,4.822643951814021,10.0
-49,Decile 10,"5. Furniture, household equipment and maintenance (9% a.inf)",7.8,9.336454125311233,5.0
-109,Decile 10,3. Restaurants and hotels (14% a.inf),12.1,14.708590941578748,3.0
-39,Decile 10,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",10.4,40.83448369002078,1.0
-89,Decile 10,11. Recreation and culture (4% a.inf),13.3,4.417106307596375,11.0
-59,Decile 10,9. Health (4% a.inf),2.0,4.979782796585042,9.0
-9,Decile 10,2. Food and non-alcoholic beverages (18% a.inf),12.0,18.13920600627541,2.0
-19,Decile 10,12. Alcoholic beverages and tobacco (4% a.inf),4.8,4.164637646317448,12.0
-119,Decile 10,7. Miscellaneous goods and services (6% a.inf),10.3,6.641796110554843,7.0
-71,Decile 2,8. Communication (5% a.inf),3.2,5.621339759103905,8.0
-111,Decile 2,7. Miscellaneous goods and services (6% a.inf),8.8,6.641796110554843,7.0
-1,Decile 2,2. Food and non-alcoholic beverages (18% a.inf),17.3,18.13920600627541,2.0
-101,Decile 2,3. Restaurants and hotels (14% a.inf),7.2,14.708590941578748,3.0
-91,Decile 2,10. Education (4% a.inf),0.9,4.822643951814021,10.0
-81,Decile 2,11. Recreation and culture (4% a.inf),10.2,4.417106307596375,11.0
-11,Decile 2,12. Alcoholic beverages and tobacco (4% a.inf),5.1,4.164637646317448,12.0
-61,Decile 2,6. Transport (8% a.inf),10.2,8.2880319750535,6.0
-51,Decile 2,9. Health (4% a.inf),1.8,4.979782796585042,9.0
-41,Decile 2,"5. Furniture, household equipment and maintenance (9% a.inf)",6.4,9.336454125311233,5.0
-21,Decile 2,4. Clothing and footwear (13% a.inf),4.6,13.682133066347824,4.0
-31,Decile 2,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",24.1,40.83448369002078,1.0
-62,Decile 3,6. Transport (8% a.inf),10.7,8.2880319750535,6.0
-12,Decile 3,12. Alcoholic beverages and tobacco (4% a.inf),6.1,4.164637646317448,12.0
-112,Decile 3,7. Miscellaneous goods and services (6% a.inf),9.5,6.641796110554843,7.0
-82,Decile 3,11. Recreation and culture (4% a.inf),11.1,4.417106307596375,11.0
-102,Decile 3,3. Restaurants and hotels (14% a.inf),8.0,14.708590941578748,3.0
-42,Decile 3,"5. Furniture, household equipment and maintenance (9% a.inf)",6.4,9.336454125311233,5.0
-92,Decile 3,10. Education (4% a.inf),0.3,4.822643951814021,10.0
-72,Decile 3,8. Communication (5% a.inf),3.2,5.621339759103905,8.0
-2,Decile 3,2. Food and non-alcoholic beverages (18% a.inf),17.5,18.13920600627541,2.0
-22,Decile 3,4. Clothing and footwear (13% a.inf),4.8,13.682133066347824,4.0
-52,Decile 3,9. Health (4% a.inf),2.2,4.979782796585042,9.0
-32,Decile 3,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",20.3,40.83448369002078,1.0
-63,Decile 4,6. Transport (8% a.inf),12.3,8.2880319750535,6.0
-93,Decile 4,10. Education (4% a.inf),0.9,4.822643951814021,10.0
-53,Decile 4,9. Health (4% a.inf),1.7,4.979782796585042,9.0
-3,Decile 4,2. Food and non-alcoholic beverages (18% a.inf),16.2,18.13920600627541,2.0
-23,Decile 4,4. Clothing and footwear (13% a.inf),4.6,13.682133066347824,4.0
-43,Decile 4,"5. Furniture, household equipment and maintenance (9% a.inf)",6.6,9.336454125311233,5.0
-33,Decile 4,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",19.9,40.83448369002078,1.0
-73,Decile 4,8. Communication (5% a.inf),3.4,5.621339759103905,8.0
-113,Decile 4,7. Miscellaneous goods and services (6% a.inf),9.4,6.641796110554843,7.0
-83,Decile 4,11. Recreation and culture (4% a.inf),11.4,4.417106307596375,11.0
-13,Decile 4,12. Alcoholic beverages and tobacco (4% a.inf),5.0,4.164637646317448,12.0
-103,Decile 4,3. Restaurants and hotels (14% a.inf),8.5,14.708590941578748,3.0
-84,Decile 5,11. Recreation and culture (4% a.inf),12.0,4.417106307596375,11.0
-64,Decile 5,6. Transport (8% a.inf),12.2,8.2880319750535,6.0
-74,Decile 5,8. Communication (5% a.inf),2.7,5.621339759103905,8.0
-24,Decile 5,4. Clothing and footwear (13% a.inf),6.1,13.682133066347824,4.0
-4,Decile 5,2. Food and non-alcoholic beverages (18% a.inf),15.2,18.13920600627541,2.0
-54,Decile 5,9. Health (4% a.inf),2.2,4.979782796585042,9.0
-14,Decile 5,12. Alcoholic beverages and tobacco (4% a.inf),5.2,4.164637646317448,12.0
-104,Decile 5,3. Restaurants and hotels (14% a.inf),9.4,14.708590941578748,3.0
-44,Decile 5,"5. Furniture, household equipment and maintenance (9% a.inf)",6.5,9.336454125311233,5.0
-114,Decile 5,7. Miscellaneous goods and services (6% a.inf),10.0,6.641796110554843,7.0
-94,Decile 5,10. Education (4% a.inf),0.5,4.822643951814021,10.0
-34,Decile 5,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",18.0,40.83448369002078,1.0
-95,Decile 6,10. Education (4% a.inf),0.6,4.822643951814021,10.0
-5,Decile 6,2. Food and non-alcoholic beverages (18% a.inf),14.4,18.13920600627541,2.0
-85,Decile 6,11. Recreation and culture (4% a.inf),13.8,4.417106307596375,11.0
-105,Decile 6,3. Restaurants and hotels (14% a.inf),9.9,14.708590941578748,3.0
-25,Decile 6,4. Clothing and footwear (13% a.inf),4.6,13.682133066347824,4.0
-115,Decile 6,7. Miscellaneous goods and services (6% a.inf),9.2,6.641796110554843,7.0
-35,Decile 6,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",16.5,40.83448369002078,1.0
-75,Decile 6,8. Communication (5% a.inf),3.4,5.621339759103905,8.0
-65,Decile 6,6. Transport (8% a.inf),12.2,8.2880319750535,6.0
-45,Decile 6,"5. Furniture, household equipment and maintenance (9% a.inf)",7.1,9.336454125311233,5.0
-15,Decile 6,12. Alcoholic beverages and tobacco (4% a.inf),5.6,4.164637646317448,12.0
-55,Decile 6,9. Health (4% a.inf),2.8,4.979782796585042,9.0
-6,Decile 7,2. Food and non-alcoholic beverages (18% a.inf),14.3,18.13920600627541,2.0
-46,Decile 7,"5. Furniture, household equipment and maintenance (9% a.inf)",7.0,9.336454125311233,5.0
-96,Decile 7,10. Education (4% a.inf),0.5,4.822643951814021,10.0
-106,Decile 7,3. Restaurants and hotels (14% a.inf),11.5,14.708590941578748,3.0
-66,Decile 7,6. Transport (8% a.inf),14.5,8.2880319750535,6.0
-26,Decile 7,4. Clothing and footwear (13% a.inf),5.1,13.682133066347824,4.0
-56,Decile 7,9. Health (4% a.inf),2.2,4.979782796585042,9.0
-86,Decile 7,11. Recreation and culture (4% a.inf),12.2,4.417106307596375,11.0
-36,Decile 7,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",13.7,40.83448369002078,1.0
-76,Decile 7,8. Communication (5% a.inf),3.2,5.621339759103905,8.0
-116,Decile 7,7. Miscellaneous goods and services (6% a.inf),10.2,6.641796110554843,7.0
-16,Decile 7,12. Alcoholic beverages and tobacco (4% a.inf),5.8,4.164637646317448,12.0
-37,Decile 8,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",12.0,40.83448369002078,1.0
-107,Decile 8,3. Restaurants and hotels (14% a.inf),10.6,14.708590941578748,3.0
-117,Decile 8,7. Miscellaneous goods and services (6% a.inf),10.4,6.641796110554843,7.0
-47,Decile 8,"5. Furniture, household equipment and maintenance (9% a.inf)",7.3,9.336454125311233,5.0
-57,Decile 8,9. Health (4% a.inf),2.3,4.979782796585042,9.0
-77,Decile 8,8. Communication (5% a.inf),3.1,5.621339759103905,8.0
-67,Decile 8,6. Transport (8% a.inf),14.9,8.2880319750535,6.0
-7,Decile 8,2. Food and non-alcoholic beverages (18% a.inf),13.6,18.13920600627541,2.0
-97,Decile 8,10. Education (4% a.inf),1.1,4.822643951814021,10.0
-17,Decile 8,12. Alcoholic beverages and tobacco (4% a.inf),6.0,4.164637646317448,12.0
-87,Decile 8,11. Recreation and culture (4% a.inf),13.5,4.417106307596375,11.0
-27,Decile 8,4. Clothing and footwear (13% a.inf),5.1,13.682133066347824,4.0
-18,Decile 9,12. Alcoholic beverages and tobacco (4% a.inf),5.9,4.164637646317448,12.0
-68,Decile 9,6. Transport (8% a.inf),16.0,8.2880319750535,6.0
-38,Decile 9,"1. Housing, water, electricity, gas and other fuels (40% a.inf)",11.5,40.83448369002078,1.0
-78,Decile 9,8. Communication (5% a.inf),2.9,5.621339759103905,8.0
-28,Decile 9,4. Clothing and footwear (13% a.inf),5.4,13.682133066347824,4.0
-108,Decile 9,3. Restaurants and hotels (14% a.inf),12.3,14.708590941578748,3.0
-118,Decile 9,7. Miscellaneous goods and services (6% a.inf),11.0,6.641796110554843,7.0
-58,Decile 9,9. Health (4% a.inf),1.9,4.979782796585042,9.0
-98,Decile 9,10. Education (4% a.inf),1.2,4.822643951814021,10.0
-48,Decile 9,"5. Furniture, household equipment and maintenance (9% a.inf)",6.9,9.336454125311233,5.0
-88,Decile 9,11. Recreation and culture (4% a.inf),12.4,4.417106307596375,11.0
-8,Decile 9,2. Food and non-alcoholic beverages (18% a.inf),12.6,18.13920600627541,2.0
+0,Decile 1,. Food and non-alcoholic beverages (18% a.inf),18.2,18.13920600627541,2.0
+30,Decile 1,". Housing, water, electricity, gas and other fuels (40% a.inf)",26.4,40.83448369002078,1.0
+40,Decile 1,". Furniture, household equipment and maintenance (9% a.inf)",5.2,9.336454125311233,5.0
+50,Decile 1,. Health (4% a.inf),1.9,4.979782796585042,9.0
+60,Decile 1,. Transport (8% a.inf),9.1,8.2880319750535,6.0
+10,Decile 1,. Alcoholic beverages and tobacco (4% a.inf),5.7,4.164637646317448,12.0
+80,Decile 1,. Recreation and culture (4% a.inf),11.0,4.417106307596375,11.0
+70,Decile 1,. Communication (5% a.inf),3.4,5.621339759103905,8.0
+90,Decile 1,. Education (4% a.inf),0.5,4.822643951814021,10.0
+100,Decile 1,. Restaurants and hotels (14% a.inf),6.8,14.708590941578748,3.0
+110,Decile 1,. Miscellaneous goods and services (6% a.inf),8.2,6.641796110554843,7.0
+20,Decile 1,. Clothing and footwear (13% a.inf),3.5,13.682133066347824,4.0
+79,Decile 10,. Communication (5% a.inf),2.3,5.621339759103905,8.0
+29,Decile 10,. Clothing and footwear (13% a.inf),4.9,13.682133066347824,4.0
+69,Decile 10,. Transport (8% a.inf),17.0,8.2880319750535,6.0
+99,Decile 10,. Education (4% a.inf),3.1,4.822643951814021,10.0
+49,Decile 10,". Furniture, household equipment and maintenance (9% a.inf)",7.8,9.336454125311233,5.0
+109,Decile 10,. Restaurants and hotels (14% a.inf),12.1,14.708590941578748,3.0
+39,Decile 10,". Housing, water, electricity, gas and other fuels (40% a.inf)",10.4,40.83448369002078,1.0
+89,Decile 10,. Recreation and culture (4% a.inf),13.3,4.417106307596375,11.0
+59,Decile 10,. Health (4% a.inf),2.0,4.979782796585042,9.0
+9,Decile 10,. Food and non-alcoholic beverages (18% a.inf),12.0,18.13920600627541,2.0
+19,Decile 10,. Alcoholic beverages and tobacco (4% a.inf),4.8,4.164637646317448,12.0
+119,Decile 10,. Miscellaneous goods and services (6% a.inf),10.3,6.641796110554843,7.0
+71,Decile 2,. Communication (5% a.inf),3.2,5.621339759103905,8.0
+111,Decile 2,. Miscellaneous goods and services (6% a.inf),8.8,6.641796110554843,7.0
+1,Decile 2,. Food and non-alcoholic beverages (18% a.inf),17.3,18.13920600627541,2.0
+101,Decile 2,. Restaurants and hotels (14% a.inf),7.2,14.708590941578748,3.0
+91,Decile 2,. Education (4% a.inf),0.9,4.822643951814021,10.0
+81,Decile 2,. Recreation and culture (4% a.inf),10.2,4.417106307596375,11.0
+11,Decile 2,. Alcoholic beverages and tobacco (4% a.inf),5.1,4.164637646317448,12.0
+61,Decile 2,. Transport (8% a.inf),10.2,8.2880319750535,6.0
+51,Decile 2,. Health (4% a.inf),1.8,4.979782796585042,9.0
+41,Decile 2,". Furniture, household equipment and maintenance (9% a.inf)",6.4,9.336454125311233,5.0
+21,Decile 2,. Clothing and footwear (13% a.inf),4.6,13.682133066347824,4.0
+31,Decile 2,". Housing, water, electricity, gas and other fuels (40% a.inf)",24.1,40.83448369002078,1.0
+62,Decile 3,. Transport (8% a.inf),10.7,8.2880319750535,6.0
+12,Decile 3,. Alcoholic beverages and tobacco (4% a.inf),6.1,4.164637646317448,12.0
+112,Decile 3,. Miscellaneous goods and services (6% a.inf),9.5,6.641796110554843,7.0
+82,Decile 3,. Recreation and culture (4% a.inf),11.1,4.417106307596375,11.0
+102,Decile 3,. Restaurants and hotels (14% a.inf),8.0,14.708590941578748,3.0
+42,Decile 3,". Furniture, household equipment and maintenance (9% a.inf)",6.4,9.336454125311233,5.0
+92,Decile 3,. Education (4% a.inf),0.3,4.822643951814021,10.0
+72,Decile 3,. Communication (5% a.inf),3.2,5.621339759103905,8.0
+2,Decile 3,. Food and non-alcoholic beverages (18% a.inf),17.5,18.13920600627541,2.0
+22,Decile 3,. Clothing and footwear (13% a.inf),4.8,13.682133066347824,4.0
+52,Decile 3,. Health (4% a.inf),2.2,4.979782796585042,9.0
+32,Decile 3,". Housing, water, electricity, gas and other fuels (40% a.inf)",20.3,40.83448369002078,1.0
+63,Decile 4,. Transport (8% a.inf),12.3,8.2880319750535,6.0
+93,Decile 4,. Education (4% a.inf),0.9,4.822643951814021,10.0
+53,Decile 4,. Health (4% a.inf),1.7,4.979782796585042,9.0
+3,Decile 4,. Food and non-alcoholic beverages (18% a.inf),16.2,18.13920600627541,2.0
+23,Decile 4,. Clothing and footwear (13% a.inf),4.6,13.682133066347824,4.0
+43,Decile 4,". Furniture, household equipment and maintenance (9% a.inf)",6.6,9.336454125311233,5.0
+33,Decile 4,". Housing, water, electricity, gas and other fuels (40% a.inf)",19.9,40.83448369002078,1.0
+73,Decile 4,. Communication (5% a.inf),3.4,5.621339759103905,8.0
+113,Decile 4,. Miscellaneous goods and services (6% a.inf),9.4,6.641796110554843,7.0
+83,Decile 4,. Recreation and culture (4% a.inf),11.4,4.417106307596375,11.0
+13,Decile 4,. Alcoholic beverages and tobacco (4% a.inf),5.0,4.164637646317448,12.0
+103,Decile 4,. Restaurants and hotels (14% a.inf),8.5,14.708590941578748,3.0
+84,Decile 5,. Recreation and culture (4% a.inf),12.0,4.417106307596375,11.0
+64,Decile 5,. Transport (8% a.inf),12.2,8.2880319750535,6.0
+74,Decile 5,. Communication (5% a.inf),2.7,5.621339759103905,8.0
+24,Decile 5,. Clothing and footwear (13% a.inf),6.1,13.682133066347824,4.0
+4,Decile 5,. Food and non-alcoholic beverages (18% a.inf),15.2,18.13920600627541,2.0
+54,Decile 5,. Health (4% a.inf),2.2,4.979782796585042,9.0
+14,Decile 5,. Alcoholic beverages and tobacco (4% a.inf),5.2,4.164637646317448,12.0
+104,Decile 5,. Restaurants and hotels (14% a.inf),9.4,14.708590941578748,3.0
+44,Decile 5,". Furniture, household equipment and maintenance (9% a.inf)",6.5,9.336454125311233,5.0
+114,Decile 5,. Miscellaneous goods and services (6% a.inf),10.0,6.641796110554843,7.0
+94,Decile 5,. Education (4% a.inf),0.5,4.822643951814021,10.0
+34,Decile 5,". Housing, water, electricity, gas and other fuels (40% a.inf)",18.0,40.83448369002078,1.0
+95,Decile 6,. Education (4% a.inf),0.6,4.822643951814021,10.0
+5,Decile 6,. Food and non-alcoholic beverages (18% a.inf),14.4,18.13920600627541,2.0
+85,Decile 6,. Recreation and culture (4% a.inf),13.8,4.417106307596375,11.0
+105,Decile 6,. Restaurants and hotels (14% a.inf),9.9,14.708590941578748,3.0
+25,Decile 6,. Clothing and footwear (13% a.inf),4.6,13.682133066347824,4.0
+115,Decile 6,. Miscellaneous goods and services (6% a.inf),9.2,6.641796110554843,7.0
+35,Decile 6,". Housing, water, electricity, gas and other fuels (40% a.inf)",16.5,40.83448369002078,1.0
+75,Decile 6,. Communication (5% a.inf),3.4,5.621339759103905,8.0
+65,Decile 6,. Transport (8% a.inf),12.2,8.2880319750535,6.0
+45,Decile 6,". Furniture, household equipment and maintenance (9% a.inf)",7.1,9.336454125311233,5.0
+15,Decile 6,. Alcoholic beverages and tobacco (4% a.inf),5.6,4.164637646317448,12.0
+55,Decile 6,. Health (4% a.inf),2.8,4.979782796585042,9.0
+6,Decile 7,. Food and non-alcoholic beverages (18% a.inf),14.3,18.13920600627541,2.0
+46,Decile 7,". Furniture, household equipment and maintenance (9% a.inf)",7.0,9.336454125311233,5.0
+96,Decile 7,. Education (4% a.inf),0.5,4.822643951814021,10.0
+106,Decile 7,. Restaurants and hotels (14% a.inf),11.5,14.708590941578748,3.0
+66,Decile 7,. Transport (8% a.inf),14.5,8.2880319750535,6.0
+26,Decile 7,. Clothing and footwear (13% a.inf),5.1,13.682133066347824,4.0
+56,Decile 7,. Health (4% a.inf),2.2,4.979782796585042,9.0
+86,Decile 7,. Recreation and culture (4% a.inf),12.2,4.417106307596375,11.0
+36,Decile 7,". Housing, water, electricity, gas and other fuels (40% a.inf)",13.7,40.83448369002078,1.0
+76,Decile 7,. Communication (5% a.inf),3.2,5.621339759103905,8.0
+116,Decile 7,. Miscellaneous goods and services (6% a.inf),10.2,6.641796110554843,7.0
+16,Decile 7,. Alcoholic beverages and tobacco (4% a.inf),5.8,4.164637646317448,12.0
+37,Decile 8,". Housing, water, electricity, gas and other fuels (40% a.inf)",12.0,40.83448369002078,1.0
+107,Decile 8,. Restaurants and hotels (14% a.inf),10.6,14.708590941578748,3.0
+117,Decile 8,. Miscellaneous goods and services (6% a.inf),10.4,6.641796110554843,7.0
+47,Decile 8,". Furniture, household equipment and maintenance (9% a.inf)",7.3,9.336454125311233,5.0
+57,Decile 8,. Health (4% a.inf),2.3,4.979782796585042,9.0
+77,Decile 8,. Communication (5% a.inf),3.1,5.621339759103905,8.0
+67,Decile 8,. Transport (8% a.inf),14.9,8.2880319750535,6.0
+7,Decile 8,. Food and non-alcoholic beverages (18% a.inf),13.6,18.13920600627541,2.0
+97,Decile 8,. Education (4% a.inf),1.1,4.822643951814021,10.0
+17,Decile 8,. Alcoholic beverages and tobacco (4% a.inf),6.0,4.164637646317448,12.0
+87,Decile 8,. Recreation and culture (4% a.inf),13.5,4.417106307596375,11.0
+27,Decile 8,. Clothing and footwear (13% a.inf),5.1,13.682133066347824,4.0
+18,Decile 9,. Alcoholic beverages and tobacco (4% a.inf),5.9,4.164637646317448,12.0
+68,Decile 9,. Transport (8% a.inf),16.0,8.2880319750535,6.0
+38,Decile 9,". Housing, water, electricity, gas and other fuels (40% a.inf)",11.5,40.83448369002078,1.0
+78,Decile 9,. Communication (5% a.inf),2.9,5.621339759103905,8.0
+28,Decile 9,. Clothing and footwear (13% a.inf),5.4,13.682133066347824,4.0
+108,Decile 9,. Restaurants and hotels (14% a.inf),12.3,14.708590941578748,3.0
+118,Decile 9,. Miscellaneous goods and services (6% a.inf),11.0,6.641796110554843,7.0
+58,Decile 9,. Health (4% a.inf),1.9,4.979782796585042,9.0
+98,Decile 9,. Education (4% a.inf),1.2,4.822643951814021,10.0
+48,Decile 9,". Furniture, household equipment and maintenance (9% a.inf)",6.9,9.336454125311233,5.0
+88,Decile 9,. Recreation and culture (4% a.inf),12.4,4.417106307596375,11.0
+8,Decile 9,. Food and non-alcoholic beverages (18% a.inf),12.6,18.13920600627541,2.0

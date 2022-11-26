@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 520,
+    "height": 500,
+    "view": {"stroke": "transparent"},
+  
+    "title": {
+        "text": "Efficiency of Space Heating in Europe",
+        "fontSize": 12,
+        "subtitle":["Climate Corrected Energy Consumption on Space Heating, Tons of Oil Equivelent, Millions", "Source: ODYSEE"],
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10, "anchor": "middle"},
+  
+    "params": [    
+    {"name":"yearSelector", "value":2018,
+       "bind":{
+         "input": "range",
+         "min": 1990, 
+         "max": 2019, 
+         "step": 1,
+         "name": "Year:"}
+    }],
+    
+    "data": {
+        "url":"https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/energy_efficiency_temp.csv",
+        "format": {"type": "csv"}},
+  
+    "transform":[
+  
+      {"filter":"datum.year == yearSelector"},
+        
+  
+  
+        {"lookup": "country",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/europe.geo.json",
+                    "format":{"property":"features"}},
+            "key": "properties.name_en",
+                "fields": [       
+                    "properties",
+                    "type",
+                    "geometry"]}}],
+  
+    "projection": {"type": "mercator", "scale": 410, "center": [15, 56]},
+    "mark": "geoshape", 
+  
+    "encoding":{
+      
+        "color":{
+            "field":"heat_energy_co",
+            "legend":{
+                "title":null,
+                "orient": "right",
+                "direction": "vertical"},
+            "type": "quantitative",
+            "scale":{"scheme":"lightgreyred"}},
+        "tooltip": [
+        {"field": "properties.name_en", "title": "Country"},
+        {"field": "heat_energy_co", "title": "Energy Consumption (Mtoe)"}
+      ]    
+    }
+  }

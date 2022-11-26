@@ -1,4 +1,4 @@
-,ISO code,Year,heat_energy_co,High,Low,dwel_area,deg_days,Country,GDP
+,ISO code,year,heat_energy_co,High,Low,dwel_area,deg_days,country,GDP
 0,AT,1990,4.8858,6.0,0.2,84.0753,3653.29,Austria,19461.99694
 1,AT,1991,4.8931,6.0,0.2,84.5465,4007.59,Austria,20605.85357
 2,AT,1992,5.0566,6.0,0.2,85.0993,3595.32,Austria,21281.15471

@@ -19,7 +19,7 @@
     "encoding": {
       "column": {"field": "Name", "sort": ["Housing, water, energy (40% a.inf)",
        "Food & non-alc. bev. (18% a.inf)",
-       "Restaurants and hotels (14% a.inf)"], "type": "nominal", "spacing": 30, "title": null},
+       "Restaurants and hotels (14% a.inf)"], "type": "nominal", "spacing": 20, "title": null},
   
       "y": {
         "aggregate": "sum",
@@ -36,7 +36,7 @@
         "title": "Income Decile",
         "sort": ["Decile 1", "Decile 2", "Decile 3", "Decile 4", "Decile 5", "Decile 6", "Decile 7", "Decile 8", "Decile 9", "Decile 10"],
         "scale": {"range": ["#0A2F51", "#0E4D64", "#137177", "#188977", "#1D9A6C", "#39A96B", "#56B870", "#74C67A", "#99D492", "#BFE1B0"]},
-        "legend": {"orient": "bottom", "columns":5}
+        "legend": {"orient": "bottom", "columns":4}
       }
     },
     "config": {"view": {"stroke": "transparent"}, "axis": {"domainWidth": 1}}

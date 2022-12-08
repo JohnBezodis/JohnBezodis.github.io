@@ -1,14 +1,14 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
-    "width": 520,
-    "height": 500,
+    "width": 300,
+    "height": 400,
     "view": {"stroke": "transparent"},
   
     "title": {
         "text": "Efficiency of Space Heating in Europe",
         "fontSize": 12,
-        "subtitle":["Climate Corrected Energy Consumption on Space Heating, Tons of Oil Equivelent, Millions", "Source: ODYSEE"],
+        "subtitle":["Climate Corrected Energy Consumption on Space Heating,", "Tons of Oil Equivelent, Millions", "Source: ODYSEE"],
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10, "anchor": "middle"},
   
@@ -43,7 +43,7 @@
                     "type",
                     "geometry"]}}],
   
-    "projection": {"type": "mercator", "scale": 410, "center": [15, 56]},
+    "projection": {"type": "mercator", "scale": 350, "center": [11, 56]},
     "mark": "geoshape", 
   
     "encoding":{
@@ -51,9 +51,9 @@
         "color":{
             "field":"heat_energy_co",
             "legend":{
-                "title":null,
-                "orient": "right",
-                "direction": "vertical"},
+                "title":"Mtoe",
+                "orient": "bottom",
+                "direction": "horizontal"},
             "type": "quantitative",
             "scale":{"scheme":"lightgreyred"}},
         "tooltip": [

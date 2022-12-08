@@ -1,0 +1,53 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": ["Climate and space heating consumption after", "adjusting for outside temperature"],
+    "subtitle":["Climate corrected annual energy consumption on space heating (y)", "and long run average low of winter months (x)", "Source: ODYSSEE (y), currentresults.com (x)"],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {"url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/energy_efficiency_temp.csv"},
+
+   
+  "height": 300,
+  "width": 300,
+
+"layer":[{
+
+  "mark": {
+    "type":"circle",
+    "color":"rgb(0,47,167)",
+    "size":100},
+ 
+
+  "encoding": {
+    "x": {
+      "field": "Low", 
+      "type": "quantitative",
+      "title": "°C",
+      "scale":{"domain": [-7, 12]}
+      },
+
+    "y": {
+      "field": "heat_energy_co", 
+      "type": "quantitative",
+      "title": "Tons of Oil Equivelent, Millions (Mtoe)"
+      }
+  }},
+
+    {
+      "mark": {"type": "line", "color": "firebrick"},
+
+      "transform": [{"regression": "heat_energy_co", "on": "Low", "extent": [-7, 11]}],
+         
+      "encoding": {
+        "x": {"field": "Low", "type": "quantitative"},
+        "y": {"field": "heat_energy_co", "type": "quantitative", "scale": {"domain": [0, 55]}}
+      }
+    }
+]
+
+}

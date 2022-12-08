@@ -1,0 +1,93 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text": ["Moving Average of search interst in terms related to energy efficient goods/services"],
+      "subtitle":["20 day MA of relative interest in Google search terms on scale of 0-100", "Source: Google Trends"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+  
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/trends_data.csv",
+      "format": {"type": "csv"}
+    },
+  
+   
+    "height": 400,
+    "width": 300,
+   
+    "mark": {"type": "line", "point": false},
+    "selection": {
+      "search_term": {
+        "type": "point",
+        "fields": ["search_term"],
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "insulation",
+            "efficient heater",
+            "efficient boiler",
+            "energy efficient",
+            "double glazing",
+            "triple glazing",
+            "secondary glazing"
+          ],
+          "name": "Search Term(s)"
+        }
+      }
+    },
+    "transform": [{"filter": {"selection": "search_term"}}, {"window": [{"field": "interest",
+    "op": "mean",
+    "as": "interestRollingMean"}],
+    "frame": [-20,0]},
+    {"filter": "year(datum.date)<=maxYear"},
+    {"filter": "year(datum.date)>=minYear"}],
+    
+    "params": [    
+        {"name":"minYear", "value":2019,
+           "bind":{
+             "input": "range",
+             "min": 2019, 
+             "max": 2021, 
+             "step": 1,
+             "name": "Start year:"}
+        },
+  
+        {"name":"maxYear", "value":2022,
+           "bind":{
+             "input": "range",
+             "min": 2019, 
+             "max": 2022, 
+             "step": 1,
+             "name": "End year:"}
+        }
+      ],
+    
+    "encoding": {
+      
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false, "format": "%b %y"}},
+   
+      "y": {
+        "field": "interestRollingMean",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false}},
+  
+      "color": {
+        "field": "search_term",
+        "type": "nominal",
+        "scale": {"scheme": "lightgreyteal"},
+        "title": null,
+        "legend": {"orient": "top-left"}
+   
+     }
+  }
+  }

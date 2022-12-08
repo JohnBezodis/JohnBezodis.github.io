@@ -151,10 +151,12 @@
 
     // Define charts that need to be changes for smaller screens
     let width = screen.width
-    if (width > 450){
+    if (width > 950){
         myChart19 = "w8_chart1_wide.json";
+        myChart22 = "trends_chart_ma_wide.json";
     } else{
         myChart19 = "w8_chart1_narrow.json";
+        myChart22 = "trends_chart_ma_narrow.json";
     }
     //Define charts:
     var myChart1 = "chart_assignment1_RPI.json";
@@ -177,7 +179,6 @@
     var myChart18 = "choro_europe_selector.json";
     var myChart20 = "w8_chart2.json";
     var myChart21 = "temp_heating_lbf.json";
-    var myChart22 = "trends_chart_ma.json";
 
 
     // Embed charts:
@@ -202,7 +203,7 @@
     vegaEmbed('#Chart19', myChart19, {"actions" : false});
     vegaEmbed('#Chart20', myChart20);
     vegaEmbed('#Chart21', myChart21);
-    vegaEmbed('#Chart22', myChart22)
+    vegaEmbed('#Chart22', myChart22, {"actions": false});
 </script>
 
 </html>

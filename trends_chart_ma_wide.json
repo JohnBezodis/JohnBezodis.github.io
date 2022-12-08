@@ -3,7 +3,7 @@
 
   "title": {
     "text": ["Moving Average of search interst in terms related to energy efficient goods/services"],
-    "subtitle":["20 day MA of relative interest in Google search terms on scale of 0-100", "Source: Google Trends"],
+    "subtitle":["20 observation MA of relative interest in Google search terms on scale of 0-100", "Source: Google Trends"],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
@@ -11,7 +11,7 @@
 
   
   "data": {
-    "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/trends_data.csv",
+    "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/trends_data_longer.csv",
     "format": {"type": "csv"}
   },
 
@@ -36,20 +36,22 @@
           "triple glazing",
           "secondary glazing"
         ],
-        "name": "Search Term(s)"
+        "name": "Search Term:"
       }
     }
   },
   "transform": [{"filter": {"selection": "search_term"}}, {"window": [{"field": "interest",
   "op": "mean",
   "as": "interestRollingMean"}],
-  "frame": [-20,0]}],
+  "frame": [-20,0]}, 
+  {"filter": {"field": "date", "range": [{"year": 2019, "month": "apr", "date": 1}, {"year": 2022, "month": "dec", "date": 20}] }}], 
   
   "encoding": {
     
     "x": {
       "field": "date",
       "type": "temporal",
+
       "title": null,
       "axis": {"grid": false, "format": "%b %y"}},
  

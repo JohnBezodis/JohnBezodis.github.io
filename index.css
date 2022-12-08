@@ -138,7 +138,7 @@ li:hover:after{
     text-align: center;
     max-width: 1000px;
     background-color:white; 
-    width: 600px;
+    width: 350px;
     border-width: 3px;
     border-style: outset; 
     border-radius: 8px;
@@ -154,7 +154,7 @@ li:hover:after{
     text-align: center;
     max-width: 1000px;
     background-color:white; 
-    width: 600px;
+    width: 350px;
     border-width: 3px;
     border-style: outset; 
     border-radius: 8px;
@@ -170,7 +170,7 @@ li:hover:after{
     text-align: center;
     max-width: 1000px;
     background-color:white; 
-    width: 750px;
+    width: 350px;
     border-width: 3px;
     border-style: outset; 
     border-radius: 8px;
@@ -208,8 +208,8 @@ li:hover:after{
     margin: auto;
 }
 
-
-@media only screen and (min-width: 800pt) {
+/* Settings for big screens only */
+@media only screen and (min-width: 800px) {
   .grid-item {
     grid-template-columns: 40% 40%;
     padding: 5px;
@@ -220,4 +220,16 @@ li:hover:after{
     margin: auto;
     padding: 5px
   }
+
+
+  .foe-chart{
+    width: 600px;
+  }
+
+  .gtrend-chart{
+    width: 750px;
+  }
+
+
+
 }

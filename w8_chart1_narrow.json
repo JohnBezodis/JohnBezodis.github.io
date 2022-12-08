@@ -1,0 +1,43 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/week8_chart1_clean.csv",
+      "format":{"type":"csv"}
+    },
+    "transform": [{"filter": {"field": "Name", "oneOf": ["Housing, water, electricity, gas and other fuels (40% a.inf)",
+       "Food and non-alcoholic beverages (18% a.inf)"]}}, {"calculate": "{'Housing, water, electricity, gas and other fuels (40% a.inf)': 'Housing, water, energy (40% a.inf)','Food and non-alcoholic beverages (18% a.inf)': 'Food & non-alc. bev. (18% a.inf)' }[datum.Name]", "as": "Name"}],
+    "title": {
+          "text": "Not all baskets are the same",
+          "subtitle": ["The top 2 most inflationary goods' share of each income decile's basket.", "N.B. Top 2 most inflationary goods from the Russian invasion of Ukraine","(Feb 2022) to Oct 22, annualised inflation in brackets.", "Source: ONS"],
+          "subtitleFontStyle":"italic",
+          "subtitleFontSize":10,
+          "anchor": "start",
+          "color": "black"},
+    "width": {"step": 13},
+    "height": 275,
+    "mark": "bar",
+    "encoding": {
+      "column": {"field": "Name", "sort": ["Housing, water, energy (40% a.inf)",
+       "Food & non-alc. bev. (18% a.inf)",
+       "Restaurants and hotels (14% a.inf)"], "type": "nominal", "spacing": 30, "title": null},
+  
+      "y": {
+        "aggregate": "sum",
+        "field": "pcnt_spend",
+        "title": "% Share of group's Basket"
+      },
+      "x": {
+        "field": "inc_decile", 
+        "sort": ["Decile 1", "Decile 2", "Decile 3", "Decile 4", "Decile 5", "Decile 6", "Decile 7", "Decile 8", "Decile 9", "Decile 10"],
+        "axis": {"title": "", "labelColor": "white", "ticks": false}
+      },
+      "color": {
+        "field": "inc_decile",
+        "title": "Income Decile",
+        "sort": ["Decile 1", "Decile 2", "Decile 3", "Decile 4", "Decile 5", "Decile 6", "Decile 7", "Decile 8", "Decile 9", "Decile 10"],
+        "scale": {"range": ["#0A2F51", "#0E4D64", "#137177", "#188977", "#1D9A6C", "#39A96B", "#56B870", "#74C67A", "#99D492", "#BFE1B0"]},
+        "legend": {"orient": "bottom", "columns":5}
+      }
+    },
+    "config": {"view": {"stroke": "transparent"}, "axis": {"domainWidth": 1}}
+  }

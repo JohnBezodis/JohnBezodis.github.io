@@ -147,7 +147,23 @@ li:hover:after{
     
 }
 
-.test-chart{
+.foe-chart{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10%;
+    text-align: center;
+    max-width: 1000px;
+    background-color:white; 
+    width: 600px;
+    border-width: 3px;
+    border-style: outset; 
+    border-radius: 8px;
+    border-color: antiquewhite;
+
+    
+}
+
+.gtrend-chart{
     width: 100%;
     margin: auto;
     margin-bottom: 10%;
@@ -162,6 +178,7 @@ li:hover:after{
 
     
 }
+
 
 
 

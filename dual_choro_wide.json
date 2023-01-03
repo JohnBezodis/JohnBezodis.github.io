@@ -1,0 +1,105 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 500,
+    "height": 800,
+    "view": {"stroke": "transparent"},
+  
+    "title": {
+        "text": "Chart 1: Efficiency of Space Heating in Europe and Climate",
+        "fontSize": 12,
+        "subtitle":["Climate Corrected Energy Consumption on Space Heating, Tons of Oil Equivelent, Millions - Left", "Long-run Average Low in coldest months (November, December, January, February and March) - Right", "Sources: ODYSEE (Left), currentresults.com (Right) "],
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10, "anchor": "middle"},
+  
+    "params": [    
+    {"name":"yearSelector", "value":2018,
+       "bind":{
+         "input": "range",
+         "min": 1990, 
+         "max": 2019, 
+         "step": 1,
+         "name": "Year:"}
+    }],
+    
+    "data": {
+        "url":"https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/energy_efficiency_temp.csv",
+        "format": {"type": "csv"}},
+  
+
+    "hconcat":[
+    {"height": 400,"width": 300,
+        "transform":[
+  
+      {"filter":"datum.year == yearSelector"},
+        
+  
+  
+        {"lookup": "country",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/europe.geo.json",
+                    "format":{"property":"features"}},
+            "key": "properties.name_en",
+                "fields": [       
+                    "properties",
+                    "type",
+                    "geometry"]}}],
+    "projection": {"type": "mercator", "scale": 300, "center": [-25, 56]},
+    "mark": "geoshape", 
+  
+    "encoding":{
+      
+        "color":{
+            "field":"heat_energy_co",
+            "legend":{
+                "title":"Mtoe",
+                "orient": "bottom-left",
+                "direction": "horizontal"},
+            "type": "quantitative",
+            "scale":{"scheme":"lightgreyred"}},
+        "tooltip": [
+        {"field": "properties.name_en", "title": "Country"},
+        {"field": "heat_energy_co", "title": "Energy Consumption (Mtoe)"}
+      ]    
+    }},{"height": 400,"width": 300,
+        "transform":[
+  
+      {"filter":"datum.year == 2018"},
+        
+  
+  
+        {"lookup": "country",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/europe.geo.json",
+                    "format":{"property":"features"}},
+            "key": "properties.name_en",
+                "fields": [       
+                    "properties",
+                    "type",
+                    "geometry"]}}],
+                    "projection": {"type": "mercator", "scale":300, "center": [-25, 56]},
+
+        "mark": "geoshape", 
+  
+    "encoding":{
+      
+        "color":{
+            "field":"Low",
+            "legend":{
+                "title":"°C",
+                "orient": "bottom-left",
+                "direction": "horizontal"},
+            "type": "quantitative",
+            "scale":{"scheme":"lightgreyteal", "reverse": "true"}},
+        "tooltip": [
+        {"field": "properties.name_en", "title": "Country"},
+        {"field": "Low", "title": "Long-run average low (°C)"}
+      ]    
+    }
+    }],
+    
+    "resolve": {
+    "scale": {"color": "independent"}}
+  }

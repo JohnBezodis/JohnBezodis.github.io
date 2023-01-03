@@ -20,6 +20,13 @@ background-blend-mode: screen;
 
 }
 
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
@@ -35,6 +42,10 @@ h2{
 }
 
 
+.excel{
+    margin: auto;
+    text-align: center;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -46,6 +57,9 @@ nav{
     text-align: center;
 
 }
+
+
+
 
 li{
     display: inline;
@@ -138,7 +152,7 @@ li:hover:after{
     text-align: center;
     max-width: 1000px;
     background-color:white; 
-    width: 350px;
+    width: 450px;
     border-width: 3px;
     border-style: outset; 
     border-radius: 8px;
@@ -146,6 +160,8 @@ li:hover:after{
 
     
 }
+
+
 
 .foe-chart{
     width: 100%;
@@ -227,6 +243,10 @@ li:hover:after{
   }
 
   .gtrend-chart{
+    width: 750px;
+  }
+
+  .map-chart{
     width: 750px;
   }
 

@@ -120,9 +120,9 @@
     <div class = "myWeek1">
         <h2>Week 7</h2>
         <h3>Blank Map of Europe with Country Name Tooltip</h3>
-        <div class = map-chart id = "Chart17" style = "display:grid"></div>
+        <div class = chart id = "Chart17" style = "display:grid"></div>
         <h3> Choropleth Map of Climate Corrected Energy Consumption for Space-Heating</h3>
-        <div class = map-chart id = 'Chart18' style = "display: block;"></div>
+        <div class = chart id = 'Chart18' style = "display: block;"></div>
         <p>Map 2 shows energy consumption on space heating given identical climates. Assuming a constant dwelling temperature, this map then shows energy efficiency’s association with climate.</p>
     </div>
 
@@ -141,6 +141,11 @@
         <div class = chart id = 'Chart21' style="display: block;"></div>
         <h3>Moving Average Chart</h3>
         <div class = gtrend-chart id = 'Chart22' style="display: block;"></div>
+    </div>
+
+    <div class = "myWeek1">
+        <h2>Weeks 10&11: Machine Learning</h2>
+        <p><a href="https://colab.research.google.com/drive/1I8QHxHRvDD9AXKgSSJt20NR2at06gsjj?usp=sharing">Colab Notebook</a></p>
     </div>
 
 
@@ -200,10 +205,10 @@
     vegaEmbed('#Chart16', myChart16);
     vegaEmbed("#Chart17", myChart17);
     vegaEmbed('#Chart18', myChart18);
-    vegaEmbed('#Chart19', myChart19, {"actions" : false});
+    vegaEmbed('#Chart19', myChart19);
     vegaEmbed('#Chart20', myChart20);
     vegaEmbed('#Chart21', myChart21);
-    vegaEmbed('#Chart22', myChart22, {"actions": false});
+    vegaEmbed('#Chart22', myChart22);
 </script>
 
 </html>

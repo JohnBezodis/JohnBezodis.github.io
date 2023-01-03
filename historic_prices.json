@@ -1,0 +1,95 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.2.0.json",
+    "description": "",
+    "title": {
+      "text": ["Nov 2021 to May 2022 period saw the largest", "6 month % increase in overall energy prices", "in the past 34 years"],
+      "subtitle": ["The 10 six month periods that saw the largest rises in energy prices,", "and the value of these price indices at the start and end of these periods", "(between 1988 and 2022).", "Source: ONS"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/energy_type_inflation_data.csv",
+      "format": {"type": "csv"}
+    },
+    "height": 450,
+    "width": 290,
+  
+    
+  
+  
+     "transform": [{"filter": {"selection": "energy_type"}},
+      {
+        "window": [{"op": "rank", "as": "rank"}],
+        "sort": [{"field": "growth", "order": "descending"}]
+      },
+      {"filter": "datum.rank <= 20"}
+    ],
+  
+  
+    "encoding": {
+      "y": {
+        "field": "price",
+        "type": "quantitative",
+  
+        "title": "Start/End of Period Price"
+      },
+      "x": {
+        "field": "period",
+        "type": "nominal",
+        "title": ["6 Month Period", "(sorted by % Price Growth during period)"],
+        "sort": {"op": "average", "field": "growth"},
+        "axis": {"offset": 5, "ticks": false, "minExtent": 10, "domain": false}
+      }
+    },
+    "layer": [
+      {
+        "mark": "line",
+            "selection": {
+      "energy_type": {
+        "type": "point",
+        "fields": ["energy_type"],
+        "init":"ELECTRICITY, GAS AND OTHER FUELS ",
+        "bind": {
+          "input": "select",
+          "options": [
+            "ELECTRICITY, GAS AND OTHER FUELS ",
+            "ELECTRICITY ",
+            "GAS ",
+            "LIQUID FUELS ",
+            "SOLID FUELS "
+          ],
+          "name": "Energy Type:"
+        }
+      }
+    },
+        "encoding": {
+          "detail": {"field": "period", "type": "nominal"},
+          "color": {"value": "#BBBBBB"}
+        }
+      },
+      {
+        "mark": {"type": "point", "filled": true},
+        "encoding": {
+          "tooltip": [
+            {"field": "period", "type": "nominal", "title": "6 Month Period"},
+            {
+              "field": "growth",
+              "type": "quantitative",
+              "title": "% Price Growth During Period"
+            }
+          ],
+          "color": {
+            "field": "start_end",
+            "type": "nominal",
+            "title": null,
+            "legend": {"orient": "top-left"},
+            "scale": {"domain": [ "End Price", "Start Price"], "range": ["#FF0000","#008000"]}
+          },
+          "size": {"value": 80},
+          "opacity": {"value": 1}
+        }
+      }
+    ]
+  }

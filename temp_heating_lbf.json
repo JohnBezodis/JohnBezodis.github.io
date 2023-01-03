@@ -1,53 +1,71 @@
-{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": ["Climate and space heating consumption after", "adjusting for outside temperature"],
-    "subtitle":["Climate corrected annual energy consumption on space heating (y)", "and long run average low of winter months (x)", "Source: ODYSSEE (y), currentresults.com (x)"],
-    "subtitleFontStyle":"italic",
-    "subtitleFontSize":10,
+    "text": [
+      "Chart 2: Climate and space heating consumption after",
+      "adjusting for outside temperature"
+    ],
+    "subtitle": [
+      "Climate corrected annual energy consumption on space heating (y)",
+      "and long run average low of winter months (x)",
+      "Source: ODYSSEE (y), currentresults.com (x)"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
     "anchor": "start",
     "color": "black"
   },
-
-  "data": {"url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/energy_efficiency_temp.csv"},
-
-   
+  "data": {
+    "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/energy_efficiency_temp.csv"
+  },
   "height": 300,
   "width": 300,
-
-"layer":[{
-
-  "mark": {
-    "type":"circle",
-    "color":"rgb(0,47,167)",
-    "size":100},
- 
-
-  "encoding": {
-    "x": {
-      "field": "Low", 
-      "type": "quantitative",
-      "title": "°C",
-      "scale":{"domain": [-7, 12]}
-      },
-
-    "y": {
-      "field": "heat_energy_co", 
-      "type": "quantitative",
-      "title": "Tons of Oil Equivelent, Millions (Mtoe)"
-      }
-  }},
-
+  "layer": [
+    {
+      "mark": {"type": "circle", "color": "rgb(0,47,167)", "size": 100},
+      "encoding": {
+        "x": {
+          "field": "Low",
+          "type": "quantitative",
+          "title": "°C",
+          "scale": {"domain": [-7, 12]}
+        },
+        "y": {
+          "field": "heat_energy_co",
+          "type": "quantitative",
+          "title": "Tons of Oil Equivelent, Millions (Mtoe)"
+        },
+              "tooltip":[{"field": "country", "title": "Country"},
+              {"field": "Low", "title": "Long-run average low"},
+              {"field": "heat_energy_co", "title": "Mtoe"}]}
+    },
     {
       "mark": {"type": "line", "color": "firebrick"},
-
-      "transform": [{"regression": "heat_energy_co", "on": "Low", "extent": [-7, 11]}],
-         
+      "transform": [
+        {"regression": "heat_energy_co", "on": "Low", "extent": [-7, 11]}
+      ],
       "encoding": {
         "x": {"field": "Low", "type": "quantitative"},
-        "y": {"field": "heat_energy_co", "type": "quantitative", "scale": {"domain": [0, 55]}}
+        "y": {
+          "field": "heat_energy_co",
+          "type": "quantitative",
+          "scale": {"domain": [0, 55]}
+        }
       }
+    },
+    {
+      "transform": [
+        {"regression": "heat_energy_co", "on": "Low", "params": true},
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
     }
-]
-
+  ]
 }

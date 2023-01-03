@@ -1,0 +1,83 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text": ["Chart 6: The relationship between energy prices and","seasonally controlled search interest in", "energy saving terms"],
+      "subtitle":["Energy price index (x) and search term interest adjusted for seasonality (y) ","(No variation in search interest due to seasonality)",
+      "Data Sources: ONS (energy prices), Google Trends (search interest)"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+  
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/interest_price_reg.csv",
+      "format": {"type": "csv"}
+    },
+    "height": 400,
+    "width":300,
+    
+
+    "layer":[{
+    "mark": {"type": "circle", "point": false},
+    "selection": {
+      "search_term": {
+        "type": "point",
+        "fields": ["search_term"],
+        "bind": {
+          "input": "select",
+          "options": [ 
+            null,
+            "insulation",
+            "efficient heater",
+            "efficient boiler",
+            "energy efficient",
+            "double glazing",
+            "triple glazing",
+            "secondary glazing"
+          ],
+          "name": "Search Term(s)"
+        }
+      }
+    },
+    "transform": [{"filter": {"selection": "search_term"}}],
+    
+    "encoding": {
+      
+      "x": {
+        "field": "price",
+        "type": "quantitative",
+        "title": null,
+        "scale": {"domain":[100,150]},
+        "axis":{"grid":false}},
+   
+      "y": {
+        "field": "interest_sa",
+        "type": "quantitative",
+        "title": null,
+        "scale":{"domain":[0,100]},
+        "axis": {"grid": false}},
+  
+      "color": {
+        "field": "search_term",
+        "type": "nominal",
+        "scale": {"scheme": "lightgreyteal"},
+        "title": null,
+        "legend": {"orient": "bottom", "columns" : 3}
+   
+     }
+  }},
+  
+          {
+      "mark": {"type": "line", "color": "firebrick"},
+      
+
+      "transform": [{"filter": {"selection": "search_term"}},{"regression": "interest_sa", "on": "price"}],
+         
+      "encoding": {
+        "x": {"field": "price", "type": "quantitative"},
+        "y": {"field": "interest_sa", "type": "quantitative"}
+      }
+    }]
+  }

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": ["Chart 3: Search interst in terms related to energy-saving", "goods and services"],
+    "subtitle":["Relative interest in Google search terms on scale of 0-100", "Source: Google Trends"],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"},
+
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/trends_data.csv",
+    "format": {"type": "csv"}
+  },
+ 
+  "height": 400,
+  "width": 300,
+ 
+  "mark": {"type": "line", "point": false},
+
+  "transform": [{"window": [{"field": "interest",
+  "op": "mean",
+  "as": "interestRollingMean"}],
+  "frame": [-20,0]},
+  {"filter": {"field": "date", "range": [{"year": 2019, "month": "apr", "date": 1}, {"year": 2022, "month": "dec", "date": 20}] }},
+  {"filter": "year(datum.date)<=maxYear"},
+  {"filter": "year(datum.date)>=minYear"}],
+  
+  "params": [    
+      {"name":"minYear", "value":2019,
+         "bind":{
+           "input": "range",
+           "min": 2019, 
+           "max": 2021, 
+           "step": 1,
+           "name": "Start year:"}
+      },
+
+      {"name":"maxYear", "value":2022,
+         "bind":{
+           "input": "range",
+           "min": 2019, 
+           "max": 2022, 
+           "step": 1,
+           "name": "End year:"}
+      }
+    ],
+  
+"encoding": {
+  
+  "x": {
+    "field": "date",
+    "type": "temporal",
+
+    "title": null,
+    "axis": {"grid": false, "format": "%b %y"}},
+
+  "y": {
+    "field": "interest",
+    "type": "quantitative",
+    "title": null,
+    "axis": {"grid": false}},
+
+  "color": {
+    "condition": {
+      "param": "hover",
+      "field": "search_term",
+      "type": "nominal",
+      "legend": {"orient": "bottom", "title":null, "columns":3}
+    },
+    "value": "grey"
+
+ },
+ "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.2},
+  "tooltip": [
+    {"field": "search_term", "title": "Search Term"},
+    {
+      "field": "interest",
+      "title": "Search Interest",
+      "type": "quantitative"
+    },
+    {"field": "date", "type": "temporal", "title": "Date"}
+  ]
+},
+"layer": [
+  {
+
+    "params": [
+      {
+        "name": "hover",
+        "value": [{"search_term": "energy efficient"}],
+        "select": {"type": "point", "fields": ["search_term"], "on": "mouseover"}
+      }
+    ],
+    "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+  },
+  {"mark": "line"}
+]
+}

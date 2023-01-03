@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="index.css">
 
     <!--The next three lines allow the Vega embed-->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-tooltip@0.28.0"></script>
 </head>
 
 
@@ -40,8 +41,104 @@
         <h1>Project</h1>
     </div>
     <div class="myWeek1">
-        <h2> TBD </h2>
+        <h3> Aim </h3>
+        <p>As energy prices rise, unfortunately for many, living standards will simply drop. But for others, will the temporary rise in energy prices increase demand for energy-saving goods?</p>
     </div>
     
+    <div class = "myWeek1">
+        <h3>Analysis</h3>
+        <p>When the opportunity cost of a good decreases, demand should increase. Our question then asks if households consider the price of energy negatively in the opportunity cost of energy-saving goods. For instance, double glazing</p>
+        <img src="equations_1.jpg" alt="equations_1" class="image">
+        <p>Where TC_energy is the cost of extra energy you need with single glazing.</p>
+        <p>Even if households don’t typically change attitudes to energy-saving goods with fluctuations in energy prices, given how large the recent price rise has been relative to the formerly largest rises, this occasion could be an exception (Chart 1).</p>
+        <div class = chart id = 'ChartG' style="display: block;"></div>
+        <p><a href = "https://colab.research.google.com/drive/18hffPnXgYOq4_EuD_73ixXhGeEz59zyj?usp=sharing">Colab Notebook (Price Rises)</a></p>
+        <p>Our question ask if households consider P_energy in the cost of energy-saving goods, but first lets test if extra energy cost generally (TC_energy) is considered, by exploiting differences in Q_energy across countries with different temperatures.</p>
+        <p>If households consider extra energy cost in the cost of energy-saving goods, colder countries (who save more energy than warmer countries with heat-saving goods (higher Q_energy)) would purchase more heat-energy-saving goods. We can test this because if they did purchase more, they would have more space-heating efficient homes. We can proxy for space-heating efficiency with climate-corrected energy consumption on space heating. Because the need for energy (climate) is corrected, greater consumption implies worse efficiency. Figure 1 shows countries with colder winters tend to have greater consumption.</p>
+        <div class = map-chart id = 'ChartA' style="display: block;"></div>
+        <p>Figure 2 illustrates this more directly.</p>
+        <div class = chart id = 'ChartB' style="display: block;"></div>
+        <p><a href = "https://colab.research.google.com/drive/1881iQP7qslLr92Z0Wa7gOSYT86wLMMTA?usp=sharing">Colab Notebook (Energy & Temperature)</a></p>
+        <p>Running pooled OLS on the model</p>
+        <img src="equations_2.jpg" alt="equations_2" class="image">
+        <p>With:</p>
+        <p>-low_it: average low of winter months</p>
+        <p>-heat_energy_co_it: climate-corrected energy consumption on space heating</p>
+        <p>-gdp_it: GDP per capita (controlling for affordability of heating)</p>
+        <p>-dwel_area_it:  dwelling area (controlling for the area to heat)</p>
 
+        <p>We get a statistically significant (1% level) positive coefficient on temp.</p>
+        <p><a href="https://github.com/JohnBezodis/JohnBezodis.github.io/blob/b9bf29940d208dc8b299e85e25466968e093f163/energy_temp_reg.do">.do file</a></p>
 
+        <p>This suggests households consider extra energy costs generally (TC_energy) in the cost of energy-saving goods, but now let’s test if they consider the price of energy (P_energy) specifically, using Google Trends data on interest in search terms related to energy-saving goods.</p>
+
+        <div class = gtrend-chart id = 'ChartC' style="display: block;"></div>
+        <p>It is difficult to observe patterns in the data due to noise. Taking 20 observation moving averages better illustrates the data.</p>
+        <div class = gtrend-chart id = 'ChartD' style="display: block;"></div>
+        <p>There is clearly a seasonal component to the data. However, by highlighting October in each year, we see that the October following the Russian invasion of Ukraine (when energy prices began to rise), interest was higher than previous Octobers. Seasonally adjusted data illustrates this change more explicitly.</p>
+        <div class = gtrend-chart id = 'ChartE' style="display: block;"></div>
+        <p>It appears there has been a spike in the majority of these terms in the first winter following the Russian invasion of Ukraine.</p>
+        <p><a href = "https://colab.research.google.com/drive/1mpupf7HlaE0UeQ9sRGBh_3y4D_ucFTqV?usp=sharing">Colab Notebook (PyTrends)</a></p>
+        <p><a href = "https://colab.research.google.com/drive/1w_QUSFjbz6mUKaq2XTa1Yfp22Rxt5r7k?usp=sharing">Colab Notebook (Seasonal Adjustment)</a></p>
+        <p>Running OLS on a model of the form </p>
+        <div class = excel></div>
+        <img src="equations_3.jpg" alt="equations_2" class="image">
+        <p>For each select search term with a set of month dummies to control for seasonality results in</p>
+
+        <div class = excel style="display:block;">
+            <h3>Table 2</h3>
+            <iframe width="534" height="400" frameborder="0" scrolling="no" src="https://uob-my.sharepoint.com/personal/vd20083_bristol_ac_uk/_layouts/15/Doc.aspx?sourcedoc={0760b254-8f87-4a42-ac0c-02b00e8024da}&action=embedview&wdAllowInteractivity=False&Item='in'!A2%3AH51&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&edrtees6=false&resen=true"></iframe>
+        </div>
+        <p><a href = "https://github.com/JohnBezodis/JohnBezodis.github.io/blob/49edf15e0d44e6fd9799fe2d6fa165e3da3ba837/interest_price_reg.do">.do file</a></p>
+        <p>We see positive statistically significant coefficients at the 1% level of energy prices on interest for all terms but "double glazing", indicating interest in energy-saving goods increases with energy prices.</p>
+        <p>The below chart illustrates this seasonally controlled relationship between energy prices and interest in our select search terms.</p>
+        <div class = chart id = 'ChartF' style="display: block;"></div>
+
+    </div>
+
+    <div class="myWeek1">
+        <h3>Accessing Data and Challenges in Cleaning and Analysis</h3>
+            <p>Temperature data was scraped from currentresults.com using pandas read_html().To overcome scraping prevention measures, I used the python ‘requests’ library to automate HTTP requests by specifying a header containing a ‘user-agent’ identifier. Further difficulty arose from currentresults.com keeping data I needed on different pages. Consequently, I used for-loops to iteratively scrape and clean tables from the different web pages.</p>
+            <p>Data on energy consumption and dwelling floor area was obtained from the ODYSEE database in CSV format after requesting access. Difficulty came from documents only having ISO2 country codes and not country names. Consequently, I used the ‘country_converter’ python library to convert to country names and join with temperature data.</p>
+            <p>Google Trends data on the interest of search terms was obtained using the PyTrends python library, an “unofficial API” of Google Trends. I used this library in combination with for-loops to efficiently gather data on multiple search terms. To avoid getting blocked by Google’s bot recognition system I added a ‘sleep’ timer between for-loop iterations.</p>
+            <p>Seasonal adjustment of google trends data was conducted using the python statsmodels library. I used for-loops to efficiently iterate over regressions of each search term.</p>
+            <p>Data on historical energy price rises was accessed via ONS API using for-loops to batch download and clean data on multiple energy indices at once.</p>
+    </div>
+
+    <div class = "myWeek1">
+        <h3>Conclusion</h3>
+        <p>I have produced results consistent with households considering both the price of energy, and cost of extra energy generally, negatively, in the opportunity cost of energy-saving goods through examining the relationships between price and search interest, and temperature and space-heating efficiency respectively. This may not translate into greater demand for energy-saving goods, but it does suggest this.</p>
+    </div>
+</body>
+
+    <script>
+
+        // Define charts that need to be changes for smaller screens
+        let width = screen.width
+        if (width > 950){
+            myChartA = "dual_choro_wide.json";
+            myChartC = "trends_chart_wide.json";
+            myChartD = "trends_chart_ma_highlight_wide.json";
+            myChartE = "trends_chart_ma_sa_wide.json";
+        } else{
+            myChartA = "dual_choro_narrow.json";
+            myChartC = "trends_chart_narrow.json";
+            myChartD = "trends_chart_ma_highlight_narrow.json";
+            myChartE = "trends_chart_ma_sa_narrow.json";
+        }
+    
+        var myChartB = "temp_heating_lbf.json";
+        var myChartF = "trends_price_lbf.json";
+        var myChartG = "historic_prices.json";
+        // Embed charts
+
+        vegaEmbed('#ChartA', myChartA);
+        vegaEmbed('#ChartB', myChartB);
+        vegaEmbed('#ChartC', myChartC);
+        vegaEmbed('#ChartD', myChartD);
+        vegaEmbed('#ChartE', myChartE);
+        vegaEmbed('#ChartF', myChartF);
+        vegaEmbed("#ChartG", myChartG);
+
+    </script>
+</html>

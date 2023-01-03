@@ -1,0 +1,111 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+        "text": ["Search interst in terms related to energy-savinggoods and services"],
+        "subtitle":["Relative interest in Google search terms on scale of 0-100", "Source: Google Trends"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+  
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/JohnBezodis/JohnBezodis.github.io/main/trends_data_longer.csv",
+      "format": {"type": "csv"}
+    },
+  
+   
+    "height": 400,
+    "width": 700,
+   
+    "mark": {"type": "line", "point": false},
+    "selection": {
+      "search_term": {
+        "type": "point",
+        "fields": ["search_term"],
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "insulation",
+            "efficient heater",
+            "efficient boiler",
+            "energy efficient",
+            "double glazing",
+            "triple glazing",
+            "secondary glazing"
+          ],
+          "name": "Search Term:"
+        }
+      }
+    },
+    "transform": [
+    {"filter": {"field": "date", "range": [{"year": 2019, "month": "apr", "date": 1}, {"year": 2022, "month": "dec", "date": 20}] }}], 
+    
+  
+    "encoding": {
+      
+      "x": {
+        "field": "date",
+        "type": "temporal",
+  
+        "title": null,
+        "axis": {"grid": false, "format": "%b %y"}}},
+    
+    "layer":[
+      {"encoding":{
+            "y": {
+        "field": "interest",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false}},
+  
+      "color": {
+        "field": "search_term",
+        "type": "nominal",
+        "scale": {"scheme": "lightgreyteal"},
+        "title": null,
+        "legend": {"orient": "top-left"}
+        },
+        
+      "transform":[{"filter": {"selection": "search_term"}}]
+        },
+              "layer": [
+          {"mark": "line"},
+          {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
+        ]
+        },
+            {
+        "transform": [{"pivot": "search_term", "value": "interest", "groupby": ["date"]}],
+        "mark": "rule",
+        "encoding": {
+          "opacity": {
+            "condition": {"value": 0.3, "param": "hover", "empty": false},
+            "value": 0
+          },
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title":"Date"},
+            {"field": "double glazing", "type": "quantitative"},
+            {"field": "efficient boiler", "type": "quantitative"},
+            {"field": "efficient heater", "type": "quantitative"},
+            {"field": "energy efficient", "type": "quantitative"},
+            {"field": "insulation", "type": "quantitative"},
+            {"field": "secondary glazing", "type": "quantitative"},
+            {"field": "triple glazing", "type": "quantitative"}
+          ]
+        },
+        "params": [{
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": ["date"],
+            "nearest": true,
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }]
+      }
+        
+    ]
+    }

@@ -2,7 +2,9 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
     "title": {
-      "text": ["Chart 6: The relationship between energy prices and","seasonally controlled search interest in", "energy saving terms"],
+      "text": ["Chart 7: As energy prices increase, seasonally",
+      "adjusted interest in search terms related to",
+       "energy-saving goods increases"],
       "subtitle":["Energy price index (x) and search term interest adjusted for seasonality (y) ","(No variation in search interest due to seasonality)",
       "Data Sources: ONS (energy prices), Google Trends (search interest)"],
       "subtitleFontStyle":"italic",

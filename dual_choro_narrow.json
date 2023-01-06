@@ -1,14 +1,12 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
-    "width": 500,
-    "height": 800,
+
     "view": {"stroke": "transparent"},
   
     "title": {
-        "text": "Chart 1: Climate and Efficiency of Space Heating in Europe",
-        "fontSize": 12,
-        "subtitle":["Chart 1: Long-run Average Low in coldest months","(November, December, January, February and March) - Top.","Climate Corrected Energy Consumption on Space Heating,", "Tons of Oil Equivelent, Millions - Bottom.",  "Sources: currentresults.com (Top), ODYSEE (Bottom)"],
+        "text": ["Chart 2: Scandinavian and Baltic countries have ", "some of the most space heating efficient households", " in Europe, and some of the coldest winters too"],
+        "subtitle":["Long-run Average Low in coldest months","(November, December, January, February and March) - Top.","Climate Corrected Energy Consumption on Space Heating,", "Tons of Oil Equivelent, Millions - Bottom.",  "Sources: currentresults.com (Top), ODYSEE (Bottom)"],
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10, "anchor": "middle"},
   

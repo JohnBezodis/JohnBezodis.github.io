@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-      "text": ["Chart 3: Search interst in terms related to energy-saving goods and services"],
+      "text": ["Chart 4: Search interest data has a high degree of noise making interpretation difficult"],
       "subtitle":["Relative interest in Google search terms on scale of 0-100", "Source: Google Trends"],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,

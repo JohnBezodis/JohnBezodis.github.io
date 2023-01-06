@@ -2,8 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": [
-      "Chart 2: Climate and space heating consumption after",
-      "adjusting for outside temperature"
+      "Chart 3: Countries with colder winters have lower",
+      "climate-corrected energy consumption on space",
+      "heating (proxying for greater heating efficiency)"
     ],
     "subtitle": [
       "Climate corrected annual energy consumption on space heating (y)",

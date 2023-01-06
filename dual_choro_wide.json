@@ -6,8 +6,7 @@
     "view": {"stroke": "transparent"},
   
     "title": {
-        "text": "Chart 1: Efficiency of Space Heating in Europe and Climate",
-        "fontSize": 12,
+        "text": ["Chart 2: Scandinavian and Baltic countries have some of the most","space heating efficient households in Europe, and some of the coldest winters too"],
         "subtitle":["Climate Corrected Energy Consumption on Space Heating, Tons of Oil Equivelent, Millions - Left", "Long-run Average Low in coldest months (November, December, January, February and March) - Right", "Sources: ODYSEE (Left), currentresults.com (Right) "],
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10, "anchor": "middle"},

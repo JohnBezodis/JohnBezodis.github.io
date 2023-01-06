@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-    "text": ["Chart 4: Moving Average of search interst in terms related to energy efficient goods/services"],
+    "text": ["Chart 5: Interest in energy-saving goods has been higher", "in October 2022 vs October's pre-Russian invasion (energy price rise)"],
     "subtitle":["20 observation MA of relative interest in Google search terms on scale of 0-100. Period surrounding October highlighted in grey.", "Source: Google Trends"],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,

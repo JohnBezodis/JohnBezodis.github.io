@@ -2,8 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-    "text": ["Moving Average of Seasonally Adjusted search interest","in terms related to energy saving goods/services"],
-    "subtitle":["Chart 5: 20 observation MA of relative interest in Google search terms on scale of 0-100", "Source: Google Trends"],
+    "text": [" Chart 6: Seasonally adjusted interest in ",
+    "energy-saving goods has increased since the ",
+  "Russian invasion energy price rises"],
+    "subtitle":["20 observation MA of seasonally adjusted relative interest", "in Google search terms on scale of 0-100", "Source: Google Trends"],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",

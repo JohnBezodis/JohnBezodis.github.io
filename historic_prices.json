@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.2.0.json",
     "description": "",
     "title": {
-      "text": ["Nov 2021 to May 2022 period saw the largest", "6 month % increase in overall energy prices", "in the past 34 years"],
+      "text": ["Chart 1: Nov 2021 to May 2022 period saw the largest", "6 month % increase in overall energy prices", "in the past 34 years"],
       "subtitle": ["The 10 six month periods that saw the largest rises in energy prices,", "and the value of these price indices at the start and end of these periods", "(between 1988 and 2022).", "Source: ONS"],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,

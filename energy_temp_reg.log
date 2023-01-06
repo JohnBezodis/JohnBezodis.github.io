@@ -1,0 +1,61 @@
+----------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\jbezo\OneDrive - University of Bristol\Third Year\Data Science\Week1\energy_temp_reg
+> .log
+  log type:  text
+ opened on:   6 Jan 2023, 18:36:02
+
+. 
+. cd "C:\Users\jbezo\OneDrive - University of Bristol\Third Year\Data Science\Week1"
+C:\Users\jbezo\OneDrive - University of Bristol\Third Year\Data Science\Week1
+
+. 
+. * see colab notebook titled "Colab notebook Charts 2&3" for details on sourcing this data set
+. import delimited "energy_efficiency_temp.csv"
+(10 vars, 658 obs)
+
+. 
+. 
+. * Pooled OLS (panel data full sample), average low 
+. eststo : quietly regress heat_energy_co low gdp dwel_area
+(est1 stored)
+
+. 
+. esttab, t r2 star(* 0.1 ** 0.05 *** 0.01)
+
+----------------------------
+                      (1)   
+             heat_energ~o   
+----------------------------
+low                 0.542***
+                   (4.49)   
+
+gdp             0.0000886** 
+                   (2.36)   
+
+dwel_area         -0.0538   
+                  (-1.59)   
+
+_cons               10.28***
+                   (4.51)   
+----------------------------
+N                     651   
+R-sq                0.039   
+----------------------------
+t statistics in parentheses
+* p<0.1, ** p<0.05, *** p<0.01
+
+. 
+. esttab using "C:\Users\jbezo\OneDrive - University of Bristol\Third Year\Data Science\energy_temp_reg_re
+> sult.csv", t r2 star(* 0.1 ** 0.05 *** 0.01) replace
+(output written to C:\Users\jbezo\OneDrive - University of Bristol\Third Year\Data Science\energy_temp_reg
+> _result.csv)
+
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\jbezo\OneDrive - University of Bristol\Third Year\Data Science\Week1\energy_temp_reg
+> .log
+  log type:  text
+ closed on:   6 Jan 2023, 18:36:03
+----------------------------------------------------------------------------------------------------------

@@ -2,7 +2,7 @@ clear all
 
 cd "C:\Users\jbezo\OneDrive - University of Bristol\Third Year\Data Science\Week1"
 
-
+* see colab notebook titled "Colab notebook Charts 2&3" for details on sourcing this data set
 import delimited "energy_efficiency_temp.csv"
 
 

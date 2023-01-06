@@ -52,13 +52,13 @@
         <p>Where TC_energy is the cost of extra energy you need with single glazing.</p>
         <p>Even if households don’t typically change attitudes to energy-saving goods with fluctuations in energy prices, given how large the recent price rise has been relative to the formerly largest rises, this occasion could be an exception (Chart 1).</p>
         <div class = chart id = 'ChartG' style="display: block;"></div>
-        <p><a href = "https://colab.research.google.com/drive/18hffPnXgYOq4_EuD_73ixXhGeEz59zyj?usp=sharing">Colab Notebook (Price Rises)</a></p>
+        <p><a href = "https://colab.research.google.com/drive/18hffPnXgYOq4_EuD_73ixXhGeEz59zyj?usp=sharing">Colab Notebook (Chart 1)</a></p>
         <p>Our question ask if households consider P_energy in the cost of energy-saving goods, but first lets test if extra energy cost generally (TC_energy) is considered, by exploiting differences in Q_energy across countries with different temperatures.</p>
         <p>If households consider extra energy cost in the cost of energy-saving goods, colder countries (who save more energy than warmer countries with heat-saving goods (higher Q_energy)) would purchase more heat-energy-saving goods. We can test this because if they did purchase more, they would have more space-heating efficient homes. We can proxy for space-heating efficiency with climate-corrected energy consumption on space heating. Because the need for heating (climate) is corrected, greater consumption implies worse efficiency. Chart 2 shows countries with colder winters tend to have greater consumption.</p>
         <div class = map-chart id = 'ChartA' style="display: block;"></div>
         <p>Chart 3 illustrates this more directly.</p>
         <div class = chart id = 'ChartB' style="display: block;"></div>
-        <p><a href = "https://colab.research.google.com/drive/1881iQP7qslLr92Z0Wa7gOSYT86wLMMTA?usp=sharing">Colab Notebook (Energy & Temperature)</a></p>
+        <p><a href = "https://colab.research.google.com/drive/1881iQP7qslLr92Z0Wa7gOSYT86wLMMTA?usp=sharing">Colab Notebook (Charts 2&3)</a></p>
         <p>Running pooled OLS on the model</p>
         <img src="equations_2.jpg" alt="equations_2" class="image">
         <p>With:</p>
@@ -78,8 +78,8 @@
         <p>There is clearly a seasonal component to the data. However, by highlighting October in each year, we see that the October following the Russian invasion of Ukraine (when energy prices began to rise), interest was higher than previous Octobers. Seasonally adjusted data illustrates this change more explicitly.</p>
         <div class = gtrend-chart id = 'ChartE' style="display: block;"></div>
         <p>It appears there has been a spike in the majority of these terms in the first winter following the Russian invasion of Ukraine.</p>
-        <p><a href = "https://colab.research.google.com/drive/1mpupf7HlaE0UeQ9sRGBh_3y4D_ucFTqV?usp=sharing">Colab Notebook (PyTrends)</a></p>
-        <p><a href = "https://colab.research.google.com/drive/1w_QUSFjbz6mUKaq2XTa1Yfp22Rxt5r7k?usp=sharing">Colab Notebook (Seasonal Adjustment)</a></p>
+        <p><a href = "https://colab.research.google.com/drive/1mpupf7HlaE0UeQ9sRGBh_3y4D_ucFTqV?usp=sharing">Colab Notebook (Charts 4&5)</a></p>
+        <p><a href = "https://colab.research.google.com/drive/1w_QUSFjbz6mUKaq2XTa1Yfp22Rxt5r7k?usp=sharing">Colab Notebook (Chart 6)</a></p>
         <p>Table 1 shows OLS results on the model</p>
         <div class = excel></div>
         <img src="equations_3.jpg" alt="equations_2" class="image">
@@ -93,6 +93,7 @@
         <p>We see positive statistically significant coefficients at the 1% level of energy prices on interest for all terms but "double glazing", indicating interest in energy-saving goods increases with energy prices.</p>
         <p>Chart 7 illustrates this seasonally controlled relationship between energy prices and interest in our select search terms.</p>
         <div class = chart id = 'ChartF' style="display: block;"></div>
+        <p><a href = "https://colab.research.google.com/drive/1C9EtWApTd0Ufkh69HfISMWzdeA3JGeUY?usp=sharing">Colab Notebook (Chart 7)</a></p>
 
     </div>
 

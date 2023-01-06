@@ -2,6 +2,7 @@ clear all
 
 cd "C:\Users\jbezo\OneDrive - University of Bristol\Third Year\Data Science"
 
+* see colab notebook title "Colab Notebook (Chart 7)" for details on sourcing this data set
 import delimited "interest_price_reg.csv"
 
 
